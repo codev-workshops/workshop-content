@@ -17,7 +17,7 @@ existing contract harness and a great console.
 
 The prompts below invoke the `!aws-cloud-native` Devin Playbook — the reusable
 migration procedure — whose source lives in the code repo at
-[`otterworks/.workshop/playbooks/aws-cloud-native-modernization.devin.md`](https://github.com/Cognition-Partner-Workshops/otterworks/blob/main/.workshop/playbooks/aws-cloud-native-modernization.devin.md).
+[`otterworks/.workshop/playbooks/aws-cloud-native-modernization.devin.md`](https://github.com/codev-workshops/otterworks/blob/main/.workshop/playbooks/aws-cloud-native-modernization.devin.md).
 The repo-specific mechanics (the migration menu, adapter seams, IaC modules,
 deploy wiring, test commands) come from that repo's Skill
 (`.agents/skills/aws-cloud-native-modernization/SKILL.md`).
@@ -71,7 +71,7 @@ EKS `otterworks-dev`, Terraform, Python 3.12, and a load-test tool (`hey` / `k6`
 <a id="repositories"></a>
 ## Repositories
 
-- [otterworks](https://github.com/Cognition-Partner-Workshops/otterworks) — the
+- [otterworks](https://github.com/codev-workshops/otterworks) — the
   running polyglot platform (11 backend services across 9 languages + 2
   frontends) with two-layer Terraform (`platform/terraform` for VPC/EKS/ECR,
   `infrastructure/terraform` for app resources: `modules/database`, `cache`,
@@ -184,7 +184,7 @@ With DeepWiki over the repo, Devin typically maps an unfamiliar estate in minute
 (coverage depends on repo structure).
 
 ```
-Using the Cognition-Partner-Workshops/otterworks repo, map the
+Using the codev-workshops/otterworks repo, map the
 search-service: how app/api/*.py routes reach the backend through
 app/services/meilisearch_client.py, how app/config.py selects the
 backend from env, what MeiliSearch provides today (self-managed on ECS
@@ -213,7 +213,7 @@ PR with the verification report.
 !aws-cloud-native
 
 Migrate search-service from self-managed MeiliSearch to Amazon
-OpenSearch Serverless in Cognition-Partner-Workshops/otterworks.
+OpenSearch Serverless in codev-workshops/otterworks.
 
 - Backend seam: services/search-service/app/services/meilisearch_client.py
   (add a sibling opensearch_client.py implementing the same methods,
@@ -271,7 +271,7 @@ pool). One human doing this hand-edits dozens of files consistently across
 languages they may not all know; Devin does it as one governed sweep.
 
 ```
-In Cognition-Partner-Workshops/otterworks, replatform the PostgreSQL
+In codev-workshops/otterworks, replatform the PostgreSQL
 data layer to Amazon Aurora Serverless v2 (provisioned as a namespaced
 Terraform module alongside modules/database, not replacing it). Do not
 change any schema or SQL.
@@ -308,7 +308,7 @@ pay-per-request function behind API Gateway, preserving the API.
 !aws-cloud-native
 
 Refactor services/report-service (legacy Java 8, always-on EKS pod) to
-run as AWS Lambda behind API Gateway in Cognition-Partner-Workshops/
+run as AWS Lambda behind API Gateway in codev-workshops/
 otterworks, preserving its HTTP API exactly. Provision the function and
 gateway as a namespaced Terraform module; keep the EKS deployment intact
 on main for revert. Prove the existing report flow tests
@@ -323,7 +323,7 @@ Lambda.** A synchronous/in-cluster consumer becomes a decoupled event pipeline.
 ```
 !aws-cloud-native
 
-Re-architect notification delivery in Cognition-Partner-Workshops/
+Re-architect notification delivery in codev-workshops/
 otterworks to an event-driven pipeline: publish domain events to Amazon
 EventBridge, route to an SQS queue, and process with a Lambda consumer,
 provisioned as a namespaced Terraform module. Keep the existing in-cluster
@@ -341,7 +341,7 @@ lakehouse story.
 ```
 !aws-cloud-native
 
-In Cognition-Partner-Workshops/otterworks, re-architect analytics-service
+In codev-workshops/otterworks, re-architect analytics-service
 persistence to an S3 data lake in Apache Iceberg table format (Glue
 catalog + Athena), provisioned as a namespaced Terraform module and wired
 through the existing analytics.s3.data-lake-bucket config. Events consumed
@@ -365,7 +365,7 @@ own verified PR.
 
 ```
 Act as the orchestrator for an AWS cloud-native modernization of
-Cognition-Partner-Workshops/otterworks, using child Devin sessions to
+codev-workshops/otterworks, using child Devin sessions to
 parallelize the R's of migration.
 
 Spawn one child Devin session per row below. Give each child the repo,

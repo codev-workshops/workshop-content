@@ -67,7 +67,7 @@ Intermediate
 
 ### <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot 2.6.3 monolith with both REST controllers and GraphQL mutations/fetchers (DGS framework) serving the same data.
 

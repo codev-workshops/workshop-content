@@ -76,7 +76,7 @@ Intermediate to Advanced
 
 ### <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 React + Node.js/Express full-stack application — add a new CRUD feature, management page, or API endpoint with UI.
 
@@ -104,7 +104,7 @@ Open the repo's DeepWiki page to understand the existing feature patterns. The n
 
 ### <a id="uc-data-source-migration-jdbc-normalization"></a>uc-data-source-migration-jdbc-normalization
 
-**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 
 Spring Boot loan service — add new API endpoints, filtering, pagination, or reporting capabilities.
 
@@ -132,7 +132,7 @@ Open the repo's DeepWiki page to understand the existing API contracts and data 
 
 ### <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot RealWorld app — add new API endpoints or enhance existing ones with additional functionality.
 

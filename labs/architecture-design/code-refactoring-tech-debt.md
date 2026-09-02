@@ -69,7 +69,7 @@ Intermediate
 
 ### <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 React + Express application with opportunities for backend route handler refactoring and frontend component decomposition.
 
@@ -97,7 +97,7 @@ Open the repo's DeepWiki page to understand the architecture. Identify modules w
 
 ### <a id="calcom"></a>calcom
 
-**Repository:** [calcom](https://github.com/Cognition-Partner-Workshops/calcom)
+**Repository:** [calcom](https://github.com/codev-workshops/calcom)
 
 Large TypeScript monorepo with many opportunities for component decomposition and utility extraction.
 
@@ -125,7 +125,7 @@ Open the repo's DeepWiki page to understand the package dependency graph. Target
 
 ### <a id="ts-java-spring-boot-realworld"></a>ts-java-spring-boot-realworld
 
-**Repository:** [ts-java-spring-boot-realworld](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-realworld)
+**Repository:** [ts-java-spring-boot-realworld](https://github.com/codev-workshops/ts-java-spring-boot-realworld)
 
 Spring Boot application with potential for service layer refactoring, DTO pattern improvements, and exception handling cleanup.
 
@@ -153,7 +153,7 @@ Open the repo's DeepWiki page to understand the layered architecture. Identify w
 
 ### <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot 2.6.3 monolith with both REST and GraphQL APIs — opportunities for reducing duplication between the two API surfaces.
 

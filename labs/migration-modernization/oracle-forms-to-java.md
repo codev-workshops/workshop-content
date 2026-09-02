@@ -109,7 +109,7 @@ Intermediate to Advanced
 
 ## <a id="ts-plsql-oracle-forms-hrms"></a>ts-plsql-oracle-forms-hrms
 
-**Repository:** [ts-plsql-oracle-forms-hrms](https://github.com/Cognition-Partner-Workshops/ts-plsql-oracle-forms-hrms)
+**Repository:** [ts-plsql-oracle-forms-hrms](https://github.com/codev-workshops/ts-plsql-oracle-forms-hrms)
 
 Source Oracle Forms estate with PL/SQL packages containing the business logic to migrate. Key packages: `PKG_EMPLOYEE` (employee CRUD + validations), `PKG_PAYROLL` (salary calculations), `PKG_LEAVE` (leave balance management), `PKG_PERFORMANCE` (review workflows), `PKG_SECURITY` (authentication + authorization — contains intentional vulnerabilities).
 
@@ -117,7 +117,7 @@ Source Oracle Forms estate with PL/SQL packages containing the business logic to
 
 ## <a id="uc-legacy-modernization-oracle-forms-to-java"></a>uc-legacy-modernization-oracle-forms-to-java
 
-**Repository:** [uc-legacy-modernization-oracle-forms-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-oracle-forms-to-java)
+**Repository:** [uc-legacy-modernization-oracle-forms-to-java](https://github.com/codev-workshops/uc-legacy-modernization-oracle-forms-to-java)
 
 Scaffolded Spring Boot project for the Java migration target. Contains:
 - `java-target/` — Spring Boot project structure with `pom.xml`, `docker-compose.yml`, and basic application setup

@@ -57,8 +57,7 @@ Already comfortable with Devin basics? Jump straight to the labs:
   - [Lab C3 — Perform E2E Tests & Fix Issues](#lab-c3--perform-e2e-tests--fix-issues)
 - [Additional Challenges](#additional-challenges)
 - [Suggested Formats](#suggested-formats)
-- [Repos Required](#repos-required)
-- [Context](#context)
+- [Repos Used](#repos-used)
 - [Devin Features Checklist](#devin-features-checklist)
 
 ---
@@ -71,8 +70,8 @@ Track A demonstrates Devin as a security and reliability agent. Participants wil
 
 - **Modules:** [Remediate Vulnerabilities](../../labs/security/remediate-vulnerabilities.md) + [Shift Left Security](../../labs/security/shift-left-security.md)
 - **Repositories:**
-  - [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) — Spring Boot 2.6.3 with known CVEs and pre-configured OWASP Dependency-Check
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — Node.js app with npm audit and Trivy scanning (alternative)
+  - [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) — Spring Boot 2.6.3 with known CVEs and pre-configured OWASP Dependency-Check
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — Node.js app with npm audit and Trivy scanning (alternative)
 - **Objective:** Run SAST tools to identify vulnerabilities, remediate the most critical findings, and add security scanning to the CI pipeline so future PRs are automatically checked
 
 This lab has two parts: (1) find and fix existing vulnerabilities, and (2) shift left by adding security scanning to CI so new vulnerabilities are caught automatically.
@@ -139,8 +138,8 @@ See the full challenge details for [Remediate Vulnerabilities](../../labs/securi
 
 - **Modules:** [Fix Runtime Bug](../../labs/application-development/fix-runtime-bug.md) + [Cross-Service Bug Investigation](../../labs/migration-modernization/cross-service-bug-investigation.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack application
-  - [quickapp-microservices](https://github.com/Cognition-Partner-Workshops/quickapp-microservices) — decomposed .NET microservices with a planted cross-service bug (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack application
+  - [quickapp-microservices](https://github.com/codev-workshops/quickapp-microservices) — decomposed .NET microservices with a planted cross-service bug (alternative)
 - **Objective:** Find and fix bugs in running applications, perform root cause analysis, and demonstrate Devin's ability to trace issues across service boundaries
 
 This lab shows two dimensions of bug investigation: (1) exploratory testing where Devin discovers and fixes bugs in a running app, and (2) cross-service debugging where a symptom in one service has its root cause in another.
@@ -211,8 +210,8 @@ See the full challenge details for [Fix Runtime Bug](../../labs/application-deve
 
 - **Modules:** [Upgrade Dependencies](../../labs/security/upgrade-dependencies.md)
 - **Repositories:**
-  - [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) — Spring Boot app with Gradle
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — Node.js app with npm (alternative)
+  - [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) — Spring Boot app with Gradle
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — Node.js app with npm (alternative)
 - **Objective:** Set up a recurring Devin scheduled session that automatically upgrades dependencies to the latest minor/patch versions on a weekly cadence — demonstrating Devin as an always-on maintenance agent
 
 This lab introduces **Devin Scheduled Sessions** — recurring automated tasks that run without human intervention. Dependency version bumps are a perfect use case: low-risk, high-volume, and easy to verify via CI.
@@ -273,8 +272,8 @@ Track B demonstrates Devin handling large-scale structural changes to codebases.
 
 - **Module:** [Containerization & Microservice Extraction](../../labs/migration-modernization/containerization-microservice-extraction.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 monolith with three clear bounded contexts (Articles, Users/Profiles, Comments)
-  - [petclinic-microservices](https://github.com/Cognition-Partner-Workshops/petclinic-microservices) — Reference microservices architecture for comparison (optional)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 monolith with three clear bounded contexts (Articles, Users/Profiles, Comments)
+  - [petclinic-microservices](https://github.com/codev-workshops/petclinic-microservices) — Reference microservices architecture for comparison (optional)
 - **Objective:** Analyze domain boundaries in a monolith, extract a bounded context as a standalone microservice with its own API, Dockerfile, and database, and wire the services together with Docker Compose
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -338,9 +337,9 @@ See the full challenge details for [Containerization & Microservice Extraction](
 
 - **Modules:** [Framework Upgrade](../../labs/migration-modernization/framework-upgrade.md) + [Repetitive Framework Upgrades](../../labs/migration-modernization/repetitive-framework-upgrades.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 / Java 11 (EOL) → Spring Boot 3.x / Java 17+ (LTS)
-  - [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular) — Angular version upgrade
-  - [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld) — Angular version upgrade (second repo for parallel comparison)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 / Java 11 (EOL) → Spring Boot 3.x / Java 17+ (LTS)
+  - [petclinic-angular](https://github.com/codev-workshops/petclinic-angular) — Angular version upgrade
+  - [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld) — Angular version upgrade (second repo for parallel comparison)
 - **Objective:** Run parallel Devin sessions upgrading frameworks and language versions across multiple repos — demonstrating how Devin handles repetitive upgrade tasks at enterprise scale
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -418,8 +417,8 @@ See the full challenge details for [Framework Upgrade](../../labs/migration-mode
 
 - **Module:** [Language Translation](../../labs/migration-modernization/legacy-modernization-combined.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot (Java) RealWorld app — source language
-  - [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld) — Angular (TypeScript) RealWorld app — reference for alternative target
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot (Java) RealWorld app — source language
+  - [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld) — Angular (TypeScript) RealWorld app — reference for alternative target
 - **Objective:** Translate a Java Spring Boot service layer into an equivalent Python (Flask/FastAPI) application, preserving API contracts and proving functional equivalence with parity tests. Both source and target compile and run on Ubuntu.
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -495,8 +494,8 @@ Track C demonstrates Devin as a day-to-day development partner. Participants wil
 
 - **Module:** [New Feature Development](../../labs/application-development/new-feature-development.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack application
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot RealWorld app (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack application
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot RealWorld app (alternative)
 - **Objective:** Build a new feature on an existing application, then observe how PR Review automatically flags potential bugs and issues in the implementation — and have Devin address the feedback
 
 #### Step 1: Start with Ask Devin (recommended)
@@ -560,9 +559,9 @@ See the full challenge details for [New Feature Development](../../labs/applicat
 
 - **Modules:** [Unit Testing](../../labs/testing-qa/unit-testing.md) + [BDD Test Generation](../../labs/testing-qa/bdd-test-generation.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app with existing JUnit infrastructure
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app with Jest tests (alternative)
-  - [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDD framework (alternative)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app with existing JUnit infrastructure
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app with Jest tests (alternative)
+  - [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDD framework (alternative)
 - **Objective:** Analyze existing test coverage, generate meaningful tests for under-tested modules, and optionally create BDD test scenarios for REST APIs
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -634,8 +633,8 @@ See the full challenge details for [Unit Testing](../../labs/testing-qa/unit-tes
 
 - **Module:** [End-to-End Testing](../../labs/testing-qa/end-to-end-testing.md) + [Fix Runtime Bug](../../labs/application-development/fix-runtime-bug.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack application
-  - [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDD framework (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack application
+  - [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDD framework (alternative)
 - **Objective:** Write and run E2E tests against a running application, discover issues through testing, and fix them — demonstrating the full test-discover-fix cycle
 
 This lab completes the testing story: after adding unit tests (Lab C2), now run the application end-to-end, write Playwright tests that exercise the full user workflow, discover issues through testing, and fix what you find.

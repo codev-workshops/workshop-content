@@ -59,7 +59,7 @@ Unlike the General workshop where participants paste provided prompts, this work
 
 ## Repository
 
-[otterworks](https://github.com/Cognition-Partner-Workshops/otterworks) — Polyglot microservices platform (Rust, Python, Node.js, Java, Go, Kotlin, Scala, Ruby, C#)
+[otterworks](https://github.com/codev-workshops/otterworks) — Polyglot microservices platform (Rust, Python, Node.js, Java, Go, Kotlin, Scala, Ruby, C#)
 
 ---
 
@@ -75,7 +75,7 @@ Before diving into prompts and labs, get the OtterWorks platform running and cli
 
 ```bash
 # Clone and start the full stack
-git clone https://github.com/Cognition-Partner-Workshops/otterworks.git
+git clone https://github.com/codev-workshops/otterworks.git
 cd otterworks
 docker compose up -d
 ```
@@ -257,7 +257,7 @@ Focus: Finding and fixing security vulnerabilities, contract drift, and test cov
 
 ## Repos Required
 
-- [ ] [otterworks](https://github.com/Cognition-Partner-Workshops/otterworks)
+- [ ] [otterworks](https://github.com/codev-workshops/otterworks)
 
 ## Key Takeaways
 

@@ -54,7 +54,7 @@ tenant URL in every prompt below and Devin will stand the stack up with
 Finding: whatever the DAST suite reports first at
 critical or high severity.
 Target: https://api-t-<your-id>.demo.otterworks.app
-Repo: Cognition-Partner-Workshops/otterworks
+Repo: codev-workshops/otterworks
 
 Reproduce it, fix it in the service that owns the
 control, redeploy the tenant, and re-run the probe
@@ -66,7 +66,7 @@ until it reports secure. Do not commit the fix to main.
 <a id="repositories"></a>
 ## Repositories
 
-- [otterworks](https://github.com/Cognition-Partner-Workshops/otterworks) —
+- [otterworks](https://github.com/codev-workshops/otterworks) —
   polyglot monorepo: 11 backend services across Go, Rust, Python, Java, Kotlin,
   Scala, Ruby, C#, and Node.js, plus two TypeScript frontends, all behind a Go
   API gateway. The DAST suite lives in `security/dast/`; the repo-specific
@@ -294,7 +294,7 @@ links to it. It exists because a chart says so.
 
 Finding: DAST-MASS-ASSIGNMENT-OWNER
 Target: <your target>
-Repo: Cognition-Partner-Workshops/otterworks
+Repo: codev-workshops/otterworks
 
 Fix it in the service that owns the control, redeploy
 the target, and re-run the probe until it reports
@@ -424,7 +424,7 @@ volunteers for:
 Every weekday at 07:00 UTC, deploy a disposable tenant from
 main with scripts/deploy-tenant.sh, run
 make dast-scan DAST_TARGET=<that tenant's api URL>
-on Cognition-Partner-Workshops/otterworks, then tear the
+on codev-workshops/otterworks, then tear the
 tenant down. A scan registers accounts and writes documents,
 so it never runs against a shared tenant.
 

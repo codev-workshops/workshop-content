@@ -76,7 +76,7 @@ Intermediate to Advanced
 
 ## <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot 2.6.3 monolith with an existing JUnit test suite and Gradle build — ideal for PIT mutation testing.
 
@@ -116,7 +116,7 @@ Open the repo's DeepWiki page to understand the service layer logic and identify
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express backend with Jest tests — suitable for Stryker mutation testing.
 

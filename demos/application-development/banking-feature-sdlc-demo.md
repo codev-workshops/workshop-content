@@ -10,7 +10,7 @@ Each unit of work lands as a PR gated by a green test run.
 
 The prompts below invoke the `!deliver-banking-feature-sdlc` Devin Playbook — the
 reusable full-SDLC procedure — whose source lives in the code repo at
-[`ts-java-spring-boot-internet-banking/.workshop/playbooks/deliver-banking-feature-sdlc.devin.md`](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-internet-banking/blob/main/.workshop/playbooks/deliver-banking-feature-sdlc.devin.md).
+[`ts-java-spring-boot-internet-banking/.workshop/playbooks/deliver-banking-feature-sdlc.devin.md`](https://github.com/codev-workshops/ts-java-spring-boot-internet-banking/blob/main/.workshop/playbooks/deliver-banking-feature-sdlc.devin.md).
 The repo-specific `./gradlew test` mechanics and package conventions come from
 that repo's Skill (`.agents/skills/banking-feature-sdlc/SKILL.md`).
 
@@ -50,7 +50,7 @@ H2, so no external database is required for the verification loop.
 <a id="repository"></a>
 ## Repository
 
-- [ts-java-spring-boot-internet-banking](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-internet-banking) —
+- [ts-java-spring-boot-internet-banking](https://github.com/codev-workshops/ts-java-spring-boot-internet-banking) —
   a Java 21 / Spring Boot 3.2.x internet-banking system: a service registry,
   config server, API gateway, and domain services (core banking, user, fund
   transfer, utility payment). The feature work lands in the **`core-banking-service`**
@@ -204,7 +204,7 @@ across the wave. Paste:
 ```
 Act as the orchestrator for an account-statement feature wave in
 the core-banking-service module of
-Cognition-Partner-Workshops/ts-java-spring-boot-internet-banking,
+codev-workshops/ts-java-spring-boot-internet-banking,
 using child Devin sessions to parallelize the work.
 
 Spawn one child Devin session per feature below. Give each child

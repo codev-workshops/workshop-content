@@ -51,8 +51,8 @@ Legacy SAS estates typically have no CI/CD: code is deployed by copying files, t
 <a id="repositories"></a>
 ## Repositories
 
-- [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) — Legacy SAS analytics environment with batch orchestrators in `BatchJobs/` that demonstrate Control-M integration patterns: sequential job chaining, error handling with conditional restart, dependency-based execution order, and manual deployment via .spk packages
-- [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks) — dbt project with CI/CD artifacts: GitHub Actions workflows (`.github/workflows/`), Databricks Workflow definitions (`workflows/`), pre-commit configuration (`.pre-commit-config.yaml`), SQL linting (sqlfluff), dbt tests, and a Makefile for local development tasks
+- [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) — Legacy SAS analytics environment with batch orchestrators in `BatchJobs/` that demonstrate Control-M integration patterns: sequential job chaining, error handling with conditional restart, dependency-based execution order, and manual deployment via .spk packages
+- [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks) — dbt project with CI/CD artifacts: GitHub Actions workflows (`.github/workflows/`), Databricks Workflow definitions (`workflows/`), pre-commit configuration (`.pre-commit-config.yaml`), SQL linting (sqlfluff), dbt tests, and a Makefile for local development tasks
 
 <a id="what-participants-will-learn"></a>
 ## What Participants Will Learn
@@ -89,7 +89,7 @@ Legacy SAS estates typically have no CI/CD: code is deployed by copying files, t
 <a id="lab-1-cicd-comparison-analysis"></a>
 ### Lab 1: CI/CD Comparison Analysis
 
-**Repositories:** Both [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) and [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks)
+**Repositories:** Both [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) and [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks)
 
 Compare the legacy SAS operational model (batch scheduling, manual deployment, log-based validation) with the modern dbt/Databricks CI/CD pipeline across five dimensions.
 
@@ -126,7 +126,7 @@ demonstrate the pattern.
 <a id="lab-2-extend-cicd-with-deployment-stage"></a>
 ### Lab 2: Extend CI/CD with Deployment Stage
 
-**Repository:** [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks)
+**Repository:** [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks)
 
 The existing GitHub Actions workflow enforces quality gates (lint, test, build) but does not deploy. Extend it with a deployment stage that uses the Databricks CLI to deploy workflow definitions with environment-specific variable handling.
 
@@ -160,7 +160,7 @@ Open the DeepWiki page for uc-data-migration-sas-to-databricks to understand how
 <a id="lab-3-add-monitoring-and-alerting"></a>
 ### Lab 3: Add Monitoring and Alerting
 
-**Repository:** [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks)
+**Repository:** [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks)
 
 The CI/CD pipeline enforces quality before merge, but production monitoring is not yet configured. Add monitoring that maps from the legacy Control-M operational model to Databricks-native capabilities.
 

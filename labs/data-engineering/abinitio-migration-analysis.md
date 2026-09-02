@@ -70,9 +70,9 @@ reference target architecture.
 <a id="repositories"></a>
 ## Repositories
 
-- [ts-python-abinitio-etl](https://github.com/Cognition-Partner-Workshops/ts-python-abinitio-etl) — Legacy Ab Initio ETL estate: 2 graphs (CDC processor, parallel loader), 8 DML record formats (including nested/variable-length and packed-decimal layouts), 3 PSET parameter sets, KornShell/AutoSys batch wrappers, a DML parser utility, and deployment/monitoring helpers
-- [uc-data-migration-abinitio-to-pyspark](https://github.com/Cognition-Partner-Workshops/uc-data-migration-abinitio-to-pyspark) — PySpark target: converted jobs, DML→StructType mapping, a local source→target reconciliation harness, deterministic seeder, the `!convert-abinitio-to-pyspark` playbook source, and the repo Skill
-- [uc-data-migration-abinitio-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-abinitio-to-databricks) — dbt/Databricks target: staging/intermediate/marts models, DML→Delta mapping, reconciliation harness (dbt tests + report), Asset Bundle Workflow, the `!convert-abinitio-to-databricks` playbook source, and the repo Skill
+- [ts-python-abinitio-etl](https://github.com/codev-workshops/ts-python-abinitio-etl) — Legacy Ab Initio ETL estate: 2 graphs (CDC processor, parallel loader), 8 DML record formats (including nested/variable-length and packed-decimal layouts), 3 PSET parameter sets, KornShell/AutoSys batch wrappers, a DML parser utility, and deployment/monitoring helpers
+- [uc-data-migration-abinitio-to-pyspark](https://github.com/codev-workshops/uc-data-migration-abinitio-to-pyspark) — PySpark target: converted jobs, DML→StructType mapping, a local source→target reconciliation harness, deterministic seeder, the `!convert-abinitio-to-pyspark` playbook source, and the repo Skill
+- [uc-data-migration-abinitio-to-databricks](https://github.com/codev-workshops/uc-data-migration-abinitio-to-databricks) — dbt/Databricks target: staging/intermediate/marts models, DML→Delta mapping, reconciliation harness (dbt tests + report), Asset Bundle Workflow, the `!convert-abinitio-to-databricks` playbook source, and the repo Skill
 
 <a id="what-participants-will-learn"></a>
 ## What Participants Will Learn
@@ -119,7 +119,7 @@ Intermediate to Advanced — 75 minutes
 <a id="lab-1-estate-discovery"></a>
 ### Lab 1: Estate Discovery
 
-**Repository:** [ts-python-abinitio-etl](https://github.com/Cognition-Partner-Workshops/ts-python-abinitio-etl)
+**Repository:** [ts-python-abinitio-etl](https://github.com/codev-workshops/ts-python-abinitio-etl)
 
 The Ab Initio estate includes 2 graphs (a CDC processor and a parallel loader), 8
 DML record formats, 3 PSET parameter sets, and KornShell wrappers in `scripts/`
@@ -170,7 +170,7 @@ While Devin works on the assessment, explore the codebase with Ask Devin:
 <a id="lab-2-target-mapping"></a>
 ### Lab 2: Target Mapping
 
-**Repositories:** [ts-python-abinitio-etl](https://github.com/Cognition-Partner-Workshops/ts-python-abinitio-etl) and one target (`uc-data-migration-abinitio-to-pyspark` or `uc-data-migration-abinitio-to-databricks`)
+**Repositories:** [ts-python-abinitio-etl](https://github.com/codev-workshops/ts-python-abinitio-etl) and one target (`uc-data-migration-abinitio-to-pyspark` or `uc-data-migration-abinitio-to-databricks`)
 
 Pick the target that matches your audience — PySpark (platform-agnostic, runs
 locally) or dbt/Databricks (Lakehouse). Both ship a migration-map doc and a
@@ -281,7 +281,7 @@ repo's structure and may not capture every nuance.
 <a id="lab-4-divide-and-conquer"></a>
 ### Lab 4: Divide and Conquer with Child Sessions (Advanced)
 
-**Repositories:** [ts-python-abinitio-etl](https://github.com/Cognition-Partner-Workshops/ts-python-abinitio-etl) and a target repo
+**Repositories:** [ts-python-abinitio-etl](https://github.com/codev-workshops/ts-python-abinitio-etl) and a target repo
 
 In a real migration with dozens or hundreds of graphs, a single session
 converting everything sequentially is slow. Instead, use child sessions to

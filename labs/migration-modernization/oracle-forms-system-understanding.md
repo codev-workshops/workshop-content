@@ -118,7 +118,7 @@ Intermediate
 
 ## <a id="ts-plsql-oracle-forms-hrms"></a>ts-plsql-oracle-forms-hrms
 
-**Repository:** [ts-plsql-oracle-forms-hrms](https://github.com/Cognition-Partner-Workshops/ts-plsql-oracle-forms-hrms)
+**Repository:** [ts-plsql-oracle-forms-hrms](https://github.com/codev-workshops/ts-plsql-oracle-forms-hrms)
 
 Oracle Forms 11g/12c HRMS legacy application. Contains Forms XML exports, PLL libraries, menu modules, PL/SQL packages (specs + bodies), database triggers, schema DDL (tables, views, sequences), and seed data. Realistic enterprise patterns with intentional technical debt.
 

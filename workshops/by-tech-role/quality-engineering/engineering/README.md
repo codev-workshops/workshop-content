@@ -67,8 +67,8 @@ Track A demonstrates Devin as a test automation engineer. Participants will gene
 
 - **Module:** [Unit Testing](../../../../labs/testing-qa/unit-testing.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app with existing JUnit infrastructure
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app with Jest (alternative)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app with existing JUnit infrastructure
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app with Jest (alternative)
 - **Objective:** Analyze existing test coverage, identify under-tested modules, and generate meaningful unit tests that verify real behavior — not just padding coverage
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -133,8 +133,8 @@ Once Devin opens a PR, focus your review on **test quality**:
 
 - **Module:** [BDD Test Generation](../../../../labs/testing-qa/bdd-test-generation.md)
 - **Repositories:**
-  - [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDD framework with pre-built step definitions
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot RealWorld app (alternative — add Cucumber to an existing app)
+  - [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDD framework with pre-built step definitions
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot RealWorld app (alternative — add Cucumber to an existing app)
 - **Objective:** Generate BDD test scenarios from API specifications — write Gherkin feature files that describe business behavior, implement step definitions, and run the full BDD suite
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -196,8 +196,8 @@ Once Devin opens a PR, focus your review on **BDD quality**:
 
 - **Module:** [Mutation Testing](../../../../labs/testing-qa/mutation-testing.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app with existing JUnit tests
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — Node.js app with Jest tests (alternative)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app with existing JUnit tests
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — Node.js app with Jest tests (alternative)
 - **Objective:** Use mutation testing to evaluate test quality — mutants that survive indicate tests that pass without actually verifying behavior. Kill surviving mutants by adding meaningful assertions.
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -261,8 +261,8 @@ Track B demonstrates Devin as a system tester. Participants will write and run E
 
 - **Module:** [End-to-End Testing](../../../../labs/testing-qa/end-to-end-testing.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack application
-  - [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld) — Angular RealWorld app with existing Playwright tests (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack application
+  - [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld) — Angular RealWorld app with existing Playwright tests (alternative)
 - **Objective:** Write and run E2E tests against a running application — exercise real user workflows through the browser, discover issues through testing, and fix what you find
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -325,8 +325,8 @@ Once Devin opens a PR, focus your review on **test robustness**:
 
 - **Module:** [Cross-Service Integration Testing](../../../../labs/testing-qa/cross-service-integration-testing.md)
 - **Repositories:**
-  - [quickapp-microservices](https://github.com/Cognition-Partner-Workshops/quickapp-microservices) — .NET microservices (Identity, Customer, Order, Product, Notification)
-  - [petclinic-microservices](https://github.com/Cognition-Partner-Workshops/petclinic-microservices) — Spring Boot microservices (alternative)
+  - [quickapp-microservices](https://github.com/codev-workshops/quickapp-microservices) — .NET microservices (Identity, Customer, Order, Product, Notification)
+  - [petclinic-microservices](https://github.com/codev-workshops/petclinic-microservices) — Spring Boot microservices (alternative)
 - **Objective:** Write integration tests that verify multiple microservices work correctly together — testing the contracts, data flow, and error handling between services
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -386,8 +386,8 @@ Focus on **integration quality**:
 
 - **Modules:** [Performance Testing](../../../../labs/testing-qa/performance-testing.md) + [Load Testing & Benchmarking](../../../../labs/testing-qa/load-testing-benchmarking.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app (establish baseline and identify bottlenecks)
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app (establish baseline and identify bottlenecks)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app (alternative)
 - **Objective:** Create performance tests that establish baselines, identify bottlenecks, and verify the application handles expected load — demonstrating Devin building load testing infrastructure
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -451,9 +451,9 @@ Track C demonstrates Devin as a quality advocate. Participants will set up linti
 
 - **Module:** [Linting & Static Analysis](../../../../labs/testing-qa/linting-static-analysis.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js (ESLint, Prettier)
-  - [timesheet-infra](https://github.com/Cognition-Partner-Workshops/timesheet-infra) — Terraform (terraform fmt, tflint)
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Java/Gradle (Spotless, Checkstyle) (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js (ESLint, Prettier)
+  - [timesheet-infra](https://github.com/codev-workshops/timesheet-infra) — Terraform (terraform fmt, tflint)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Java/Gradle (Spotless, Checkstyle) (alternative)
 - **Objective:** Set up and enforce code quality standards through automated linting, formatting, and static analysis — catch issues before they reach code review
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -516,8 +516,8 @@ Focus on **enforcement value**:
 
 - **Modules:** [PR Review Automation](../../../../labs/devops-cicd/pr-review-automation.md) + [Inline Documentation](../../../../labs/technical-documentation/inline-documentation.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot (Javadoc)
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js (JSDoc/TSDoc) (alternative)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot (Javadoc)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js (JSDoc/TSDoc) (alternative)
 - **Objective:** Use Devin to generate comprehensive documentation for public APIs and key modules, and observe how PR Review automatically provides quality feedback on the documentation PR itself
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -575,8 +575,8 @@ Once Devin opens a PR, observe how **PR Review** handles documentation changes:
 
 - **Module:** [Continuous Quality Engineering](../../../../labs/testing-qa/continuous-quality-engineering.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app
-  - [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular) — Angular frontend (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app
+  - [petclinic-angular](https://github.com/codev-workshops/petclinic-angular) — Angular frontend (alternative)
 - **Objective:** Build a continuous quality pipeline that automatically enforces standards — lint, test, coverage gates, security scan, and documentation checks — so quality is maintained without manual effort
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)

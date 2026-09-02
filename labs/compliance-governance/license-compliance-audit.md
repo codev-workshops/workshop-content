@@ -72,7 +72,7 @@ Intermediate
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express application with npm dependencies — ideal for license auditing with npm-native tooling.
 
@@ -117,7 +117,7 @@ Open the repo's DeepWiki page to understand the dependency structure and which p
 
 ## <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot/Gradle monolith with Java dependencies — try license auditing using Gradle plugins in a JVM ecosystem.
 

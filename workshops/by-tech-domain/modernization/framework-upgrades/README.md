@@ -39,9 +39,9 @@ A few tips to maximize your hands-on time:
 
 - **Modules:** [Framework Upgrade](../../../../labs/migration-modernization/framework-upgrade.md) + [Repetitive Framework Upgrades](../../../../labs/migration-modernization/repetitive-framework-upgrades.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 → 3.x
-  - [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular) — Angular version upgrade
-  - [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld) — Angular version upgrade (parallel comparison)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 → 3.x
+  - [petclinic-angular](https://github.com/codev-workshops/petclinic-angular) — Angular version upgrade
+  - [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld) — Angular version upgrade (parallel comparison)
 - **Objective:** Run parallel Devin sessions upgrading Angular and Spring Boot across multiple repos
 - **Duration:** 60 min
 

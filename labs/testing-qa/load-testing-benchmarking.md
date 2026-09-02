@@ -77,7 +77,7 @@ Intermediate to Advanced
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express API with authentication, CRUD operations, and report generation — ideal for k6 load testing.
 
@@ -118,7 +118,7 @@ Open the repo's DeepWiki page to understand the API routes and their dependencie
 
 ## <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot monolith with REST and GraphQL APIs — suitable for Gatling or k6 load testing across both API surfaces.
 

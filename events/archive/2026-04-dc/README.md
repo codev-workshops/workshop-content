@@ -37,9 +37,9 @@ This event features 5 labs that follow a progressive modernization narrative:
 
 - **Module:** [Legacy Modernization Combined](../../../labs/migration-modernization/legacy-modernization-combined.md)
 - **Repositories:**
-  - [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java) — COBOL mainframe application (source)
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Java monolith to decompose (microservice extraction)
-  - [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization) — Legacy data warehouse to modern schema (data source migration)
+  - [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java) — COBOL mainframe application (source)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Java monolith to decompose (microservice extraction)
+  - [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization) — Legacy data warehouse to modern schema (data source migration)
 - **Objective:** Walk through the full modernization journey: migrate legacy code to a modern tech stack, extract microservices from a monolith, migrate the data source — and verify correctness with tests at each phase
 
 This lab demonstrates the combined modernization pipeline that enterprises face: legacy code that needs a new tech stack, a monolith that needs to be decomposed, and a legacy data warehouse that needs to be replaced — all while keeping the system functional and tested.
@@ -110,9 +110,9 @@ See the full challenge details for [Legacy Modernization Combined](../../../labs
 
 - **Module:** [Repetitive Framework Upgrades](../../../labs/migration-modernization/repetitive-framework-upgrades.md) + [Framework Upgrade](../../../labs/migration-modernization/framework-upgrade.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 → 3.x upgrade
-  - [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular) — Angular version upgrade
-  - [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld) — Angular version upgrade (second repo for parallel comparison)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 → 3.x upgrade
+  - [petclinic-angular](https://github.com/codev-workshops/petclinic-angular) — Angular version upgrade
+  - [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld) — Angular version upgrade (second repo for parallel comparison)
 - **Objective:** Run parallel Devin sessions upgrading Angular and Spring Boot across multiple repos — demonstrating how Devin handles repetitive upgrade tasks at enterprise scale
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -182,7 +182,7 @@ See the full challenge details for [Repetitive Framework Upgrades](../../../labs
 ### Lab 3 — Data Source Migration: Rewrite + Reconnect + Test (60 min)
 
 - **Module:** [Data Source Migration](../../../labs/data-engineering/data-source-migration.md)
-- **Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+- **Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 - **Objective:** Take an existing loan management app connected to a legacy data warehouse (all-VARCHAR, denormalized, cryptic column names), rewrite it to a modern normalized schema, rewire the app to point to the new data source, and prove correctness with comprehensive testing
 
 This lab has two distinct parts:
@@ -255,8 +255,8 @@ See the full challenge details for [Data Source Migration](../../../labs/data-en
 
 - **Module:** [New Feature Development](../../../labs/application-development/new-feature-development.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack application
-  - [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization) — Spring Boot loan service (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack application
+  - [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization) — Spring Boot loan service (alternative)
 - **Objective:** Build a new feature on an existing application — from requirements through implementation, testing, and PR creation
 
 #### Step 1: Start with Ask Devin (recommended)
@@ -316,7 +316,7 @@ See the full challenge details for [New Feature Development](../../../labs/appli
 
 ### Lab 5 — BDD Test Case Generation for REST APIs (60 min)
 - **Module:** [BDD Test Generation](../../../labs/testing-qa/bdd-test-generation.md)
-- **Repository:** [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber)
+- **Repository:** [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber)
 - **Objective:** Give Devin a Spring Boot + Cucumber BDD framework and prompt it to generate new test scenarios, build a new API resource, and produce executable Cucumber tests
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)

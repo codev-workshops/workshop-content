@@ -4,9 +4,9 @@ Context and a cataloging plan for the **discrete offerings** in this repo, so [F
 
 This is the bridge document: it names what `workshop-content` offers, maps each offering to Field Kit's [Packet schema](https://github.com/Cognition-Partner-Workshops/field-kit/blob/main/data/schema.json), and specifies how Field Kit can keep each Packet's contents in sync automatically.
 
-- **Source repo:** `Cognition-Partner-Workshops/workshop-content`
-- **Raw base:** `https://raw.githubusercontent.com/Cognition-Partner-Workshops/workshop-content/main/`
-- **Tree base:** `https://github.com/Cognition-Partner-Workshops/workshop-content/tree/main/`
+- **Source repo:** `codev-workshops/workshop-content`
+- **Raw base:** `https://raw.githubusercontent.com/codev-workshops/workshop-content/main/`
+- **Tree base:** `https://github.com/codev-workshops/workshop-content/tree/main/`
 
 ---
 

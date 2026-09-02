@@ -70,8 +70,8 @@ Track A demonstrates Devin building and managing delivery pipelines. Participant
 
 - **Module:** [CI/CD Pipeline](../../../labs/devops-cicd/cicd-pipeline.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack app (no existing CI)
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app with Gradle (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack app (no existing CI)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot app with Gradle (alternative)
 - **Objective:** Create a production-ready CI/CD pipeline from scratch — build, test, lint, security scan, and deploy stages — using GitHub Actions
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -135,8 +135,8 @@ Once Devin opens a PR, focus your review on **pipeline quality**:
 
 - **Module:** [CI Failure Resolution](../../../labs/devops-cicd/ci-failure-resolution.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app
-  - [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) — Spring Boot app (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app
+  - [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) — Spring Boot app (alternative)
 - **Objective:** Investigate and fix a failing CI pipeline — read logs, identify the root cause, and implement a fix that gets CI back to green
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -197,8 +197,8 @@ Focus on **root cause accuracy**:
 
 - **Modules:** [Release Management](../../../labs/devops-cicd/release-management.md) + [Configuration Management & Feature Flags](../../../labs/devops-cicd/configuration-management-feature-flags.md)
 - **Repositories:**
-  - [ordermanager-monolith](https://github.com/Cognition-Partner-Workshops/ordermanager-monolith) — .NET 8 + Angular 17 OrderManager with IaC support
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app (alternative)
+  - [ordermanager-monolith](https://github.com/codev-workshops/ordermanager-monolith) — .NET 8 + Angular 17 OrderManager with IaC support
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app (alternative)
 - **Objective:** Implement release management practices — semantic versioning, changelogs, release branches — and add feature flags for gradual rollout of new functionality
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -262,8 +262,8 @@ Track B demonstrates Devin managing infrastructure as code. Participants will tr
 
 - **Module:** [IaC Translation](../../../labs/cloud-infrastructure/iac-translation.md)
 - **Repositories:**
-  - [timesheet-infra](https://github.com/Cognition-Partner-Workshops/timesheet-infra) — Terraform-based hosting infrastructure
-  - [platform-engineering-shared-services](https://github.com/Cognition-Partner-Workshops/platform-engineering-shared-services) — AWS CDK (TypeScript) platform infrastructure (alternative)
+  - [timesheet-infra](https://github.com/codev-workshops/timesheet-infra) — Terraform-based hosting infrastructure
+  - [platform-engineering-shared-services](https://github.com/codev-workshops/platform-engineering-shared-services) — AWS CDK (TypeScript) platform infrastructure (alternative)
 - **Objective:** Translate infrastructure definitions between IaC tools — Terraform to AWS CDK, CloudFormation to Terraform, or Helm to Kustomize — demonstrating Devin's ability to work across infrastructure tooling
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -323,8 +323,8 @@ Focus on **translation fidelity**:
 
 - **Modules:** [Kubernetes Manifest Generation](../../../labs/cloud-infrastructure/kubernetes-manifest-generation.md) + [GitOps & ArgoCD Setup](../../../labs/cloud-infrastructure/gitops-argocd-setup.md)
 - **Repositories:**
-  - [ordermanager-iac](https://github.com/Cognition-Partner-Workshops/ordermanager-iac) — Helm charts, ArgoCD manifests, and CI/CD for the OrderManager application
-  - [platform-engineering-shared-services](https://github.com/Cognition-Partner-Workshops/platform-engineering-shared-services) — EKS platform with ArgoCD and monitoring (context)
+  - [ordermanager-iac](https://github.com/codev-workshops/ordermanager-iac) — Helm charts, ArgoCD manifests, and CI/CD for the OrderManager application
+  - [platform-engineering-shared-services](https://github.com/codev-workshops/platform-engineering-shared-services) — EKS platform with ArgoCD and monitoring (context)
 - **Objective:** Generate Kubernetes deployment manifests (Helm charts), configure GitOps-based deployment with ArgoCD, and set up automated sync from git to cluster
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -385,9 +385,9 @@ Focus on **production readiness**:
 
 - **Module:** [Platform-Conformant Microservice Decomposition](../../../labs/cloud-infrastructure/platform-conformant-microservice-decomposition.md)
 - **Repositories:**
-  - [ordermanager-monolith](https://github.com/Cognition-Partner-Workshops/ordermanager-monolith) — .NET 8 + Angular 17 OrderManager monolith
-  - [ordermanager-iac](https://github.com/Cognition-Partner-Workshops/ordermanager-iac) — Service IaC (Helm, Dockerfile, ArgoCD, CI/CD)
-  - [platform-engineering-shared-services](https://github.com/Cognition-Partner-Workshops/platform-engineering-shared-services) — Platform standard (EKS, ArgoCD, monitoring, namespace provisioning)
+  - [ordermanager-monolith](https://github.com/codev-workshops/ordermanager-monolith) — .NET 8 + Angular 17 OrderManager monolith
+  - [ordermanager-iac](https://github.com/codev-workshops/ordermanager-iac) — Service IaC (Helm, Dockerfile, ArgoCD, CI/CD)
+  - [platform-engineering-shared-services](https://github.com/codev-workshops/platform-engineering-shared-services) — Platform standard (EKS, ArgoCD, monitoring, namespace provisioning)
 - **Objective:** Deploy a service to a platform-engineering-managed Kubernetes cluster following the platform team's standards — Dockerfile, Helm chart, ArgoCD app, CI/CD pipeline, and namespace configuration that all conform to the platform conventions
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -450,8 +450,8 @@ Track C demonstrates Devin as an SRE partner. Participants will set up observabi
 
 - **Module:** [Observability & Monitoring](../../../labs/observability-sre/observability-monitoring.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app (add observability)
-  - [petclinic-microservices](https://github.com/Cognition-Partner-Workshops/petclinic-microservices) — Spring Boot microservices with existing observability support (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app (add observability)
+  - [petclinic-microservices](https://github.com/codev-workshops/petclinic-microservices) — Spring Boot microservices with existing observability support (alternative)
 - **Objective:** Add observability instrumentation to an application — structured logging, metrics exposition, distributed tracing, and health check endpoints
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -511,8 +511,8 @@ Focus on **observability quality**:
 
 - **Modules:** [Incident Response & Triage](../../../labs/observability-sre/incident-response-triage.md) + [Pod Remediation After Credential Rotation](../../../labs/observability-sre/pod-remediation-credential-rotation.md)
 - **Repositories:**
-  - [eventflow-devin-integration](https://github.com/Cognition-Partner-Workshops/eventflow-devin-integration) — Azure Monitor alert → Devin investigation pipeline
-  - [uc-pod-remediation-credential-rotation](https://github.com/Cognition-Partner-Workshops/uc-pod-remediation-credential-rotation) — Automated Kubernetes pod remediation system (alternative)
+  - [eventflow-devin-integration](https://github.com/codev-workshops/eventflow-devin-integration) — Azure Monitor alert → Devin investigation pipeline
+  - [uc-pod-remediation-credential-rotation](https://github.com/codev-workshops/uc-pod-remediation-credential-rotation) — Automated Kubernetes pod remediation system (alternative)
 - **Objective:** Set up automated incident investigation where alerts trigger Devin sessions that analyze logs, identify root causes, and open fix PRs — demonstrating Devin as an always-on on-call engineer
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -573,7 +573,7 @@ Focus on **operational safety**:
 
 - **Module:** [Volume Anomaly Detection](../../../labs/observability-sre/volume-anomaly-detection.md)
 - **Repositories:**
-  - [uc-volume-anomaly-detection](https://github.com/Cognition-Partner-Workshops/uc-volume-anomaly-detection) — Python-based anomaly detection with z-score and seasonal decomposition
+  - [uc-volume-anomaly-detection](https://github.com/codev-workshops/uc-volume-anomaly-detection) — Python-based anomaly detection with z-score and seasonal decomposition
 - **Objective:** Set up proactive anomaly detection that identifies issues before they cause outages — demonstrating Devin building and extending a monitoring system that catches problems early
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)

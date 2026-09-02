@@ -10,7 +10,7 @@ with no GCP account.
 
 The prompts below invoke the `!convert-teradata-to-bigquery` Devin Playbook — the
 reusable conversion procedure — whose source lives in the code repo at
-[`uc-dw-migration-teradata-to-bigquery/.workshop/playbooks/convert-teradata-to-bigquery.devin.md`](https://github.com/Cognition-Partner-Workshops/uc-dw-migration-teradata-to-bigquery/blob/main/.workshop/playbooks/convert-teradata-to-bigquery.devin.md).
+[`uc-dw-migration-teradata-to-bigquery/.workshop/playbooks/convert-teradata-to-bigquery.devin.md`](https://github.com/codev-workshops/uc-dw-migration-teradata-to-bigquery/blob/main/.workshop/playbooks/convert-teradata-to-bigquery.devin.md).
 The repo-specific verification mechanics come from that repo's Skill
 (`.agents/skills/teradata-to-bigquery/SKILL.md`).
 
@@ -53,7 +53,7 @@ GoogleSQL locally as a stand-in for BigQuery Standard SQL.
 <a id="repositories"></a>
 ## Repositories
 
-- [uc-dw-migration-teradata-to-bigquery](https://github.com/Cognition-Partner-Workshops/uc-dw-migration-teradata-to-bigquery) — the Teradata retail-banking warehouse (DDL, views, stored procedures, macros, BTEQ, seed data), the DuckDB parity harness, the conversion Playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`). `main` is the "before"; the reference conversion is on the `bigquery-reference` branch.
+- [uc-dw-migration-teradata-to-bigquery](https://github.com/codev-workshops/uc-dw-migration-teradata-to-bigquery) — the Teradata retail-banking warehouse (DDL, views, stored procedures, macros, BTEQ, seed data), the DuckDB parity harness, the conversion Playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`). `main` is the "before"; the reference conversion is on the `bigquery-reference` branch.
 
 ---
 
@@ -153,7 +153,7 @@ applied many times in parallel instead of once in series.
 Act as the orchestrator for a Teradata->BigQuery migration across the estate,
 using child Devin sessions to parallelize the work.
 
-Repo: Cognition-Partner-Workshops/uc-dw-migration-teradata-to-bigquery.
+Repo: codev-workshops/uc-dw-migration-teradata-to-bigquery.
 
 Spawn one child Devin session per object group below. Tell each child to follow
 the !convert-teradata-to-bigquery playbook (the repo's Skill supplies the

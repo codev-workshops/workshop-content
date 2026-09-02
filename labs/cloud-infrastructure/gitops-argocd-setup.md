@@ -62,7 +62,7 @@ Advanced
 
 ### <a id="platform-engineering-shared-services"></a>platform-engineering-shared-services
 
-**Repository:** [platform-engineering-shared-services](https://github.com/Cognition-Partner-Workshops/platform-engineering-shared-services)
+**Repository:** [platform-engineering-shared-services](https://github.com/codev-workshops/platform-engineering-shared-services)
 
 Platform engineering repository with shared infrastructure services — the natural home for GitOps deployment configurations.
 
@@ -91,7 +91,7 @@ Open the repo's DeepWiki page to understand the existing infrastructure and serv
 
 ### <a id="ordermanager-microservices"></a>ordermanager-microservices
 
-**Repository:** [ordermanager-microservices](https://github.com/Cognition-Partner-Workshops/ordermanager-microservices)
+**Repository:** [ordermanager-microservices](https://github.com/codev-workshops/ordermanager-microservices)
 
 .NET and Angular microservices application — a multi-service deployment target for GitOps configuration.
 

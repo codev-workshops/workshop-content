@@ -26,9 +26,9 @@ The parent aggregates results into a summary.
 ## Prerequisites
 
 1. **Access to both repos:**
-   - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) —
+   - [timesheet-app](https://github.com/codev-workshops/timesheet-app) —
      Node.js/Express application with npm dependency vulnerabilities
-   - [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) —
+   - [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) —
      Spring Boot 2.6.3 / Gradle application with 18+ known CVEs
 
 2. **Devin org access:** Both repos are connected to the Devin organization.
@@ -95,12 +95,12 @@ You are coordinating a security remediation across 2
 repositories. First, run security scans on both repos
 to build a consolidated findings report:
 
-Repo 1 — Cognition-Partner-Workshops/timesheet-app:
+Repo 1 — codev-workshops/timesheet-app:
 Run npm audit --json and capture the output. Also run
 npx eslint . --format json to check for
 security-related lint violations.
 
-Repo 2 — Cognition-Partner-Workshops/
+Repo 2 — codev-workshops/
 uc-cve-remediation-regulatory-compliance:
 Run ./gradlew dependencyCheckAnalyze and capture the
 OWASP Dependency-Check report.

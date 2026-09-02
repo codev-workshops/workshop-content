@@ -86,7 +86,7 @@ Beginner to Intermediate
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express + React application — review PRs for JavaScript/TypeScript best practices.
 
@@ -125,7 +125,7 @@ Open the repo's DeepWiki page to understand the codebase conventions. A good rev
 
 ## <a id="ts-java-spring-boot-realworld"></a>ts-java-spring-boot-realworld
 
-**Repository:** [ts-java-spring-boot-realworld](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-realworld)
+**Repository:** [ts-java-spring-boot-realworld](https://github.com/codev-workshops/ts-java-spring-boot-realworld)
 
 Spring Boot Java application — review PRs for Java best practices and Spring patterns.
 
@@ -163,7 +163,7 @@ Open the repo's DeepWiki page to understand the existing code patterns. Flag any
 
 ## <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot monolith with GraphQL + REST — review PRs for architectural consistency.
 

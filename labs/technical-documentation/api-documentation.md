@@ -63,7 +63,7 @@ Intermediate
 
 ### <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express backend with REST endpoints for work entries, clients, and reporting.
 
@@ -91,7 +91,7 @@ Open the repo's DeepWiki page to understand the full API surface. Cross-referenc
 
 ### <a id="uc-data-source-migration-jdbc-normalization"></a>uc-data-source-migration-jdbc-normalization
 
-**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 
 Spring Boot loan service with REST endpoints — generate Springdoc OpenAPI documentation.
 
@@ -119,7 +119,7 @@ Open the repo's DeepWiki page to understand the API contracts. Verify that the g
 
 ### <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot monolith with both REST and GraphQL APIs — document the REST API surface with OpenAPI.
 

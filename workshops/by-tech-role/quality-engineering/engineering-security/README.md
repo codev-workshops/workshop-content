@@ -57,7 +57,7 @@ Two halves, each with 2 structured labs:
 
 ### Lab 1 — Linting & Unit Testing (45 min)
 - **Modules:** [Linting & Static Analysis](../../../../labs/testing-qa/linting-static-analysis.md) + [Unit Testing](../../../../labs/testing-qa/unit-testing.md)
-- **Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Objective:** Start by resolving linting issues (GitHub Issue #3), then improve unit test coverage and generate a coverage report
 - **Target Outcomes:**
   - All ESLint/Prettier violations resolved
@@ -67,8 +67,8 @@ Two halves, each with 2 structured labs:
 
 ### Lab 2 — E2E Testing & Documentation (45 min)
 - **Modules:** [End-to-End Testing](../../../../labs/testing-qa/end-to-end-testing.md) + [Inline Documentation](../../../../labs/technical-documentation/inline-documentation.md)
-- **Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
-- **Alternative E2E repo:** [calcom](https://github.com/Cognition-Partner-Workshops/calcom) (for participants wanting a more complex target)
+- **Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
+- **Alternative E2E repo:** [calcom](https://github.com/codev-workshops/calcom) (for participants wanting a more complex target)
 - **Objective:** Write and run E2E tests against the locally running application, then improve inline documentation across the codebase
 - **Target Outcomes:**
   - E2E test suite created (Playwright or Selenium)
@@ -78,7 +78,7 @@ Two halves, each with 2 structured labs:
 
 ### Lab 3 — CVE Remediation with Local SAST Tools (60 min)
 - **Modules:** [Upgrade Dependencies](../../../../labs/security/upgrade-dependencies.md) + [Remediate Vulnerabilities](../../../../labs/security/remediate-vulnerabilities.md)
-- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance)
+- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance)
 - **Objective:** Use pre-configured local SAST tools to scan for vulnerabilities, remediate the most critical findings, and upgrade outdated dependencies
 - **Target Outcomes:**
   - OWASP Dependency-Check report generated (before and after remediation)
@@ -96,7 +96,7 @@ Two halves, each with 2 structured labs:
 
 ### Lab 4 — Shift Left & Security Antipatterns (45 min)
 - **Modules:** [Shift Left Security](../../../../labs/security/shift-left-security.md) + [Security Antipatterns](../../../../labs/security/security-antipatterns.md)
-- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) or [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) or [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Objective:** Add CI workflows that gate on security policy violations, then identify and fix security antipatterns in application code
 - **Target Outcomes:**
   - GitHub Actions workflow added with security scanning (Trivy, OWASP DC, or SonarQube)

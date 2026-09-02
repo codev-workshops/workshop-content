@@ -17,7 +17,7 @@ This event features 4 structured labs using purpose-built repositories:
 
 ### Lab 1 — Legacy Modernization: COBOL → Java (60 min)
 - **Module:** [COBOL to Java](../../../labs/migration-modernization/cobol-to-java.md#uc-legacy-modernization-cobol-to-java)
-- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 - **Objective:** Explore a real COBOL mainframe application and use Devin to modernize part of it — you choose the scope, target, and approach
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -58,7 +58,7 @@ See the [full challenge details](../../../labs/migration-modernization/cobol-to-
 
 ### Lab 2 — Framework Upgrade & Refactor: Monolith → Microservices (60 min)
 - **Module:** [Framework Upgrade](../../../labs/migration-modernization/framework-upgrade.md#uc-spring-boot-upgrade-microservice-extraction) + [Containerization & Microservice Extraction](../../../labs/migration-modernization/containerization-microservice-extraction.md#uc-spring-boot-upgrade-microservice-extraction)
-- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Objective:** Take an older Java monolith (Java 11 + Spring Boot 2.6.3) and modernize it — you choose whether to focus on the upgrade, the microservice extraction, or both
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -99,7 +99,7 @@ See the full challenge details for [Framework Upgrade](../../../labs/migration-m
 
 ### Lab 3 — CVE Remediations & Regulatory Code Standards (60 min)
 - **Module:** [Upgrade Dependencies](../../../labs/security/upgrade-dependencies.md#uc-cve-remediation-regulatory-compliance) + [Remediate Vulnerabilities](../../../labs/security/remediate-vulnerabilities.md#uc-cve-remediation-regulatory-compliance) + [Shift Left Security](../../../labs/security/shift-left-security.md#uc-cve-remediation-regulatory-compliance)
-- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance)
+- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance)
 - **Objective:** A Spring Boot 2.6.3 service has accumulated vulnerable dependencies (Spring4Shell, SnakeYAML RCE, SQLite JDBC RCE, and more). Scan, remediate, and add automated compliance checks
 - **Known CVEs:** See the [full CVE findings report](../../../labs/security/remediate-vulnerabilities.md#uc-cve-remediation-regulatory-compliance) for a breakdown of all 18+ known vulnerabilities by severity (5 Critical, 8 High, 5 Medium)
 
@@ -142,7 +142,7 @@ See the full challenge details for [Upgrade Dependencies](../../../labs/security
 
 ### Lab 4 — DW Migration: Teradata → Snowflake (60 min)
 - **Module:** [DW Migration: Teradata to Snowflake](../../../labs/data-engineering/dw-migration-teradata-to-snowflake.md#uc-dw-migration-teradata-to-snowflake)
-- **Repository:** [uc-dw-migration-teradata-to-snowflake](https://github.com/Cognition-Partner-Workshops/uc-dw-migration-teradata-to-snowflake)
+- **Repository:** [uc-dw-migration-teradata-to-snowflake](https://github.com/codev-workshops/uc-dw-migration-teradata-to-snowflake)
 - **Objective:** A Teradata-based data warehouse needs to be migrated to Snowflake. Convert DDL/DML, build a migration runbook, and set up validation
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -172,7 +172,7 @@ Once Devin opens a PR from step 1, practice the feedback loop:
 - **Watch Devin respond** to your PR comment and push a fix — this is how real teams work with Devin
 - Try leaving inline comments on specific SQL statements to see how Devin handles dialect-level corrections
 
-See the full challenge details in [DW Migration: Teradata to Snowflake](../../../labs/data-engineering/dw-migration-teradata-to-snowflake.md) for more ideas — the repo includes a complete [Teradata features reference](https://github.com/Cognition-Partner-Workshops/uc-dw-migration-teradata-to-snowflake/blob/initial-code/docs/teradata_features_reference.md) with Snowflake equivalents.
+See the full challenge details in [DW Migration: Teradata to Snowflake](../../../labs/data-engineering/dw-migration-teradata-to-snowflake.md) for more ideas — the repo includes a complete [Teradata features reference](https://github.com/codev-workshops/uc-dw-migration-teradata-to-snowflake/blob/initial-code/docs/teradata_features_reference.md) with Snowflake equivalents.
 
 - **Target Outcomes (any of these count):**
   - Converted Snowflake DDL/DML for tables and views

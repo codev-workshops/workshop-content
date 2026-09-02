@@ -52,7 +52,7 @@ Challenges focused on language migrations, framework upgrades, containerization,
 - COBOL System Understanding, Migration Planning, and Test Harness form a **COBOL modernization workshop**: understand, plan, safeguard, leading into COBOL to Java (execute)
 - Oracle Forms System Understanding, Migration Planning, and Oracle Forms to Java form an **Oracle Forms modernization workshop**: understand, plan, safeguard, leading into Forms-to-Java (execute)
 - .NET Monolith Decomposition and Cross-Service Bug Investigation form a **.NET cloud-native modernization workshop**: extract and debug, using the QuickApp monolith
-- See the [COBOL Modernization Workshop](../../events/cobol-modernization-workshop/README.md) for COBOL System Understanding + Migration Planning + Test Harness + COBOL to Java
+- See the [COBOL Modernization Workshop](../../workshops/by-tech-domain/modernization/cobol/README.md) for COBOL System Understanding + Migration Planning + Test Harness + COBOL to Java
 - See the [Oracle Forms Modernization Workshop](../../events/oracle-forms-modernization-workshop/README.md) for Oracle Forms System Understanding + Migration Planning + Oracle Forms to Java
 - See the [.NET Cloud-Native Modernization Workshop](../../workshops/by-tech-domain/modernization/dotnet-cloud-native/README.md) for .NET Monolith Decomposition + Integration Testing + Bug Investigation
 - See the [Legacy Modernization Workshop](../../workshops/by-tech-domain/modernization/legacy/README.md) for a unified workshop offering both COBOL (Track A) and Oracle Forms (Track B) tracks

@@ -70,7 +70,7 @@ Intermediate
 
 ### <a id="platform-engineering-shared-services"></a>platform-engineering-shared-services
 
-**Repository:** [platform-engineering-shared-services](https://github.com/Cognition-Partner-Workshops/platform-engineering-shared-services)
+**Repository:** [platform-engineering-shared-services](https://github.com/codev-workshops/platform-engineering-shared-services)
 
 Platform engineering repository with shared infrastructure services, deployment configurations, and operational tooling.
 
@@ -99,7 +99,7 @@ Open the repo's DeepWiki page to understand the infrastructure architecture and 
 
 ### <a id="eventflow-infra"></a>eventflow-infra
 
-**Repository:** [eventflow-infra](https://github.com/Cognition-Partner-Workshops/eventflow-infra)
+**Repository:** [eventflow-infra](https://github.com/codev-workshops/eventflow-infra)
 
 Infrastructure-as-code repository for the EventFlow application platform with deployment manifests and environment configurations.
 

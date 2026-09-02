@@ -71,8 +71,8 @@ Devinの基本に慣れている方は、ラボに直接進んでください：
 
 - **モジュール:** [脆弱性の修復](../../labs/security/remediate-vulnerabilities.md) + [シフトレフトセキュリティ](../../labs/security/shift-left-security.md)
 - **リポジトリ:**
-  - [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) — 既知のCVEとOWASP Dependency-Checkが事前設定されたSpring Boot 2.6.3
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — npm auditとTrivyスキャンを備えたNode.jsアプリ（代替）
+  - [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) — 既知のCVEとOWASP Dependency-Checkが事前設定されたSpring Boot 2.6.3
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — npm auditとTrivyスキャンを備えたNode.jsアプリ（代替）
 - **目標:** SASTツールを実行して脆弱性を特定し、最も重大な発見を修復し、将来のPRが自動的にチェックされるようにCIパイプラインにセキュリティスキャンを追加する
 
 このラボには2つのパートがあります：（1）既存の脆弱性を発見して修正する、（2）シフトレフトとしてCIにセキュリティスキャンを追加し、新しい脆弱性を自動的に検出する。
@@ -139,8 +139,8 @@ Devinがステップ1の作業中に、**Ask Devin**を開いて探索しまし�
 
 - **モジュール:** [ランタイムバグの修正](../../labs/application-development/fix-runtime-bug.md) + [クロスサービスバグ調査](../../labs/migration-modernization/cross-service-bug-investigation.md)
 - **リポジトリ:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.jsフルスタックアプリケーション
-  - [quickapp-microservices](https://github.com/Cognition-Partner-Workshops/quickapp-microservices) — 仕込まれたクロスサービスバグを含む分解された.NETマイクロサービス（代替）
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.jsフルスタックアプリケーション
+  - [quickapp-microservices](https://github.com/codev-workshops/quickapp-microservices) — 仕込まれたクロスサービスバグを含む分解された.NETマイクロサービス（代替）
 - **目標:** 実行中のアプリケーションでバグを発見・修正し、根本原因分析を実施し、サービス境界を越えて問題を追跡するDevinの能力を実証する
 
 このラボではバグ調査の2つの側面を示します：（1）Devinが実行中のアプリでバグを発見・修正する探索的テスト、（2）あるサービスの症状が別のサービスに根本原因があるクロスサービスデバッグ。
@@ -211,8 +211,8 @@ Devinがステップ1の作業中に、**Ask Devin**を開いて探索しまし�
 
 - **モジュール:** [依存関係のアップグレード](../../labs/security/upgrade-dependencies.md)
 - **リポジトリ:**
-  - [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) — GradleベースのSpring Bootアプリ
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — npmベースのNode.jsアプリ（代替）
+  - [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) — GradleベースのSpring Bootアプリ
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — npmベースのNode.jsアプリ（代替）
 - **目標:** 毎週のサイクルで自動的に依存関係を最新のマイナー/パッチバージョンにアップグレードするDevinスケジュールセッションを設定する — 常時稼働メンテナンスエージェントとしてのDevinを実証する
 
 このラボでは**Devinスケジュールセッション**を紹介します — 人間の介入なしに実行される定期的な自動タスクです。依存関係のバージョンバンプは完璧なユースケースです：低リスク、大量、CIで簡単に検証可能。
@@ -273,8 +273,8 @@ Check all npm dependencies in timesheet-app for available minor and patch versio
 
 - **モジュール:** [コンテナ化＆マイクロサービス抽出](../../labs/migration-modernization/containerization-microservice-extraction.md)
 - **リポジトリ:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — 3つの明確な境界付きコンテキスト（Articles、Users/Profiles、Comments）を持つSpring Boot 2.6.3モノリス
-  - [petclinic-microservices](https://github.com/Cognition-Partner-Workshops/petclinic-microservices) — 比較用のリファレンスマイクロサービスアーキテクチャ（オプション）
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — 3つの明確な境界付きコンテキスト（Articles、Users/Profiles、Comments）を持つSpring Boot 2.6.3モノリス
+  - [petclinic-microservices](https://github.com/codev-workshops/petclinic-microservices) — 比較用のリファレンスマイクロサービスアーキテクチャ（オプション）
 - **目標:** モノリスのドメイン境界を分析し、境界付きコンテキストを独自のAPI、Dockerfile、データベースを持つスタンドアロンマイクロサービスとして抽出し、Docker Composeでサービスを接続する
 
 #### ステップ1: Devinに貼り付け（このプロンプトをDevinにコピー＆ペースト）
@@ -338,9 +338,9 @@ Devinがステップ1の作業中に、**Ask Devin**を開いて探索しまし�
 
 - **モジュール:** [フレームワークアップグレード](../../labs/migration-modernization/framework-upgrade.md) + [反復的フレームワークアップグレード](../../labs/migration-modernization/repetitive-framework-upgrades.md)
 - **リポジトリ:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 / Java 11（EOL）→ Spring Boot 3.x / Java 17+（LTS）
-  - [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular) — Angularバージョンアップグレード
-  - [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld) — Angularバージョンアップグレード（並列比較用の2つ目のリポジトリ）
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 / Java 11（EOL）→ Spring Boot 3.x / Java 17+（LTS）
+  - [petclinic-angular](https://github.com/codev-workshops/petclinic-angular) — Angularバージョンアップグレード
+  - [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld) — Angularバージョンアップグレード（並列比較用の2つ目のリポジトリ）
 - **目標:** 複数のリポジトリ全体で並列Devinセッションを実行してフレームワークと言語バージョンをアップグレードする — エンタープライズスケールでの反復的アップグレードタスクのDevinの処理能力を実証する
 
 #### ステップ1: Devinに貼り付け（このプロンプトをDevinにコピー＆ペースト）
@@ -418,8 +418,8 @@ Devinがアップグレード作業中に、**Ask Devin**を開いて探索し�
 
 - **モジュール:** [言語翻訳](../../labs/migration-modernization/legacy-modernization-combined.md)
 - **リポジトリ:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot（Java）RealWorldアプリ — ソース言語
-  - [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld) — Angular（TypeScript）RealWorldアプリ — 代替ターゲットのリファレンス
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot（Java）RealWorldアプリ — ソース言語
+  - [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld) — Angular（TypeScript）RealWorldアプリ — 代替ターゲットのリファレンス
 - **目標:** Java Spring Bootのサービスレイヤーを同等のPython（Flask/FastAPI）アプリケーションに翻訳し、APIコントラクトを保持しパリティテストで機能的等価性を証明する。ソースとターゲットの両方がUbuntuでコンパイル・実行可能
 
 #### ステップ1: Devinに貼り付け（このプロンプトをDevinにコピー＆ペースト）
@@ -495,8 +495,8 @@ Devinがステップ1の作業中に、**Ask Devin**を開いて探索しまし�
 
 - **モジュール:** [新機能開発](../../labs/application-development/new-feature-development.md)
 - **リポジトリ:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.jsフルスタックアプリケーション
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot RealWorldアプリ（代替）
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.jsフルスタックアプリケーション
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot RealWorldアプリ（代替）
 - **目標:** 既存のアプリケーションに新機能を構築し、PRレビューが実装の潜在的なバグや問題を自動的にフラグする様子を観察し、Devinにフィードバックに対応させる
 
 #### ステップ1: Ask Devinから始める（推奨）
@@ -560,9 +560,9 @@ Add an "article statistics" feature to uc-spring-boot-upgrade-microservice-extra
 
 - **モジュール:** [ユニットテスト](../../labs/testing-qa/unit-testing.md) + [BDDテスト生成](../../labs/testing-qa/bdd-test-generation.md)
 - **リポジトリ:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — 既存のJUnitインフラストラクチャを持つSpring Bootアプリ
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — Jestテスト付きのReact + Node.jsアプリ（代替）
-  - [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDDフレームワーク（代替）
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — 既存のJUnitインフラストラクチャを持つSpring Bootアプリ
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — Jestテスト付きのReact + Node.jsアプリ（代替）
+  - [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDDフレームワーク（代替）
 - **目標:** 既存のテストカバレッジを分析し、テスト不足のモジュールに意味のあるテストを生成し、オプションでREST API用のBDDテストシナリオを作成する
 
 #### ステップ1: Devinに貼り付け（このプロンプトをDevinにコピー＆ペースト）
@@ -634,8 +634,8 @@ Devinがステップ1の作業中に、**Ask Devin**を開いて探索しまし�
 
 - **モジュール:** [エンドツーエンドテスト](../../labs/testing-qa/end-to-end-testing.md) + [ランタイムバグの修正](../../labs/application-development/fix-runtime-bug.md)
 - **リポジトリ:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.jsフルスタックアプリケーション
-  - [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDDフレームワーク（代替）
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.jsフルスタックアプリケーション
+  - [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDDフレームワーク（代替）
 - **目標:** 実行中のアプリケーションに対してE2Eテストを作成・実行し、テストを通じて問題を発見し、修正する — テスト→発見→修正の完全なサイクルを実証する
 
 このラボはテストの全体像を完成させます：ユニットテスト（ラボC2）を追加した後、アプリケーションをエンドツーエンドで実行し、完全なユーザーワークフローを実行するPlaywrightテストを作成し、テストを通じて問題を発見し、見つけたものを修正します。

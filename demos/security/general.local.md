@@ -108,7 +108,7 @@ Then within the session:
 
 ```
 /handoff Remediate all HIGH and CRITICAL Trivy
-findings on the Cognition-Partner-Workshops/otterworks
+findings on the codev-workshops/otterworks
 repo. Triage findings by service directory. For each
 finding, apply the fix (dependency upgrade or code
 change) in the correct manifest or source file. Run
@@ -155,7 +155,7 @@ session spawn children. Start a session and hand off:
 
 ```
 /handoff You are coordinating a security remediation
-across the Cognition-Partner-Workshops/otterworks
+across the codev-workshops/otterworks
 repository. Run the security scan and capture the
 output. Create a SECURITY_BACKLOG.md listing all
 CRITICAL and HIGH findings organized by service or

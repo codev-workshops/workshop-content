@@ -67,7 +67,7 @@ Intermediate
 
 ### <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot monolith with both REST and GraphQL APIs, DGS framework integration, and multiple data access patterns — rich ground for architectural decision documentation.
 
@@ -95,7 +95,7 @@ Open the repo's DeepWiki page to understand the full architecture — the dual A
 
 ### <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express backend with a React frontend — a different tech stack that exercises Devin's ability to recognize architecture decisions across languages and frameworks.
 

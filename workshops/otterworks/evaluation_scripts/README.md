@@ -7,7 +7,7 @@ Automated evaluation prompts for verifying lab completion. Each script is design
 Create a Devin session via the v3 API with the evaluation prompt as the task. Replace the template variables:
 
 - `{{user_email}}` — email or user ID of the participant being evaluated
-- `{{git_repo}}` — the participant's fork or the shared repo (e.g. `Cognition-Partner-Workshops/otterworks`)
+- `{{git_repo}}` — the participant's fork or the shared repo (e.g. `codev-workshops/otterworks`)
 - `{{branch_or_pr}}` — the branch name or PR number to evaluate (e.g. `workshop-attendee-42` or `PR #120`)
 
 Each evaluation returns a structured `RESULT: PASS | FAIL` with per-criterion breakdown and a summary explanation for any failures.

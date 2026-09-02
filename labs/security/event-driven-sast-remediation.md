@@ -101,7 +101,7 @@ Advanced
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Has existing `sast-scan.yml` and `pr-checks.yml` workflows that already demonstrate a version of this pattern. Participants will study the existing implementation and extend it into a full event-driven remediation pipeline.
 
@@ -150,7 +150,7 @@ Open the repo's DeepWiki page to understand the existing CI/CD setup and the `sa
 
 ## <a id="uc-cve-remediation-regulatory-compliance"></a>uc-cve-remediation-regulatory-compliance
 
-**Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance)
+**Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance)
 
 No existing CI workflows — build the entire event-driven SAST pipeline from scratch. Has OWASP Dependency-Check and SonarQube Gradle plugins pre-configured for scanning.
 

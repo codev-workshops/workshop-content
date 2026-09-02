@@ -32,6 +32,6 @@ Challenges focused on dependency management, vulnerability remediation, security
 - Paired with [Testing & QA](../testing-qa/) for a "quality + security" half-day workshop
 - Secrets Management & Detection covers a common compliance requirement across industries
 - Event-Driven SAST Remediation and Mass Security Backlog Remediation are **enterprise modules** — agent orchestration at organizational scale
-- See the [Enterprise Demo Track](../../events/enterprise-demo-track/README.md) for a lab sequence using these advanced modules
+- See the [Enterprise Security Automation Workshop](../../workshops/by-tech-domain/security/enterprise-automation/README.md) for a lab sequence using these advanced modules
 - The `uc-cve-remediation-regulatory-compliance` repo was specifically curated for these challenges (Spring Boot 2.6.3 with known vulnerable dependencies)
 - For license, GDPR, and regulatory compliance challenges, see [Compliance & Governance](../compliance-governance/)

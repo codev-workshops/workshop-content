@@ -81,7 +81,7 @@ Already comfortable with Devin basics? Jump straight to the labs:
 
 **Value driver:** *Devin identifies known CVEs in project dependencies, upgrades to patched versions, fixes breaking API changes, and documents remediation — compressing a manual security review into a single session.*
 
-- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance)
+- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance)
 - **Modules:** [Remediate Vulnerabilities](../../../labs/security/remediate-vulnerabilities.md), [Upgrade Dependencies](../../../labs/security/upgrade-dependencies.md)
 
 This Spring Boot 2.6.3 application ships with known CVEs including Spring4Shell (CVSS 9.8), SnakeYAML unsafe deserialization (CVSS 9.8), and multiple Spring Security bypasses. OWASP Dependency-Check and SonarQube are pre-configured as Gradle plugins.
@@ -143,7 +143,7 @@ When Devin opens a PR:
 
 **Value driver:** *Devin reads a real mainframe COBOL application that most modern engineers can't understand, reverse-engineers the data model and business logic, and translates a selected program to Java 17+ with JUnit parity tests — compressing weeks of SME interviews into a single session.*
 
-- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 - **Modules:** [COBOL to Java](../../../labs/migration-modernization/cobol-to-java.md), [COBOL System Understanding](../../../labs/migration-modernization/cobol-system-understanding.md)
 
 The CardDemo application is a real mainframe credit card management system with 29 COBOL programs, 30 copybooks defining record layouts (accounts, customers, cards, transactions), and 17 BMS screen maps for 3270 terminal interactions. Participants will ask Devin to analyze the COBOL estate and translate a batch processing program to Java.
@@ -215,7 +215,7 @@ When Devin opens a PR:
 
 **Value driver:** *Devin reads legacy SAS analytics code and sample datasets without requiring a SAS license, translates macro logic to Python/pandas, and generates Snowflake-compatible DDL and loading scripts — a non-invasive migration approach that works from static analysis alone.*
 
-- **Repositories:** [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) + [uc-data-migration-sas-to-snowflake](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-snowflake)
+- **Repositories:** [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) + [uc-data-migration-sas-to-snowflake](https://github.com/codev-workshops/uc-data-migration-sas-to-snowflake)
 - **Module:** [SAS to Python/Snowflake](../../../labs/data-engineering/sas-to-python-snowflake.md)
 
 The SAS codebase contains 90+ macros covering data export, transformation, deduplication, and formatting operations. The Snowflake migration repo includes sample banking datasets (CUST_ACCOUNTS, DAILY_BALANCE, MONTHLY_AMB) in both SAS7BDAT and CSV formats, lineage metadata, and two migration scenarios with before/after data snapshots.
@@ -296,7 +296,7 @@ When Devin opens PRs (you may see 2 — one per repo):
 
 **Value driver:** *Devin analyzes a monolith's domain boundaries, documents extraction decisions, extracts a bounded context into a standalone service, and wires up cross-service communication — typically in a single session.*
 
-- **Repository:** [uc-framework-upgrade-monolith-to-microservices](https://github.com/Cognition-Partner-Workshops/uc-framework-upgrade-monolith-to-microservices)
+- **Repository:** [uc-framework-upgrade-monolith-to-microservices](https://github.com/codev-workshops/uc-framework-upgrade-monolith-to-microservices)
 - **Modules:** [Containerization & Microservice Extraction](../../../labs/migration-modernization/containerization-microservice-extraction.md)
 
 This is a Spring Boot 2.6.3 / Java 11 monolith implementing the RealWorld blogging platform (Conduit) with 4 domain contexts: articles/tags, comments, favorites, and users/profiles. It has REST and GraphQL (DGS) APIs, MyBatis persistence with SQLite, Flyway migrations, and a Next.js frontend. The repo has pre-cached Gradle dependencies for fast builds. Participants will ask Devin to analyze domain boundaries, document extraction decisions, and extract a bounded context into a standalone service.
@@ -368,7 +368,7 @@ Participants who want to keep exploring after the main labs can try these additi
 
 ### Activity 1: Java Framework Upgrade (Spring Boot 2.x → 3.x)
 
-- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Module:** [Framework Upgrade](../../../labs/migration-modernization/framework-upgrade.md)
 - **Shows:** Devin handling a major framework upgrade — javax→jakarta namespace migration, Spring Security 6 lambda DSL changes, and dependency compatibility fixes across a monolith with 80% test coverage
 
@@ -398,7 +398,7 @@ Handle the full upgrade checklist:
 
 ### Activity 2: COBOL Estate Discovery (Full Reverse Engineering)
 
-- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 - **Module:** [COBOL System Understanding](../../../labs/migration-modernization/cobol-system-understanding.md)
 - **Shows:** Devin reverse-engineering a complete COBOL estate — application inventory, data dictionary, dependency map, and hotspot report — the discovery phase that normally takes weeks of SME interviews
 
@@ -427,7 +427,7 @@ artifacts:
 
 ### Activity 3: SAS → dbt/Databricks Assessment
 
-- **Repositories:** [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) + [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks)
+- **Repositories:** [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) + [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks)
 - **Module:** [SAS Migration Analysis](../../../labs/data-engineering/sas-migration-analysis.md)
 - **Shows:** Devin performing broad estate discovery on a SAS codebase and mapping constructs to dbt/Databricks equivalents
 
@@ -452,7 +452,7 @@ dbt on Databricks.
 
 ### Activity 4: Angular to React UI Migration
 
-- **Repository:** [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular)
+- **Repository:** [petclinic-angular](https://github.com/codev-workshops/petclinic-angular)
 - **Module:** [Framework Upgrade](../../../labs/migration-modernization/framework-upgrade.md)
 - **Shows:** Devin mapping a backend API contract, writing a migration test suite as a safety net, then rewriting an Angular frontend in React — using parent-child session orchestration to parallelize the work
 
@@ -493,7 +493,7 @@ and visits.
 
 ### Activity 5: OtterWorks Polyglot Microservices
 
-- **Repository:** [otterworks](https://github.com/Cognition-Partner-Workshops/otterworks)
+- **Repository:** [otterworks](https://github.com/codev-workshops/otterworks)
 - **Shows:** Hands-on with a polyglot microservices platform (Rust, Go, Java, Kotlin, Python, Ruby, Node.js, TypeScript). Choose from security sprints, incident investigation, framework upgrades, observability, or language translation tasks.
 - **Workshop Reference:** See the [OtterWorks workshop](../../../workshops/otterworks/README.md) for the full menu of 9 labs across 3 tracks.
 
@@ -542,20 +542,20 @@ A few things to be aware of as you work through the labs:
 
 | Lab | Repository | Purpose |
 |-----|-----------|---------|
-| Lab 1 | [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) | Spring Boot 2.6.3 with known CVEs |
-| Lab 2 | [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java) | COBOL CardDemo application — migration source |
-| Lab 3 | [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) | Legacy SAS analytics codebase |
-| Lab 3 | [uc-data-migration-sas-to-snowflake](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-snowflake) | SAS-to-Snowflake migration toolkit |
-| Lab 4 | [uc-framework-upgrade-monolith-to-microservices](https://github.com/Cognition-Partner-Workshops/uc-framework-upgrade-monolith-to-microservices) | Spring Boot 2.6.3 monolith — extraction source (pre-cached) |
+| Lab 1 | [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) | Spring Boot 2.6.3 with known CVEs |
+| Lab 2 | [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java) | COBOL CardDemo application — migration source |
+| Lab 3 | [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) | Legacy SAS analytics codebase |
+| Lab 3 | [uc-data-migration-sas-to-snowflake](https://github.com/codev-workshops/uc-data-migration-sas-to-snowflake) | SAS-to-Snowflake migration toolkit |
+| Lab 4 | [uc-framework-upgrade-monolith-to-microservices](https://github.com/codev-workshops/uc-framework-upgrade-monolith-to-microservices) | Spring Boot 2.6.3 monolith — extraction source (pre-cached) |
 
 **Follow-on activities (optional):**
-- [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 monolith (Activity 1)
-- [ts-cobol-carddemo](https://github.com/Cognition-Partner-Workshops/ts-cobol-carddemo) — COBOL CardDemo (fork for COBOL-specific labs)
-- [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks) — dbt/Databricks target for SAS migration
-- [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular) — Angular 16 frontend (Activity 4)
-- [ts-java-spring-petclinic-rest-api](https://github.com/Cognition-Partner-Workshops/ts-java-spring-petclinic-rest-api) — REST API backend (Activity 4 reference)
-- [otterworks](https://github.com/Cognition-Partner-Workshops/otterworks) — Polyglot microservices platform (Activity 5)
-- [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack app
+- [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 monolith (Activity 1)
+- [ts-cobol-carddemo](https://github.com/codev-workshops/ts-cobol-carddemo) — COBOL CardDemo (fork for COBOL-specific labs)
+- [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks) — dbt/Databricks target for SAS migration
+- [petclinic-angular](https://github.com/codev-workshops/petclinic-angular) — Angular 16 frontend (Activity 4)
+- [petclinic-rest-api](https://github.com/codev-workshops/petclinic-rest-api) — REST API backend (Activity 4 reference)
+- [otterworks](https://github.com/codev-workshops/otterworks) — Polyglot microservices platform (Activity 5)
+- [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack app
 
 ## Devin Features Checklist
 

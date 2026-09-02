@@ -55,7 +55,7 @@ Devin auto-loads when working there.
 ## Quick Start
 
 ```bash
-git clone https://github.com/Cognition-Partner-Workshops/otterworks
+git clone https://github.com/codev-workshops/otterworks
 cd otterworks
 
 make procs-up NS=demo          # legacy Postgres + procs + thin Flask app, and the extracted service
@@ -78,7 +78,7 @@ legacy app on `8944` and the billing service on `12944`.
 <a id="repository"></a>
 ## Repository
 
-- [otterworks](https://github.com/Cognition-Partner-Workshops/otterworks) — everything is in one repo:
+- [otterworks](https://github.com/codev-workshops/otterworks) — everything is in one repo:
   - `services/legacy-billing/` — the **before**: a billing estate whose rules live in `db/procs/{plans,rating,invoicing,dunning}.sql`, fronted by a deliberately thin Flask app that only binds parameters, calls `billing.fn_*` / `billing.sp_*`, and renders the result. No rule is duplicated in Python.
   - `services/industry-solutions/insurance/` — the **Oracle before**: the Commission Pay fixture on an Oracle Database Free container (zero license cost, full PL/SQL fidelity), with the commission-rate and split-commission business rules in the `COMMISSION_PAY` PL/SQL package and an OLAP star schema in `COMMISSION_DW`, plus seed data and PL/SQL test suites. Run it with `make insurance-up NS=<ns>`, `make insurance-test NS=<ns>`, `make insurance-down NS=<ns>`. Use it when the demo should start from real Oracle PL/SQL.
   - `procs/` — the controls: `scenarios/` (24 scenarios across the four modules), `transcripts/` (the immutable recordings plus `SOURCE_SHA` and `FIXTURE_SHA`), `rules/` (the approved ledgers), `routes.yaml` (the mapping contract), `harness/`, `reports/`.
@@ -164,7 +164,7 @@ Nothing here changes code. The output is the map an extraction plan needs, and
 the module boundaries it will respect.
 
 ```
-Using the Cognition-Partner-Workshops/otterworks repo, map the stored-procedure
+Using the codev-workshops/otterworks repo, map the stored-procedure
 estate under services/legacy-billing/db:
 
 - every procedure and function in db/procs/*.sql: its signature, the tables it
@@ -185,7 +185,7 @@ Then the question that decides the plan.
 
 ```
 For the four modules (plans, rating, invoicing, dunning) in
-Cognition-Partner-Workshops/otterworks, tell me which business rules are
+codev-workshops/otterworks, tell me which business rules are
 implemented *only* in SQL and would be lost if someone rewrote these procedures
 from the documentation. Quote the exact lines.
 
@@ -242,7 +242,7 @@ Now Devin derives the rules — and, more importantly, tells you what it is not
 sure about.
 
 ```
-In Cognition-Partner-Workshops/otterworks, derive the business rules of the
+In codev-workshops/otterworks, derive the business rules of the
 rating module from services/legacy-billing/db/procs/rating.sql and write the
 ledger at procs/rules/rating.rules.yaml, following the format and field set of
 the approved procs/rules/plans.rules.yaml exactly.
@@ -292,7 +292,7 @@ rule list.
 ```
 !stored-procs-to-microservices
 
-Module: rating, in Cognition-Partner-Workshops/otterworks —
+Module: rating, in codev-workshops/otterworks —
 billing.fn_usage_rating, billing.fn_usage_summary and
 billing.sp_finalize_rating in services/legacy-billing/db/procs/rating.sql.
 
@@ -381,7 +381,7 @@ wave parallelizes.
 
 ```
 Fan out the remaining billing modules in
-Cognition-Partner-Workshops/otterworks. Spawn one child session per pending
+codev-workshops/otterworks. Spawn one child session per pending
 module — invoicing and dunning — each following
 !stored-procs-to-microservices in its own namespace, on its own branch:
 
@@ -419,7 +419,7 @@ consume it. The plans screens under
 extracted service's API, and no screen contains a rule.
 
 ```
-In Cognition-Partner-Workshops/otterworks, add the React screens for the newly
+In codev-workshops/otterworks, add the React screens for the newly
 extracted rating module under frontend/client-app/src/features/billing/,
 following how the plans screens are built: a usage/rating view for a tenant and
 a period, driven only by the billing service's API.
@@ -438,7 +438,7 @@ Then harden what the extraction produced, which is safe to do precisely because
 behavior is pinned:
 
 ```
-Harden the billing service in Cognition-Partner-Workshops/otterworks:
+Harden the billing service in codev-workshops/otterworks:
 
 - one test per approved rule, tagged with its rule id, so a future refactor
   cannot silently drop a rule the ledger says exists
@@ -460,7 +460,7 @@ rather than by a customer:
 
 ```
 Create a scheduled Devin that runs every weekday at 07:00 UTC against
-Cognition-Partner-Workshops/otterworks:
+codev-workshops/otterworks:
 
 Run `make procs-up NS=nightly && make procs-rules-gate ALL=1 && make
 procs-parity NS=nightly && make procs-down NS=nightly`. If everything passes,

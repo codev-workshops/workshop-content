@@ -9,7 +9,7 @@ PR with green component + parity gates.
 
 The prompts below invoke the `!convert-mulesoft-to-boomi` Devin Playbook — the
 reusable conversion procedure — whose source lives in the code repo at
-[`uc-api-migration-mulesoft-to-boomi/.workshop/playbooks/convert-mulesoft-to-boomi.devin.md`](https://github.com/Cognition-Partner-Workshops/uc-api-migration-mulesoft-to-boomi/blob/main/.workshop/playbooks/convert-mulesoft-to-boomi.devin.md).
+[`uc-api-migration-mulesoft-to-boomi/.workshop/playbooks/convert-mulesoft-to-boomi.devin.md`](https://github.com/codev-workshops/uc-api-migration-mulesoft-to-boomi/blob/main/.workshop/playbooks/convert-mulesoft-to-boomi.devin.md).
 The repo-specific `make validate` / `make parity` mechanics come from that
 repo's Skill (`.agents/skills/mulesoft-to-boomi-migration/SKILL.md`).
 
@@ -50,8 +50,8 @@ Prerequisites: Docker, Python 3.11+, and [uv](https://docs.astral.sh/uv/).
 <a id="repositories"></a>
 ## Repositories
 
-- [ts-java-mulesoft-employee-api](https://github.com/Cognition-Partner-Workshops/ts-java-mulesoft-employee-api) — the MuleSoft Mule 4 source estate: Mule XML flows for OAuth2, employee goals, learning status, pay date, and PTO; the RAML spec; PostgreSQL integration. Read-only reference for the "before".
-- [uc-api-migration-mulesoft-to-boomi](https://github.com/Cognition-Partner-Workshops/uc-api-migration-mulesoft-to-boomi) — the Boomi target: the vendored source contract (`contracts/source/`), estate inventory tooling (`inventory/`), an empty component scaffold (`boomi/components/`) with a closed-set component schema, a golden-fixture parity harness with a local process runner (`harness/`), the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
+- [ts-java-mulesoft-employee-api](https://github.com/codev-workshops/ts-java-mulesoft-employee-api) — the MuleSoft Mule 4 source estate: Mule XML flows for OAuth2, employee goals, learning status, pay date, and PTO; the RAML spec; PostgreSQL integration. Read-only reference for the "before".
+- [uc-api-migration-mulesoft-to-boomi](https://github.com/codev-workshops/uc-api-migration-mulesoft-to-boomi) — the Boomi target: the vendored source contract (`contracts/source/`), estate inventory tooling (`inventory/`), an empty component scaffold (`boomi/components/`) with a closed-set component schema, a golden-fixture parity harness with a local process runner (`harness/`), the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
 
 ---
 
@@ -124,7 +124,7 @@ catches a divergence.
 !convert-mulesoft-to-boomi
 
 Convert the employee goals route from the MuleSoft estate into a Boomi
-process component in Cognition-Partner-Workshops/uc-api-migration-mulesoft-to-boomi.
+process component in codev-workshops/uc-api-migration-mulesoft-to-boomi.
 
 - MuleSoft source: contracts/source/employee-services-api.xml
   (the get:\employee\(employeeId)\goals flow and validate-token-subflow)
@@ -171,7 +171,7 @@ branch with its own verified PR. Paste:
 ```
 Act as the orchestrator for a MuleSoft-to-Boomi migration, using child
 Devin sessions to parallelize the work in
-Cognition-Partner-Workshops/uc-api-migration-mulesoft-to-boomi.
+codev-workshops/uc-api-migration-mulesoft-to-boomi.
 
 Spawn one child Devin session per route group below. Give each child its
 own namespace branch (migration/child1, child2, ...) and tell it to

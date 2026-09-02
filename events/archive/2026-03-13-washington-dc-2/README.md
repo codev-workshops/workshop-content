@@ -14,7 +14,7 @@ This event features 4 structured labs using purpose-built repositories, focused 
 
 ### Lab 1 — Automated Pod Remediation After Credential Rotations (60 min)
 - **Module:** [Pod Remediation After Credential Rotation After Credential Rotation](../../../labs/observability-sre/pod-remediation-credential-rotation.md)
-- **Repository:** [uc-pod-remediation-credential-rotation](https://github.com/Cognition-Partner-Workshops/uc-pod-remediation-credential-rotation)
+- **Repository:** [uc-pod-remediation-credential-rotation](https://github.com/codev-workshops/uc-pod-remediation-credential-rotation)
 - **Objective:** Explore a multi-agent Python system that automates detection, approval, and remediation of pod failures caused by credential rotations — enhance it with emergency rotation detection
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -55,7 +55,7 @@ See the full challenge details for [Pod Remediation After Credential Rotation](.
 
 ### Lab 2 — Document Review Automation for Loan Processing (45 min)
 - **Module:** [Document Review Automation](../../../labs/technical-documentation/document-review-automation.md)
-- **Repository:** [uc-document-review-automation](https://github.com/Cognition-Partner-Workshops/uc-document-review-automation)
+- **Repository:** [uc-document-review-automation](https://github.com/codev-workshops/uc-document-review-automation)
 - **Objective:** Work with a multi-agent document review system — enhance the fuzzy matching comparator with an alternative string similarity strategy and evaluate accuracy
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -95,7 +95,7 @@ See the full challenge details for [Document Review Automation](../../../labs/te
 
 ### Lab 3 — BDD Test Case Generation for REST APIs (60 min)
 - **Module:** [BDD Test Generation](../../../labs/testing-qa/bdd-test-generation.md)
-- **Repositories:** [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber), [ts-java-swagger-petstore](https://github.com/Cognition-Partner-Workshops/ts-java-swagger-petstore)
+- **Repositories:** [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber), [ts-java-swagger-petstore](https://github.com/codev-workshops/ts-java-swagger-petstore)
 - **Objective:** Generate BDD test cases from a Swagger/OpenAPI specification and produce executable Cucumber tests covering happy paths, error cases, and edge cases
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -135,7 +135,7 @@ See the full challenge details for [BDD Test Generation](../../../labs/testing-q
 
 ### Lab 4 — Volume-Based Anomaly Detection (60 min)
 - **Module:** [Volume Anomaly Detection](../../../labs/observability-sre/volume-anomaly-detection.md)
-- **Repository:** [uc-volume-anomaly-detection](https://github.com/Cognition-Partner-Workshops/uc-volume-anomaly-detection)
+- **Repository:** [uc-volume-anomaly-detection](https://github.com/codev-workshops/uc-volume-anomaly-detection)
 - **Objective:** Work with a multi-agent anomaly detection framework — enhance the seasonal detector to support a time-of-day-only mode and evaluate detection accuracy
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)

@@ -69,7 +69,7 @@ Intermediate
 
 ### <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express with SQLite — add or modify database migrations to support new features or schema improvements.
 
@@ -97,7 +97,7 @@ Open the repo's DeepWiki page to understand the current database schema and ORM 
 
 ### <a id="uc-data-source-migration-jdbc-normalization"></a>uc-data-source-migration-jdbc-normalization
 
-**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 
 Spring Boot with JPA and H2 — add Flyway migrations for schema evolution.
 
@@ -125,7 +125,7 @@ Open the repo's DeepWiki page to understand the current schema setup and JPA ent
 
 ### <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot with Flyway and MyBatis — add new migrations for schema changes.
 

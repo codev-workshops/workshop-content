@@ -76,7 +76,7 @@ Intermediate to Advanced
 
 ### <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 React + Node.js/Express timesheet application — add LLM-powered smart categorization or description summarization for timesheet entries.
 
@@ -104,7 +104,7 @@ Open the repo's DeepWiki page to understand the entry data model and existing ca
 
 ### <a id="uc-document-review-automation"></a>uc-document-review-automation
 
-**Repository:** [uc-document-review-automation](https://github.com/Cognition-Partner-Workshops/uc-document-review-automation)
+**Repository:** [uc-document-review-automation](https://github.com/codev-workshops/uc-document-review-automation)
 
 Document review automation repository — enhance with LLM-powered summarization and key finding extraction for reviewed documents.
 

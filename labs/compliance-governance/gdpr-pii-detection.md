@@ -8,7 +8,7 @@
 - [What Participants Will Learn](#what-participants-will-learn)
 - [Devin Features Exercised](#devin-features-exercised)
 - [timesheet-app](#timesheet-app)
-- [Online-Banking-System-using-Java](#online-banking-system-using-java)
+- [Online-Banking-System-using-Java](#Online-Banking-System-using-Java)
 - [Going Further](#going-further)
 
 ## Repositories
@@ -74,7 +74,7 @@ Intermediate to Advanced
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express timesheet application that handles user data including names, emails, and authentication credentials — a realistic target for PII analysis.
 
@@ -121,7 +121,7 @@ Open the repo's DeepWiki page to understand the authentication flow, database sc
 
 ## <a id="Online-Banking-System-using-Java"></a>Online-Banking-System-using-Java
 
-**Repository:** [Online-Banking-System-using-Java](https://github.com/Cognition-Partner-Workshops/Online-Banking-System-using-Java)
+**Repository:** [Online-Banking-System-using-Java](https://github.com/codev-workshops/Online-Banking-System-using-Java)
 
 Java banking application handling sensitive customer financial and personal data — a high-stakes PII environment where compliance gaps have real regulatory impact.
 

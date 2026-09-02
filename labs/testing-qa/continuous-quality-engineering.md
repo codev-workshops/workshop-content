@@ -89,7 +89,7 @@ Advanced
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express + React application — use for an initial quality audit and Playbook creation.
 
@@ -158,7 +158,7 @@ This is how teams use Devin for continuous code hygiene — the QA equivalent of
 
 ## <a id="uc-bdd-test-generation-cucumber"></a>uc-bdd-test-generation-cucumber
 
-**Repository:** [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber)
+**Repository:** [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber)
 
 Spring Boot + Cucumber BDD framework — use for continuous BDD coverage monitoring and scenario gap detection.
 
@@ -212,7 +212,7 @@ Playbook: BDD Coverage Audit
 
 ## <a id="petclinic-angular"></a>petclinic-angular
 
-**Repository:** [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular)
+**Repository:** [petclinic-angular](https://github.com/codev-workshops/petclinic-angular)
 
 Angular frontend — use for continuous frontend test quality monitoring across component tests and E2E tests.
 

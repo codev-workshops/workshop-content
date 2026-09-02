@@ -77,7 +77,7 @@ Intermediate
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 React + Material-UI frontend with multiple pages (Dashboard, Clients, Work Entries, Reports) — suitable for visual regression testing.
 
@@ -118,7 +118,7 @@ Open the repo's DeepWiki page to understand the frontend page structure and Mate
 
 ## <a id="calcom"></a>calcom
 
-**Repository:** [calcom](https://github.com/Cognition-Partner-Workshops/calcom)
+**Repository:** [calcom](https://github.com/codev-workshops/calcom)
 
 Full-featured scheduling platform with a complex UI — extensive visual surfaces including booking flows, event type configuration, and availability management.
 

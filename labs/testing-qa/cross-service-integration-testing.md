@@ -106,7 +106,7 @@ Intermediate
 
 ## <a id="quickapp-monolith"></a>quickapp-monolith
 
-**Repository:** [quickapp-monolith](https://github.com/Cognition-Partner-Workshops/quickapp-monolith)
+**Repository:** [quickapp-monolith](https://github.com/codev-workshops/quickapp-monolith)
 
 The monolith should have been refactored in MM15 to call the Order service via HTTP. The integration tests validate this HTTP boundary.
 
@@ -174,7 +174,7 @@ Review both repos to understand the HTTP contract:
 
 ## <a id="quickapp-microservices"></a>quickapp-microservices
 
-**Repository:** [quickapp-microservices](https://github.com/Cognition-Partner-Workshops/quickapp-microservices)
+**Repository:** [quickapp-microservices](https://github.com/codev-workshops/quickapp-microservices)
 
 The extracted Order service with REST endpoints. Integration tests validate the contract from the monolith's perspective.
 

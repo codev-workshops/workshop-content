@@ -9,7 +9,7 @@ parallel and confirms completion in the database.
 
 The prompts below invoke the `!generate-testdata` Devin Playbook — the reusable
 generation procedure — whose source lives in the code repo at
-[`otterworks/.workshop/playbooks/synthetic-testdata-generation.devin.md`](https://github.com/Cognition-Partner-Workshops/otterworks/blob/main/.workshop/playbooks/synthetic-testdata-generation.devin.md).
+[`otterworks/.workshop/playbooks/synthetic-testdata-generation.devin.md`](https://github.com/codev-workshops/otterworks/blob/main/.workshop/playbooks/synthetic-testdata-generation.devin.md).
 The repo-specific `make testdata-validate` / `make testdata-clean` mechanics
 come from that repo's Skill
 (`.agents/skills/synthetic-testdata-generation/SKILL.md`).
@@ -52,7 +52,7 @@ OtterWorks credentials set via environment variables.
 <a id="repositories"></a>
 ## Repositories
 
-- [otterworks](https://github.com/Cognition-Partner-Workshops/otterworks) — the
+- [otterworks](https://github.com/codev-workshops/otterworks) — the
   polyglot microservices platform with real Postgres schemas (auth-service
   Flyway migrations + admin-service Rails schema), the validation harness
   (`testdata/`), the playbook source (`.workshop/playbooks/`), and the repo
@@ -88,7 +88,7 @@ DeepWiki over the repo, Devin typically maps an unfamiliar schema in minutes
 (coverage depends on repo structure).
 
 ```
-Using the Cognition-Partner-Workshops/otterworks repo, give me a map of
+Using the codev-workshops/otterworks repo, give me a map of
 the database schema across all services: the tables in auth-service
 (Flyway migrations) and admin-service (Rails schema.rb), their columns,
 types, FK relationships, enum constraints, and business rules. Identify
@@ -120,7 +120,7 @@ validate everything passes.
 
 - Issue: #376
 - Namespace: dev
-- Repo: Cognition-Partner-Workshops/otterworks
+- Repo: codev-workshops/otterworks
 ```
 
 **The verification beat (the real bug).** A natural implementation generates
@@ -173,7 +173,7 @@ spawns child Devin sessions per issue and monitors them:
 Act as the orchestrator for synthetic test-data generation across multiple
 GitHub Issues, using child Devin sessions to parallelize the work.
 
-Repo: Cognition-Partner-Workshops/otterworks
+Repo: codev-workshops/otterworks
 
 Spawn one child Devin session per issue below. Give each child the repo, its
 own namespace, and tell it to follow the !generate-testdata playbook: read the
@@ -283,7 +283,7 @@ lower environments stocked with fresh, validated datasets:
 
 ```
 Every night at 2 AM UTC, run !generate-testdata against Issues labeled
-testdata-refresh in the Cognition-Partner-Workshops/otterworks repo,
+testdata-refresh in the codev-workshops/otterworks repo,
 namespace nightly.
 ```
 
@@ -296,7 +296,7 @@ Set up an automation triggered when a new issue is labeled `testdata`:
 
 ```
 When a GitHub Issue is labeled testdata on the
-Cognition-Partner-Workshops/otterworks repo, start a Devin session that
+codev-workshops/otterworks repo, start a Devin session that
 invokes !generate-testdata with the issue number and namespace derived
 from the issue ID.
 ```

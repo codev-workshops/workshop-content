@@ -70,10 +70,10 @@ Replace `<attendee_id>` with a unique identifier (e.g., name, employee ID). All 
 
 - **Module:** [.NET Monolith Decomposition with Local Hosting](../../../../labs/migration-modernization/dotnet-monolith-decomposition.md)
 - **Repositories:**
-  - [quickapp-monolith](https://github.com/Cognition-Partner-Workshops/quickapp-monolith) — .NET + Angular monolith (source)
-  - [quickapp-microservices](https://github.com/Cognition-Partner-Workshops/quickapp-microservices) — target scaffold (reference)
-  - [quickapp-iac](https://github.com/Cognition-Partner-Workshops/quickapp-iac) — Helm charts (context)
-  - [platform-engineering-shared-services](https://github.com/Cognition-Partner-Workshops/platform-engineering-shared-services) — EKS platform standard (context)
+  - [quickapp-monolith](https://github.com/codev-workshops/quickapp-monolith) — .NET + Angular monolith (source)
+  - [quickapp-microservices](https://github.com/codev-workshops/quickapp-microservices) — target scaffold (reference)
+  - [quickapp-iac](https://github.com/codev-workshops/quickapp-iac) — Helm charts (context)
+  - [platform-engineering-shared-services](https://github.com/codev-workshops/platform-engineering-shared-services) — EKS platform standard (context)
 - **Objective:** Extract the Order bounded context into a standalone .NET microservice with Docker Compose for local testing
 - **Duration:** 75 min
 
@@ -140,7 +140,7 @@ Ask Devin to add concurrent order creation tests, contract backwards-compatibili
 
 - **Module:** [Cross-Service Bug Investigation](../../../../labs/migration-modernization/cross-service-bug-investigation.md)
 - **Repository:**
-  - [quickapp-microservices](https://github.com/Cognition-Partner-Workshops/quickapp-microservices)
+  - [quickapp-microservices](https://github.com/codev-workshops/quickapp-microservices)
 - **Objective:** Find and fix a visual bug in the Notification service where order confirmation emails show amounts 100x smaller than the actual order total
 - **Duration:** 45 min
 

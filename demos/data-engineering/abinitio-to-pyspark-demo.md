@@ -9,7 +9,7 @@ required — so it is fast to set up and safe to repeat.
 
 The prompts below invoke the `!convert-abinitio-to-pyspark` Devin Playbook — the
 reusable conversion procedure — whose source lives in the code repo at
-[`uc-data-migration-abinitio-to-pyspark/.workshop/playbooks/abinitio-to-pyspark-conversion.devin.md`](https://github.com/Cognition-Partner-Workshops/uc-data-migration-abinitio-to-pyspark/blob/main/.workshop/playbooks/abinitio-to-pyspark-conversion.devin.md).
+[`uc-data-migration-abinitio-to-pyspark/.workshop/playbooks/abinitio-to-pyspark-conversion.devin.md`](https://github.com/codev-workshops/uc-data-migration-abinitio-to-pyspark/blob/main/.workshop/playbooks/abinitio-to-pyspark-conversion.devin.md).
 The repo-specific `make demo-up` / `make reconcile` mechanics come from that
 repo's Skill (`.agents/skills/abinitio-to-pyspark-conversion/SKILL.md`).
 
@@ -53,8 +53,8 @@ in `out/<NS>/...`, so multiple runs (`NS=dev`, `NS=alice`, …) never collide.
 <a id="repositories"></a>
 ## Repositories
 
-- [ts-python-abinitio-etl](https://github.com/Cognition-Partner-Workshops/ts-python-abinitio-etl) — the legacy Ab Initio estate (graphs, DML record formats, PSET parameter sets, CDC, KornShell/AutoSys orchestration). Read-only reference for the "before".
-- [uc-data-migration-abinitio-to-pyspark](https://github.com/Cognition-Partner-Workshops/uc-data-migration-abinitio-to-pyspark) — the PySpark target: converted jobs, DML→StructType mapping, a local reconciliation harness, a deterministic seeder, the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
+- [ts-python-abinitio-etl](https://github.com/codev-workshops/ts-python-abinitio-etl) — the legacy Ab Initio estate (graphs, DML record formats, PSET parameter sets, CDC, KornShell/AutoSys orchestration). Read-only reference for the "before".
+- [uc-data-migration-abinitio-to-pyspark](https://github.com/codev-workshops/uc-data-migration-abinitio-to-pyspark) — the PySpark target: converted jobs, DML→StructType mapping, a local reconciliation harness, a deterministic seeder, the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
 
 ---
 
@@ -178,8 +178,8 @@ itself out across the wave. Paste:
 Act as the orchestrator for an Ab Initio->PySpark migration across multiple
 graphs, using child Devin sessions to parallelize the work.
 
-Repos: read Cognition-Partner-Workshops/ts-python-abinitio-etl (the Ab Initio
-source), write Cognition-Partner-Workshops/uc-data-migration-abinitio-to-pyspark.
+Repos: read codev-workshops/ts-python-abinitio-etl (the Ab Initio
+source), write codev-workshops/uc-data-migration-abinitio-to-pyspark.
 
 Spawn one child Devin session per pipeline below. Give each child both repos, its
 own namespace (NS=child1, child2, ...), and tell it to follow the
