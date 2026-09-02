@@ -172,7 +172,7 @@ Once Devin opens a PR from step 1, practice the feedback loop:
 - **Watch Devin respond** to your PR comment and push a fix — this is how real teams work with Devin
 - Try leaving inline comments on specific SQL statements to see how Devin handles dialect-level corrections
 
-See the full challenge details in [DW Migration: Teradata to Snowflake](../../../labs/data-engineering/dw-migration-teradata-to-snowflake.md) for more ideas — the repo includes a complete [Teradata features reference](https://github.com/codev-workshops/uc-dw-migration-teradata-to-snowflake/blob/initial-code/docs/teradata_features_reference.md) with Snowflake equivalents.
+See the full challenge details in [DW Migration: Teradata to Snowflake](../../../labs/data-engineering/dw-migration-teradata-to-snowflake.md) for more ideas — the repo includes a complete [Teradata features reference](https://github.com/codev-workshops/uc-dw-migration-teradata-to-snowflake/blob/main/docs/teradata_features_reference.md) with Snowflake equivalents.
 
 - **Target Outcomes (any of these count):**
   - Converted Snowflake DDL/DML for tables and views
