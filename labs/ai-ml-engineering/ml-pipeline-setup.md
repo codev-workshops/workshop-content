@@ -76,7 +76,7 @@ Advanced
 
 ### <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 React + Node.js/Express timesheet application with historical work entry data suitable for building a task duration prediction model.
 
@@ -104,7 +104,7 @@ Open the repo's DeepWiki page to understand the data model and API structure. Id
 
 ### <a id="uc-data-source-migration-jdbc-normalization"></a>uc-data-source-migration-jdbc-normalization
 
-**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 
 Spring Boot loan service with legacy and modern schemas — ideal for building a data quality scoring model that validates migrated records.
 

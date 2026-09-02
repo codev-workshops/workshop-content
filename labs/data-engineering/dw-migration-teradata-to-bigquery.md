@@ -121,7 +121,7 @@ Intermediate to Advanced
 
 ## <a id="uc-dw-migration-teradata-to-bigquery"></a>uc-dw-migration-teradata-to-bigquery
 
-**Repository:** [uc-dw-migration-teradata-to-bigquery](https://github.com/Cognition-Partner-Workshops/uc-dw-migration-teradata-to-bigquery)
+**Repository:** [uc-dw-migration-teradata-to-bigquery](https://github.com/codev-workshops/uc-dw-migration-teradata-to-bigquery)
 
 Teradata-based retail banking analytics data warehouse: 7 DDL tables (5 dimensions
 + 2 fact tables) in `ddl/tables/`, 3 views in `ddl/views/`, 3 stored procedures

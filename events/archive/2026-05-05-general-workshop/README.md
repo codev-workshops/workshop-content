@@ -58,7 +58,7 @@ Track A demonstrates Devin as a security and reliability agent. Participants wil
 ### Lab A1 — SAST Scans & Vulnerability Remediation
 
 - **Modules:** [Remediate Vulnerabilities](../../../labs/security/remediate-vulnerabilities.md) + [Shift Left Security](../../../labs/security/shift-left-security.md)
-- **Repositories:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance), [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repositories:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance), [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Objective:** Run SAST tools to identify vulnerabilities, remediate the most critical findings, and add security scanning to CI
 
 See [general workshop Lab A1](../../../workshops/general/README.md#lab-a1--sast-scans--vulnerability-remediation) for full instructions.
@@ -66,7 +66,7 @@ See [general workshop Lab A1](../../../workshops/general/README.md#lab-a1--sast-
 ### Lab A2 — Bug Fixes & Root Cause Analysis
 
 - **Modules:** [Fix Runtime Bug](../../../labs/application-development/fix-runtime-bug.md) + [Cross-Service Bug Investigation](../../../labs/migration-modernization/cross-service-bug-investigation.md)
-- **Repositories:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app), [quickapp-microservices](https://github.com/Cognition-Partner-Workshops/quickapp-microservices)
+- **Repositories:** [timesheet-app](https://github.com/codev-workshops/timesheet-app), [quickapp-microservices](https://github.com/codev-workshops/quickapp-microservices)
 - **Objective:** Find and fix bugs in running applications, perform root cause analysis
 
 See [general workshop Lab A2](../../../workshops/general/README.md#lab-a2--bug-fixes--root-cause-analysis) for full instructions.
@@ -74,7 +74,7 @@ See [general workshop Lab A2](../../../workshops/general/README.md#lab-a2--bug-f
 ### Lab A3 — Scheduled Dependency Hygiene
 
 - **Modules:** [Upgrade Dependencies](../../../labs/security/upgrade-dependencies.md)
-- **Repositories:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance), [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repositories:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance), [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Objective:** Set up recurring Devin scheduled sessions for automated dependency upgrades
 
 See [general workshop Lab A3](../../../workshops/general/README.md#lab-a3--scheduled-dependency-hygiene) for full instructions.
@@ -126,7 +126,7 @@ Track B demonstrates Devin handling large-scale structural changes to codebases.
 ### Lab B1 — Rearchitecting Monolith to Microservice
 
 - **Module:** [Containerization & Microservice Extraction](../../../labs/migration-modernization/containerization-microservice-extraction.md)
-- **Repositories:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repositories:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Objective:** Analyze domain boundaries in a monolith, extract a bounded context as a standalone microservice
 
 See [general workshop Lab B1](../../../workshops/general/README.md#lab-b1--rearchitecting-monolith-to-microservice) for full instructions.
@@ -134,14 +134,14 @@ See [general workshop Lab B1](../../../workshops/general/README.md#lab-b1--rearc
 ### Lab B2 — Upgrading EOL Systems to LTS Versions
 
 - **Modules:** [Framework Upgrade](../../../labs/migration-modernization/framework-upgrade.md) + [Repetitive Framework Upgrades](../../../labs/migration-modernization/repetitive-framework-upgrades.md)
-- **Repositories:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction), [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular), [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld)
+- **Repositories:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction), [petclinic-angular](https://github.com/codev-workshops/petclinic-angular), [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld)
 - **Objective:** Run parallel Devin sessions upgrading frameworks across multiple repos
 
 See [general workshop Lab B2](../../../workshops/general/README.md#lab-b2--upgrading-eol-systems-to-lts-versions) for full instructions.
 
 ### Lab B3 — Language Translation
 
-- **Repositories:** [ts-angular-realworld](https://github.com/Cognition-Partner-Workshops/ts-angular-realworld), [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repositories:** [ts-angular-realworld](https://github.com/codev-workshops/ts-angular-realworld), [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Objective:** Translate code between languages (e.g., Java to Kotlin, Ruby to Java) while maintaining functional parity
 
 See [general workshop Lab B3](../../../workshops/general/README.md#lab-b3--language-translation) for full instructions.
@@ -235,7 +235,7 @@ Track C demonstrates Devin as a day-to-day development partner. Participants wil
 ### Lab C1 — Add a Feature + PR Review Feedback
 
 - **Module:** [New Feature Development](../../../labs/application-development/new-feature-development.md)
-- **Repositories:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app), [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repositories:** [timesheet-app](https://github.com/codev-workshops/timesheet-app), [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Objective:** Build a new feature from requirements, see PR Review in action, and iterate via comments
 
 See [general workshop Lab C1](../../../workshops/general/README.md#lab-c1--add-a-feature--pr-review-feedback) for full instructions.
@@ -243,7 +243,7 @@ See [general workshop Lab C1](../../../workshops/general/README.md#lab-c1--add-a
 ### Lab C2 — Add Test Coverage
 
 - **Modules:** [Unit Testing](../../../labs/testing-qa/unit-testing.md) + [BDD Test Generation](../../../labs/testing-qa/bdd-test-generation.md)
-- **Repositories:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction), [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app), [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber)
+- **Repositories:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction), [timesheet-app](https://github.com/codev-workshops/timesheet-app), [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber)
 - **Objective:** Increase test coverage with meaningful unit and BDD tests
 
 See [general workshop Lab C2](../../../workshops/general/README.md#lab-c2--add-test-coverage) for full instructions.
@@ -251,7 +251,7 @@ See [general workshop Lab C2](../../../workshops/general/README.md#lab-c2--add-t
 ### Lab C3 — Perform E2E Tests & Fix Issues
 
 - **Modules:** [End-to-End Testing](../../../labs/testing-qa/end-to-end-testing.md) + [Fix Runtime Bug](../../../labs/application-development/fix-runtime-bug.md)
-- **Repositories:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app), [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber)
+- **Repositories:** [timesheet-app](https://github.com/codev-workshops/timesheet-app), [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber)
 - **Objective:** Write and run E2E tests, discover issues through testing, and fix them
 
 See [general workshop Lab C3](../../../workshops/general/README.md#lab-c3--perform-e2e-tests--fix-issues) for full instructions.

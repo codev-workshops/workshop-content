@@ -227,7 +227,7 @@ This three-level intelligence model covers the "nodes and relationships" from th
 ### Lab 2A — Dependency Graph Analysis
 
 - **Module:** [Dependency Graph Analysis](../../../../labs/architecture-design/dependency-graph-analysis.md)
-- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Objective:** Map internal dependencies, identify coupling hotspots, and produce an impact analysis report
 - **Duration:** 45 min
 
@@ -281,7 +281,7 @@ Open the repo's DeepWiki page. Compare the auto-generated architecture documenta
 <a id="lab-2b--cross-repo-impact-mapping"></a>
 ### Lab 2B — Cross-Repo Impact Mapping
 
-- **Repository:** [calcom](https://github.com/Cognition-Partner-Workshops/calcom)
+- **Repository:** [calcom](https://github.com/codev-workshops/calcom)
 - **Objective:** Analyze a large monorepo to map cross-package dependencies at scale
 - **Duration:** 35 min
 
@@ -366,7 +366,7 @@ This maps to the original agenda's agent flow:
 ### Lab 3A — Continuous Quality Engineering
 
 - **Module:** [Continuous Quality Engineering](../../../../labs/testing-qa/continuous-quality-engineering.md)
-- **Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Objective:** Set up Devin as a continuous quality engineer — Playbooks for recurring audits, flaky test detection, and scheduled quality sessions
 - **Duration:** 40 min
 
@@ -443,7 +443,7 @@ Knowledge: timesheet-app Testing Standards
 ### Lab 3B — Event-Driven Regression Healing
 
 - **Module:** [Event-Driven SAST Remediation](../../../../labs/security/event-driven-sast-remediation.md) (adapted for test regression)
-- **Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Objective:** Build an event-driven pipeline where CI test failures automatically trigger Devin to diagnose and fix regressions
 - **Duration:** 30 min
 
@@ -495,7 +495,7 @@ retrying.
 ### Lab 3C — Feature Flags for Variant Testing
 
 - **Module:** [Configuration Management & Feature Flags](../../../../labs/devops-cicd/configuration-management-feature-flags.md)
-- **Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Objective:** Add feature flag support for gating new functionality and testing variant scenarios
 - **Duration:** 20 min
 
@@ -544,7 +544,7 @@ The "reverse engineering" phase maps the original agenda's agent taxonomy to Dev
 ### Lab 4A — Legacy Reverse Engineering
 
 - **Module:** [Legacy Modernization Combined](../../../../labs/migration-modernization/legacy-modernization-combined.md) — Phase 1 (COBOL to Java)
-- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 - **Objective:** Reverse-engineer a legacy COBOL program — understand its business logic, data structures, and I/O operations — then translate it to modern Java
 - **Duration:** 35 min
 
@@ -604,7 +604,7 @@ The "forward engineering" phase maps to:
 ### Lab 4B — Forward Engineering a New Feature
 
 - **Module:** [New Feature Development](../../../../labs/application-development/new-feature-development.md)
-- **Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Objective:** Take a feature from requirements through implementation — planning, design, code generation, testing, and review
 - **Duration:** 30 min
 

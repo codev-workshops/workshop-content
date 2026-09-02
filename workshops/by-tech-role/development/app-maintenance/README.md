@@ -67,8 +67,8 @@ Track A demonstrates Devin as a feature developer. Participants will build full-
 
 - **Module:** [New Feature Development](../../../../labs/application-development/new-feature-development.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React 19 + Node.js/Express + SQLite full-stack application
-  - [ts-java-angular-jhipster](https://github.com/Cognition-Partner-Workshops/ts-java-angular-jhipster) — Angular + Spring Boot JHipster monolith (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React 19 + Node.js/Express + SQLite full-stack application
+  - [ts-java-angular-jhipster](https://github.com/codev-workshops/ts-java-angular-jhipster) — Angular + Spring Boot JHipster monolith (alternative)
 - **Objective:** Build a complete new feature — backend API, database schema, frontend UI, and tests — following existing codebase conventions
 
 #### Step 1: Start with Ask Devin (recommended)
@@ -131,8 +131,8 @@ See the full challenge details for [New Feature Development](../../../../labs/ap
 
 - **Module:** [Test-Driven Development](../../../../labs/application-development/test-driven-development.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 RealWorld app with JUnit infrastructure
-  - [uc-bdd-test-generation-cucumber](https://github.com/Cognition-Partner-Workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDD framework (alternative)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot 2.6.3 RealWorld app with JUnit infrastructure
+  - [uc-bdd-test-generation-cucumber](https://github.com/codev-workshops/uc-bdd-test-generation-cucumber) — Spring Boot + Cucumber BDD framework (alternative)
 - **Objective:** Implement a new API feature using test-driven development — write failing tests first, then implement until they pass
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -192,8 +192,8 @@ Once Devin opens a PR, focus your review on **TDD discipline**:
 
 - **Modules:** [Gather Requirements](../../../../labs/application-development/gather-requirements.md) + [New Feature Development](../../../../labs/application-development/new-feature-development.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack application
-  - [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization) — Spring Boot loan management service (alternative)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack application
+  - [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization) — Spring Boot loan management service (alternative)
 - **Objective:** Start from vague business requirements, use Ask Devin to refine them into technical specifications, then have Devin implement the feature — demonstrating the full requirements-to-code pipeline
 
 #### Step 1: Start with Ask Devin (required for this lab)
@@ -261,8 +261,8 @@ Track B demonstrates Devin as a debugger and investigator. Participants will hun
 
 - **Module:** [Fix Runtime Bug](../../../../labs/application-development/fix-runtime-bug.md)
 - **Repositories:**
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js full-stack application
-  - [calcom](https://github.com/Cognition-Partner-Workshops/calcom) — Open-source scheduling platform (alternative, more complex)
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js full-stack application
+  - [calcom](https://github.com/codev-workshops/calcom) — Open-source scheduling platform (alternative, more complex)
 - **Objective:** Start a running application, explore it to find bugs or unexpected behavior, then have Devin fix what it finds — demonstrating exploratory testing and debugging
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -322,8 +322,8 @@ Once Devin opens a PR, focus your review on the **root cause analysis**:
 
 - **Module:** [Fix Runtime Bug](../../../../labs/application-development/fix-runtime-bug.md) + [Cross-Service Bug Investigation](../../../../labs/migration-modernization/cross-service-bug-investigation.md)
 - **Repositories:**
-  - [quickapp-microservices](https://github.com/Cognition-Partner-Workshops/quickapp-microservices) — decomposed .NET microservices with a planted cross-service bug
-  - [eventflow-order-service](https://github.com/Cognition-Partner-Workshops/eventflow-order-service) + [eventflow-payment-service](https://github.com/Cognition-Partner-Workshops/eventflow-payment-service) — EventFlow multi-service application (alternative)
+  - [quickapp-microservices](https://github.com/codev-workshops/quickapp-microservices) — decomposed .NET microservices with a planted cross-service bug
+  - [eventflow-order-service](https://github.com/codev-workshops/eventflow-order-service) + [eventflow-payment-service](https://github.com/codev-workshops/eventflow-payment-service) — EventFlow multi-service application (alternative)
 - **Objective:** Investigate a bug that manifests in one service but has its root cause in another — demonstrating Devin's ability to trace issues across service boundaries
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -383,8 +383,8 @@ Focus your review on whether the fix is complete:
 
 - **Modules:** [Fix Data Bug](../../../../labs/application-development/fix-data-bug.md) + [Database Schema Evolution](../../../../labs/application-development/database-schema-evolution.md)
 - **Repositories:**
-  - [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization) — Spring Boot loan service with legacy CDW-style tables
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app with SQLite (alternative)
+  - [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization) — Spring Boot loan service with legacy CDW-style tables
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app with SQLite (alternative)
 - **Objective:** Investigate and fix a data-related bug — incorrect query results, type conversion errors, or schema inconsistencies — and evolve the schema to prevent recurrence
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -448,8 +448,8 @@ Track C demonstrates Devin as a maintenance engineer. Participants will set up a
 
 - **Modules:** [Upgrade Dependencies](../../../../labs/security/upgrade-dependencies.md)
 - **Repositories:**
-  - [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) — Spring Boot app with Gradle
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — Node.js app with npm (alternative)
+  - [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) — Spring Boot app with Gradle
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — Node.js app with npm (alternative)
 - **Objective:** Upgrade dependencies to latest minor/patch versions, verify the build passes, and set up a recurring Devin Automation for automated weekly maintenance
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -514,8 +514,8 @@ Check all npm dependencies in timesheet-app for available minor and patch versio
 
 - **Module:** [Database Schema Evolution](../../../../labs/application-development/database-schema-evolution.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot with Flyway migrations and SQLite
-  - [ts-java-angular-jhipster](https://github.com/Cognition-Partner-Workshops/ts-java-angular-jhipster) — JHipster app with Liquibase (alternative)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot with Flyway migrations and SQLite
+  - [ts-java-angular-jhipster](https://github.com/codev-workshops/ts-java-angular-jhipster) — JHipster app with Liquibase (alternative)
 - **Objective:** Evolve a database schema safely — add new tables, modify existing columns, migrate data, and ensure backward compatibility with the application layer
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
@@ -575,8 +575,8 @@ Focus on **migration safety**:
 
 - **Module:** [Code Refactoring & Tech Debt](../../../../labs/architecture-design/code-refactoring-tech-debt.md)
 - **Repositories:**
-  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot monolith with identifiable tech debt
-  - [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) — React + Node.js app (alternative)
+  - [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) — Spring Boot monolith with identifiable tech debt
+  - [timesheet-app](https://github.com/codev-workshops/timesheet-app) — React + Node.js app (alternative)
 - **Objective:** Identify and refactor tech debt in an existing codebase — extract methods, improve naming, reduce duplication, and improve testability — while preserving behavior
 
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)

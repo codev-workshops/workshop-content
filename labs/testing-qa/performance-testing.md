@@ -83,7 +83,7 @@ The application should be running locally for profiling. See [runtime-resources.
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Node.js/Express backend with SQLite — good candidate for query optimization and API response time improvement.
 
@@ -122,7 +122,7 @@ Open the repo's DeepWiki page to understand the data access patterns and API usa
 
 ## <a id="calcom"></a>calcom
 
-**Repository:** [calcom](https://github.com/Cognition-Partner-Workshops/calcom)
+**Repository:** [calcom](https://github.com/codev-workshops/calcom)
 
 Complex Next.js application with Prisma ORM — many opportunities for database query optimization and frontend performance improvement.
 
@@ -160,7 +160,7 @@ Open the repo's DeepWiki page to understand the booking engine and availability 
 
 ## <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot monolith with MyBatis and SQLite — opportunities for query optimization, connection pooling, and caching.
 

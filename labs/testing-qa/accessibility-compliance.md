@@ -81,7 +81,7 @@ The application should be running locally for browser-based auditing.
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 React application with Material-UI components — good candidate for ARIA attribute improvements and keyboard navigation fixes.
 
@@ -120,7 +120,7 @@ Open the repo's DeepWiki page to understand the component hierarchy. Identify fo
 
 ## <a id="calcom"></a>calcom
 
-**Repository:** [calcom](https://github.com/Cognition-Partner-Workshops/calcom)
+**Repository:** [calcom](https://github.com/codev-workshops/calcom)
 
 Complex scheduling application where accessibility is critical for public-facing booking pages.
 

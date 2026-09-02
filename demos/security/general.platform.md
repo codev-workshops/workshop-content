@@ -85,7 +85,7 @@ working locally.
 
 ```
 Create a GitHub Actions workflow called security-scan.yml
-on the Cognition-Partner-Workshops/otterworks repo that:
+on the codev-workshops/otterworks repo that:
 
 1. Triggers on pull_request events (opened, synchronize).
 2. Runs a Trivy scan targeting HIGH and CRITICAL severity
@@ -102,7 +102,7 @@ in the chat input:
 
 ```
 When a security scan check run fails on
-Cognition-Partner-Workshops/otterworks, start a Devin
+codev-workshops/otterworks, start a Devin
 session that:
 
 1. Reads the scan findings attached to the check run.
@@ -175,7 +175,7 @@ service.
 
 ```
 You are coordinating a security remediation across the
-Cognition-Partner-Workshops/otterworks repository.
+codev-workshops/otterworks repository.
 
 Run the security scan and capture the output. Create a
 SECURITY_BACKLOG.md listing all CRITICAL and HIGH

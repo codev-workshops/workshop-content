@@ -9,7 +9,7 @@ contract verification.
 
 The prompts below invoke the `!convert-mulesoft-to-spring-boot` Devin Playbook —
 the reusable conversion procedure — whose source lives in the code repo at
-[`uc-api-migration-mulesoft-to-spring-boot/.workshop/playbooks/convert-mulesoft-to-spring-boot.devin.md`](https://github.com/Cognition-Partner-Workshops/uc-api-migration-mulesoft-to-spring-boot/blob/main/.workshop/playbooks/convert-mulesoft-to-spring-boot.devin.md).
+[`uc-api-migration-mulesoft-to-spring-boot/.workshop/playbooks/convert-mulesoft-to-spring-boot.devin.md`](https://github.com/codev-workshops/uc-api-migration-mulesoft-to-spring-boot/blob/main/.workshop/playbooks/convert-mulesoft-to-spring-boot.devin.md).
 The repo-specific `make build` / `make verify` mechanics come from that repo's
 Skill (`.agents/skills/mulesoft-to-spring-boot-migration/SKILL.md`).
 
@@ -50,8 +50,8 @@ PostgreSQL (provided by `docker/docker-compose.yml`).
 <a id="repositories"></a>
 ## Repositories
 
-- [ts-java-mulesoft-employee-api](https://github.com/Cognition-Partner-Workshops/ts-java-mulesoft-employee-api) — the MuleSoft Mule 4 source estate: `employee-services-api.xml` (Mule XML flows for OAuth2, employee goals, learning, pay date, PTO), the RAML spec (`employee-services-api.raml`), PostgreSQL database integration, and CloudHub 2.0 deployment config. Read-only reference for the "before".
-- [uc-api-migration-mulesoft-to-spring-boot](https://github.com/Cognition-Partner-Workshops/uc-api-migration-mulesoft-to-spring-boot) — the Spring Boot 3.5 target: project scaffold (`spring-boot-app/`), OpenAPI contract (`contracts/openapi.yaml`), REST Assured contract verification harness (`verify/`), Docker Compose for PostgreSQL (`docker/`), the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
+- [ts-java-mulesoft-employee-api](https://github.com/codev-workshops/ts-java-mulesoft-employee-api) — the MuleSoft Mule 4 source estate: `employee-services-api.xml` (Mule XML flows for OAuth2, employee goals, learning, pay date, PTO), the RAML spec (`employee-services-api.raml`), PostgreSQL database integration, and CloudHub 2.0 deployment config. Read-only reference for the "before".
+- [uc-api-migration-mulesoft-to-spring-boot](https://github.com/codev-workshops/uc-api-migration-mulesoft-to-spring-boot) — the Spring Boot 3.5 target: project scaffold (`spring-boot-app/`), OpenAPI contract (`contracts/openapi.yaml`), REST Assured contract verification harness (`verify/`), Docker Compose for PostgreSQL (`docker/`), the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
 
 ---
 
@@ -184,9 +184,9 @@ fanning itself out across the wave. Paste:
 Act as the orchestrator for a MuleSoft-to-Spring-Boot migration across
 multiple endpoints, using child Devin sessions to parallelize the work.
 
-Repos: read Cognition-Partner-Workshops/ts-java-mulesoft-employee-api
+Repos: read codev-workshops/ts-java-mulesoft-employee-api
 (the MuleSoft source), write
-Cognition-Partner-Workshops/uc-api-migration-mulesoft-to-spring-boot.
+codev-workshops/uc-api-migration-mulesoft-to-spring-boot.
 
 Spawn one child Devin session per endpoint group below. Give each child
 both repos, its own namespace branch (migration/child1, child2, ...),

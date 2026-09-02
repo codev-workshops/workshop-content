@@ -77,7 +77,7 @@ Beginner to Intermediate
 
 ## <a id="petclinic-backend"></a>petclinic-backend
 
-**Repository:** [petclinic-backend](https://github.com/Cognition-Partner-Workshops/petclinic-backend)
+**Repository:** [petclinic-backend](https://github.com/codev-workshops/petclinic-backend)
 
 Canonical Spring Boot application with an existing JUnit test suite.
 
@@ -115,7 +115,7 @@ Open the repo's DeepWiki page to understand the domain model and identify which 
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 React + Node.js/Express application with Jest tests in `backend/src/__tests__/`.
 
@@ -152,7 +152,7 @@ Open the repo's DeepWiki page to understand the API routes and data model. Ident
 
 ## <a id="ts-java-spring-boot-realworld"></a>ts-java-spring-boot-realworld
 
-**Repository:** [ts-java-spring-boot-realworld](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-realworld)
+**Repository:** [ts-java-spring-boot-realworld](https://github.com/codev-workshops/ts-java-spring-boot-realworld)
 
 Spring Boot RealWorld example app with existing JUnit tests.
 
@@ -188,7 +188,7 @@ Open the repo's DeepWiki page to understand the article/user/comment domain mode
 
 ## <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot 2.6.3 monolith with JUnit test infrastructure.
 

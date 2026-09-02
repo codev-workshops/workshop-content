@@ -106,7 +106,7 @@ Advanced
 
 ## <a id="phase-1--cobol-to-java"></a>Phase 1 — COBOL to Java
 
-**Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+**Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 
 Migrate a COBOL batch program to Java. See [COBOL to Java](cobol-to-java.md) for the full module details.
 
@@ -138,7 +138,7 @@ Open the repo's DeepWiki page to understand the COBOL program's dependencies and
 
 ## <a id="phase-2--framework-upgrade--containerization"></a>Phase 2 — Framework Upgrade + Containerization
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Upgrade from Spring Boot 2 to 3, then extract a domain into a microservice. See [Framework Upgrade](framework-upgrade.md) and [Containerization & Microservice Extraction](containerization-microservice-extraction.md) for full module details.
 
@@ -170,7 +170,7 @@ Open the repo's DeepWiki page to understand domain boundaries and shared code. P
 
 ## <a id="phase-3--data-source-migration"></a>Phase 3 — Data Source Migration
 
-**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 
 Modernize a legacy data access layer from denormalized VARCHAR tables to properly typed JPA entities.
 

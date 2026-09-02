@@ -55,13 +55,13 @@
 
 Create a new Devin session and paste the following prompt. Replace `<participant>` with your name:
 
-> Decompose the Inventory module from @Cognition-Partner-Workshops/ordermanager-monolith into a standalone microservice.
+> Decompose the Inventory module from @codev-workshops/ordermanager-monolith into a standalone microservice.
 >
 > Work on branch workshop-mason in both repos.
 >
 > Use these repos as context for platform patterns and IaC standards:
-> - @Cognition-Partner-Workshops/platform-engineering-shared-services — defines the platform standard (namespaces, network policies, monitoring, ArgoCD)
-> - @Cognition-Partner-Workshops/ordermanager-iac — contains the existing Helm chart, Dockerfile, and ArgoCD patterns to follow
+> - @codev-workshops/platform-engineering-shared-services — defines the platform standard (namespaces, network policies, monitoring, ArgoCD)
+> - @codev-workshops/ordermanager-iac — contains the existing Helm chart, Dockerfile, and ArgoCD patterns to follow
 >
 > Deliverables:
 > - New .NET 8 Web API for the inventory-service with its own models, controllers, services, and EF Core DbContext
@@ -72,7 +72,7 @@ Create a new Devin session and paste the following prompt. Replace `<participant
 > - GitHub Actions CI/CD pipeline — build, test, push to ECR, trigger ArgoCD sync
 > - Monolith refactoring — replace in-process Inventory calls with an HTTP client that calls the new service
 >
-> Push the new inventory-service code and all service-level IaC to @Cognition-Partner-Workshops/ordermanager-microservices on branch workshop-mason. Create a PR. Push the monolith refactoring changes to ordermanager-monolith on branch workshop-mason. Create a PR. Build and test both services locally to verify they work together.
+> Push the new inventory-service code and all service-level IaC to @codev-workshops/ordermanager-microservices on branch workshop-mason. Create a PR. Push the monolith refactoring changes to ordermanager-monolith on branch workshop-mason. Create a PR. Build and test both services locally to verify they work together.
 
 ### Phase 2 — Explore While Devin Works (15 min)
 

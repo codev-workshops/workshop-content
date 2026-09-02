@@ -10,7 +10,7 @@ repeat.
 
 The prompts below invoke the `!convert-abinitio-to-databricks` Devin Playbook —
 the reusable conversion procedure — whose source lives in the code repo at
-[`uc-data-migration-abinitio-to-databricks/.workshop/playbooks/abinitio-to-databricks-conversion.devin.md`](https://github.com/Cognition-Partner-Workshops/uc-data-migration-abinitio-to-databricks/blob/main/.workshop/playbooks/abinitio-to-databricks-conversion.devin.md).
+[`uc-data-migration-abinitio-to-databricks/.workshop/playbooks/abinitio-to-databricks-conversion.devin.md`](https://github.com/codev-workshops/uc-data-migration-abinitio-to-databricks/blob/main/.workshop/playbooks/abinitio-to-databricks-conversion.devin.md).
 The repo-specific `make demo-up` / `make reconcile` mechanics come from that
 repo's Skill (`.agents/skills/abinitio-to-databricks-conversion/SKILL.md`).
 
@@ -62,8 +62,8 @@ warehouse, and a PAT that can use the warehouse and create catalogs/schemas/jobs
 <a id="repositories"></a>
 ## Repositories
 
-- [ts-python-abinitio-etl](https://github.com/Cognition-Partner-Workshops/ts-python-abinitio-etl) — the legacy Ab Initio estate (graphs, DML record formats, PSET parameter sets, CDC, KornShell/AutoSys orchestration). Read-only reference for the "before".
-- [uc-data-migration-abinitio-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-abinitio-to-databricks) — the dbt + Databricks target: models, reconciliation harness (dbt tests + report), seeder, Asset Bundle (IaC), CI, the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
+- [ts-python-abinitio-etl](https://github.com/codev-workshops/ts-python-abinitio-etl) — the legacy Ab Initio estate (graphs, DML record formats, PSET parameter sets, CDC, KornShell/AutoSys orchestration). Read-only reference for the "before".
+- [uc-data-migration-abinitio-to-databricks](https://github.com/codev-workshops/uc-data-migration-abinitio-to-databricks) — the dbt + Databricks target: models, reconciliation harness (dbt tests + report), seeder, Asset Bundle (IaC), CI, the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
 
 ---
 
@@ -189,8 +189,8 @@ itself out across the wave. Paste:
 Act as the orchestrator for an Ab Initio->Databricks migration across multiple
 graphs, using child Devin sessions to parallelize the work.
 
-Repos: read Cognition-Partner-Workshops/ts-python-abinitio-etl (the Ab Initio
-source), write Cognition-Partner-Workshops/uc-data-migration-abinitio-to-databricks.
+Repos: read codev-workshops/ts-python-abinitio-etl (the Ab Initio
+source), write codev-workshops/uc-data-migration-abinitio-to-databricks.
 
 Spawn one child Devin session per pipeline below. Give each child both repos, its
 own namespace (NS=child1, child2, ...), and tell it to follow the
@@ -275,7 +275,7 @@ make demo-down NS=dev     # drop dev_* output schemas (raw data untouched)
 The pipeline is a Databricks Asset Bundle (`databricks.yml` +
 `workflows/daily_orders_pipeline.yml`) that replaces the Ab Initio
 AutoSys/Control-M + KornShell orchestration. See
-[`workflows/README.md`](https://github.com/Cognition-Partner-Workshops/uc-data-migration-abinitio-to-databricks/blob/main/workflows/README.md)
+[`workflows/README.md`](https://github.com/codev-workshops/uc-data-migration-abinitio-to-databricks/blob/main/workflows/README.md)
 for the construct-by-construct mapping.
 
 ---

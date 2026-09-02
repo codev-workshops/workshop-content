@@ -32,7 +32,7 @@ Paste this into a new Devin session to get started immediately:
 
 ```
 Resolve this GitHub Issue:
-https://github.com/Cognition-Partner-Workshops/
+https://github.com/codev-workshops/
 timesheet-app/issues/3 — fix all ESLint linting errors
 in the codebase, run the linter to verify all issues are
 resolved.
@@ -72,7 +72,7 @@ Beginner
 
 ## <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 React 19 + Node.js/Express timesheet application with ESLint and Prettier configured.
 
@@ -80,7 +80,7 @@ React 19 + Node.js/Express timesheet application with ESLint and Prettier config
 
 ```
 Resolve this GitHub Issue:
-https://github.com/Cognition-Partner-Workshops/
+https://github.com/codev-workshops/
 timesheet-app/issues/3 — fix all ESLint linting errors
 in the codebase, run the linter to verify all issues are
 resolved.
@@ -112,7 +112,7 @@ Open the repo's DeepWiki page to understand the codebase structure and identify 
 
 ## <a id="timesheet-infra"></a>timesheet-infra
 
-**Repository:** [timesheet-infra](https://github.com/Cognition-Partner-Workshops/timesheet-infra)
+**Repository:** [timesheet-infra](https://github.com/codev-workshops/timesheet-infra)
 
 Terraform infrastructure code for hosting the timesheet application.
 

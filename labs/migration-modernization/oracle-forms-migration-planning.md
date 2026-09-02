@@ -111,7 +111,7 @@ Intermediate to Advanced
 
 ## <a id="ts-plsql-oracle-forms-hrms"></a>ts-plsql-oracle-forms-hrms
 
-**Repository:** [ts-plsql-oracle-forms-hrms](https://github.com/Cognition-Partner-Workshops/ts-plsql-oracle-forms-hrms)
+**Repository:** [ts-plsql-oracle-forms-hrms](https://github.com/codev-workshops/ts-plsql-oracle-forms-hrms)
 
 Oracle Forms 11g/12c HRMS application. Contains Forms XML exports, PLL libraries, menu modules, PL/SQL packages (specs + bodies), database triggers, schema DDL, and seed data. Natural functional boundaries for component mapping and migration sequencing.
 

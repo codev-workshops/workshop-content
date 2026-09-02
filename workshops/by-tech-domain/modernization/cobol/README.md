@@ -75,7 +75,7 @@ Four labs that build on each other in a progressive sequence:
 ### Lab 1 — System Understanding & Reverse Engineering (60 min)
 
 - **Module:** [COBOL System Understanding & Reverse Engineering](../../../../labs/migration-modernization/cobol-system-understanding.md)
-- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 - **Objective:** Produce a complete system inventory, data dictionary, dependency map, and hotspot report for a COBOL mainframe application
 
 #### What to Try
@@ -106,7 +106,7 @@ Four labs that build on each other in a progressive sequence:
 ### Lab 2 — Migration Planning & Domain Decomposition (60 min)
 
 - **Module:** [COBOL Migration Planning & Domain Decomposition](../../../../labs/migration-modernization/cobol-migration-planning.md)
-- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 - **Objective:** Produce a modernization blueprint with strategy options, domain decomposition, phased cutover plan, and risk register
 
 #### What to Try
@@ -137,7 +137,7 @@ Four labs that build on each other in a progressive sequence:
 ### Lab 3 — Migration Test Harness & Validation Strategy (60 min)
 
 - **Module:** [Migration Test Harness & Validation Strategy](../../../../labs/migration-modernization/migration-test-harness.md)
-- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 - **Objective:** Design and implement a test harness that validates migration correctness — golden files, differential testing, batch reconciliation, and contract tests
 
 #### What to Try
@@ -168,7 +168,7 @@ Four labs that build on each other in a progressive sequence:
 ### Lab 4 — COBOL to Java Code Migration (60 min)
 
 - **Module:** [COBOL to Java](../../../../labs/migration-modernization/cobol-to-java.md)
-- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java)
+- **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java)
 - **Objective:** Translate selected COBOL programs to Java 17+ with parity tests that validate against the golden files and reconciliation checks from Lab 3
 
 #### What to Try

@@ -21,7 +21,7 @@ This section teaches you how to run each walkthrough type end-to-end in a simula
 
 ### Setup Steps
 
-1. Ensure the `Cognition-Partner-Workshops/otterworks` repo is accessible in your Devin org
+1. Ensure the `codev-workshops/otterworks` repo is accessible in your Devin org
 2. Verify a Trivy scan workflow exists (or use the prompt below to create one)
 3. Pre-configure a Devin Automation to fire on security scan failures (optional — you can create it live)
 
@@ -31,7 +31,7 @@ This section teaches you how to run each walkthrough type end-to-end in a simula
 
 ```
 Create a GitHub Actions workflow called security-scan.yml
-on the Cognition-Partner-Workshops/otterworks repo that:
+on the codev-workshops/otterworks repo that:
 
 1. Triggers on pull_request events (opened, synchronize).
 2. Runs a Trivy scan targeting HIGH and CRITICAL severity
@@ -45,7 +45,7 @@ on the Cognition-Partner-Workshops/otterworks repo that:
 
 ```
 When a security scan check run fails on
-Cognition-Partner-Workshops/otterworks, start a Devin
+codev-workshops/otterworks, start a Devin
 session that:
 
 1. Reads the scan findings attached to the check run.
@@ -217,7 +217,7 @@ uc-data-migration-sas-to-databricks.
 **Feature implementation:**
 
 ```
-In the Cognition-Partner-Workshops/timesheet-app repo,
+In the codev-workshops/timesheet-app repo,
 add a "Bulk Import" feature to the timesheet entries.
 Requirements:
 

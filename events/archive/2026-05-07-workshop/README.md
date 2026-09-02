@@ -50,7 +50,7 @@ A few tips to maximize your hands-on time:
 
 **Value driver:** *Devin reads an entire codebase and produces structured technical documentation — the kind of assessment that normally takes a senior engineer a week.*
 
-- **Repository:** [ts-java-spring-boot-internet-banking](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-internet-banking)
+- **Repository:** [ts-java-spring-boot-internet-banking](https://github.com/codev-workshops/ts-java-spring-boot-internet-banking)
 - **Modules:** [API Design Review](../../../labs/architecture-design/api-design-review.md), [Dependency Graph Analysis](../../../labs/architecture-design/dependency-graph-analysis.md)
 
 This is your first Devin session. The task is pure analysis — Devin reads code and produces documents, no risky code changes. This lets you focus on learning the platform workflow: paste a prompt, watch Devin plan and execute, review the PR.
@@ -113,7 +113,7 @@ When Devin opens a PR:
 
 **Value driver:** *Give Devin an API specification, get back a complete production-ready Spring Boot microservice with controllers, services, validation, configuration, and 90% test coverage.*
 
-- **Repository:** [petclinic-rest-api](https://github.com/Cognition-Partner-Workshops/petclinic-rest-api)
+- **Repository:** [petclinic-rest-api](https://github.com/codev-workshops/petclinic-rest-api)
 - **Modules:** [Containerization & Microservice Extraction](../../../labs/migration-modernization/containerization-microservice-extraction.md)
 
 Now you'll see Devin write real code. The PetClinic REST API repo ships a rich OpenAPI 3.0 specification (2,168 lines, 35 operations, 15 schemas, 8 domain areas). You'll give Devin this spec and have it generate a complete microservice from scratch.
@@ -160,7 +160,7 @@ When Devin opens a PR:
 
 **Value driver:** *Devin analyzes legacy data for quality issues, documents every anomaly with business impact, and implements validation code that prevents them — turning a week of data profiling into a single session.*
 
-- **Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+- **Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 - **Module:** [Data Quality & Validation](../../../labs/data-engineering/data-quality-validation.md)
 
 The repo is a Spring Boot 3.2 / Java 17 loan management application that reads from legacy CDW (Corporate Data Warehouse) tables with known data quality issues: all-VARCHAR typing, cryptic column names, no foreign keys, code abbreviations. Devin will analyze the data for anomalies, trace root causes through the code, and implement validation to catch them.
@@ -194,7 +194,7 @@ Open a PR with the anomaly report, root cause analysis, validation code, and tes
 
 **Value driver:** *Your loan data is trapped in a legacy Corporate Data Warehouse with all-VARCHAR columns and cryptic names. Devin generates a complete Databricks-ready migration — PySpark ingestion scripts, Delta Lake table definitions, transformation logic, and a data quality validation framework.*
 
-- **Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+- **Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 - **Module:** [Data Source Migration](../../../labs/data-engineering/data-source-migration.md)
 
 Same repo, different story. Where Lab 3a finds what's wrong with the data, Lab 3b generates the migration pipeline to move it to a modern platform. Devin will read the legacy schema and column mappings, then produce PySpark scripts, Delta Lake table definitions, and validation code — everything a data engineering team needs to execute the migration in Databricks.
@@ -254,7 +254,7 @@ Participants who want to keep exploring after the workshop can try these additio
 
 ### Exercise A: COBOL Copybook to PySpark/JSON Config Generation
 
-- **Repository:** [ts-cobol-carddemo](https://github.com/Cognition-Partner-Workshops/ts-cobol-carddemo)
+- **Repository:** [ts-cobol-carddemo](https://github.com/codev-workshops/ts-cobol-carddemo)
 - **Module:** [COBOL Copybook to PySpark/JSON](../../../labs/data-engineering/cobol-copybook-to-pyspark-json.md)
 - **Shows:** Devin reading legacy COBOL data definitions and generating modern data engineering artifacts
 
@@ -277,7 +277,7 @@ Open a PR with all generated artifacts and a `COPYBOOK_PARSING_NOTES.md` documen
 
 ### Exercise B: Automated Security Remediation & Vulnerability Reporting
 
-- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance)
+- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance)
 - **Modules:** [Remediate Vulnerabilities](../../../labs/security/remediate-vulnerabilities.md), [Shift Left Security](../../../labs/security/shift-left-security.md)
 - **Shows:** Devin running SAST/SCA analysis, producing an executive security report, and remediating critical findings
 
@@ -303,7 +303,7 @@ Open a PR with the report and the fixes.
 
 ### Exercise C: Payment Payload Gap Analysis & Business Capability Decomposition
 
-- **Repository:** [ts-java-spring-boot-internet-banking](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-internet-banking)
+- **Repository:** [ts-java-spring-boot-internet-banking](https://github.com/codev-workshops/ts-java-spring-boot-internet-banking)
 - **Modules:** [API Design Review](../../../labs/architecture-design/api-design-review.md), [Dependency Graph Analysis](../../../labs/architecture-design/dependency-graph-analysis.md)
 - **Shows:** Devin analyzing payment domain code against industry standards and recommending a service decomposition strategy
 
@@ -339,7 +339,7 @@ Open a PR with all three documents.
 
 ### Exercise D: SAS to Python/Snowflake Migration
 
-- **Repositories:** [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics), [uc-data-migration-sas-to-snowflake](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-snowflake)
+- **Repositories:** [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics), [uc-data-migration-sas-to-snowflake](https://github.com/codev-workshops/uc-data-migration-sas-to-snowflake)
 - **Module:** [SAS to Python/Snowflake](../../../labs/data-engineering/sas-to-python-snowflake.md)
 - **Shows:** Devin reading legacy SAS programs and producing equivalent Python (pandas) functions and Snowflake SQL — cross-language ETL migration
 - **Audience:** SAS developers, ETL engineers, data platform teams
@@ -365,7 +365,7 @@ Open a PR with the Python functions, tests, Snowflake DDL, and migration notes.
 
 ### Exercise E: Monolith-to-Microservices Extraction (Spring Boot Upgrade)
 
-- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Module:** [Framework Upgrade](../../../labs/migration-modernization/framework-upgrade.md), [Containerization & Microservice Extraction](../../../labs/migration-modernization/containerization-microservice-extraction.md)
 - **Shows:** Devin upgrading a Spring Boot 2.x monolith to 3.x (javax→jakarta namespace migration) and extracting a bounded context into a standalone microservice with Docker Compose
 - **Audience:** Java/Spring Boot developers, monolith-to-microservices teams
@@ -402,7 +402,7 @@ Open a PR with the upgraded monolith, extracted microservice, Docker Compose, an
 
 ### Exercise F: Ab Initio ETL Framework → Databricks Migration
 
-- **Repository:** [ts-python-abinitio-etl](https://github.com/Cognition-Partner-Workshops/ts-python-abinitio-etl)
+- **Repository:** [ts-python-abinitio-etl](https://github.com/codev-workshops/ts-python-abinitio-etl)
 - **Shows:** Devin reading an enterprise Ab Initio ETL estate (DML schemas, graph patterns, PSET configs, KornShell orchestration, CDC processing) and generating a complete Databricks Lakehouse migration — PySpark notebooks, Delta Lake DDL, Databricks Workflows, and Delta MERGE for CDC
 - **Audience:** Ab Initio developers, ETL engineers, data platform migration teams
 
@@ -477,7 +477,7 @@ Open a PR with all Databricks artifacts and the migration runbook.
 
 ## External GitHub Considerations
 
-This workshop runs against an external GitHub organization (not Cognition-Partner-Workshops). Before the event:
+This workshop runs against an external GitHub organization (not codev-workshops). Before the event:
 
 1. **Fork or clone repos** — All repos listed above must be available in the target org. Use `git clone --bare` + `git push --mirror` to preserve full history, or fork if the target org has access to the source.
 2. **Remove workflows** — If the target org's GitHub Actions runners differ, review `.github/workflows/` in each repo and adjust or remove as needed.

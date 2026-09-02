@@ -54,8 +54,8 @@ The target migration path is **SAS → dbt on Databricks**, using the dbt projec
 
 ## Repositories
 
-- [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) — Legacy SAS analytics environment with 7 business programs (4 Banking, 2 Insurance, 1 Reports), 92 utility macros, Enterprise Guide projects, deployment packages, custom format definitions, batch orchestrators, and sample production logs
-- [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks) — dbt project with staging/intermediate/marts layers, Jinja macros replacing PROC FORMAT definitions, SAS→dbt construct mapping, and Databricks connection profiles
+- [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) — Legacy SAS analytics environment with 7 business programs (4 Banking, 2 Insurance, 1 Reports), 92 utility macros, Enterprise Guide projects, deployment packages, custom format definitions, batch orchestrators, and sample production logs
+- [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks) — dbt project with staging/intermediate/marts layers, Jinja macros replacing PROC FORMAT definitions, SAS→dbt construct mapping, and Databricks connection profiles
 
 ## What Participants Will Learn
 
@@ -96,7 +96,7 @@ Intermediate to Advanced — 75 minutes
 <a id="lab-1-estate-discovery"></a>
 ### Lab 1: Estate Discovery
 
-**Repository:** [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics)
+**Repository:** [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics)
 
 The SAS estate includes 7 business programs across banking, insurance, and reporting domains. Batch orchestrators in `BatchJobs/` coordinate execution with error handling. `Config/autoexec.sas` defines library assignments and database connections. The `Macro/` directory contains 92 utility macros used across programs.
 
@@ -145,7 +145,7 @@ While Devin works on the assessment, explore the codebase with Ask Devin:
 <a id="lab-2-dbt-target-mapping"></a>
 ### Lab 2: dbt Target Mapping
 
-**Repositories:** Both [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) and [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks)
+**Repositories:** Both [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) and [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks)
 
 #### Step 1: Paste into Devin
 
@@ -178,7 +178,7 @@ Workflows. Add the migration plan to the PR.
 <a id="lab-3-validate--extend-dbt-models"></a>
 ### Lab 3: Validate & Extend dbt Models
 
-**Repository:** [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks)
+**Repository:** [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks)
 
 The dbt project has models for customer accounts, transactions, and risk scoring. Several SAS programs do not yet have corresponding dbt models.
 
@@ -223,7 +223,7 @@ Open the DeepWiki pages for both repos to understand the full migration pipeline
 <a id="lab-4-divide-and-conquer"></a>
 ### Lab 4: Divide and Conquer with Child Sessions (Advanced)
 
-**Repositories:** Both [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) and [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks)
+**Repositories:** Both [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) and [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks)
 
 In a real migration with dozens or hundreds of SAS programs, a single session analyzing everything sequentially is slow. Instead, use child sessions to parallelize — one session per program group, all inheriting the same migration conventions from the shared context layer.
 

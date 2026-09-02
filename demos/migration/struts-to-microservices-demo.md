@@ -46,7 +46,7 @@ working there.
 Everything in the target repo runs from a clean checkout:
 
 ```bash
-git clone https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-struts-to-microservices
+git clone https://github.com/codev-workshops/uc-legacy-modernization-struts-to-microservices
 cd uc-legacy-modernization-struts-to-microservices
 
 make up NS=demo        # Postgres + the extracted services (8081, 8082)
@@ -60,7 +60,7 @@ modules not yet extracted. Turning those SKIPs into PASSes is the demo.
 To run the legacy application alongside it:
 
 ```bash
-git clone https://github.com/Cognition-Partner-Workshops/ts-java-struts-claims-management
+git clone https://github.com/codev-workshops/ts-java-struts-claims-management
 cd ts-java-struts-claims-management
 make seed && make run   # http://localhost:8080/claims/  (supervisor / supervisor)
 ```
@@ -73,8 +73,8 @@ If Maven Central rate-limits the box, prefix the build with
 <a id="repositories"></a>
 ## Repositories
 
-- [ts-java-struts-claims-management](https://github.com/Cognition-Partner-Workshops/ts-java-struts-claims-management) — the legacy estate. NorthStar Claims: a property & casualty claims monolith in 2008-era idiom — Struts 1.3.10, Servlet 2.4 `web.xml`, JSP 2.0 + JSTL + Struts taglibs, raw JDBC over HSQLDB, no Spring, no JPA. 93 Java classes, 40 JSPs, an Ant build alongside Maven, and 22 recorded golden transcripts. Read-only reference for the "before".
-- [uc-legacy-modernization-struts-to-microservices](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-struts-to-microservices) — the Spring Boot target: the already-extracted services, the Struts→Spring mapping notes and reference architecture, the parity replay harness, the playbook source, and the repo Skill.
+- [ts-java-struts-claims-management](https://github.com/codev-workshops/ts-java-struts-claims-management) — the legacy estate. NorthStar Claims: a property & casualty claims monolith in 2008-era idiom — Struts 1.3.10, Servlet 2.4 `web.xml`, JSP 2.0 + JSTL + Struts taglibs, raw JDBC over HSQLDB, no Spring, no JPA. 93 Java classes, 40 JSPs, an Ant build alongside Maven, and 22 recorded golden transcripts. Read-only reference for the "before".
+- [uc-legacy-modernization-struts-to-microservices](https://github.com/codev-workshops/uc-legacy-modernization-struts-to-microservices) — the Spring Boot target: the already-extracted services, the Struts→Spring mapping notes and reference architecture, the parity replay harness, the playbook source, and the repo Skill.
 
 ---
 
@@ -138,7 +138,7 @@ With DeepWiki indexed over the repo, Devin typically orients in minutes
 Start with the estate map.
 
 ```
-Using the Cognition-Partner-Workshops/ts-java-struts-claims-management repo,
+Using the codev-workshops/ts-java-struts-claims-management repo,
 give me a map of this Struts estate:
 
 - every action mapping across src/main/webapp/WEB-INF/struts-config.xml,
@@ -226,7 +226,7 @@ Start a session on the target repo and invoke the macro.
 !struts-to-microservice
 
 Module: the settlement and payments module of the NorthStar Claims monolith in
-Cognition-Partner-Workshops/ts-java-struts-claims-management —
+codev-workshops/ts-java-struts-claims-management —
 SettlementCalculateAction, SettlementSaveAction, SettlementDetailAction,
 PaymentIssueAction, PaymentHistoryAction, PaymentDetailAction,
 PaymentRemittanceAction, SettlementForm, PaymentForm, SettlementDAO,

@@ -63,7 +63,7 @@ Intermediate
 
 ### <a id="uc-document-review-automation"></a>uc-document-review-automation
 
-**Repository:** [uc-document-review-automation](https://github.com/Cognition-Partner-Workshops/uc-document-review-automation)
+**Repository:** [uc-document-review-automation](https://github.com/codev-workshops/uc-document-review-automation)
 
 Python document review automation system with extraction, comparison, decisioning, and audit agents for loan processing workflows.
 

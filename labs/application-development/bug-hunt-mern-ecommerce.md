@@ -38,7 +38,7 @@ tax calculation, inventory management, wishlists, and order placement.
 <a id="repository"></a>
 ## Repository
 
-**Repository:** [i-retail-mern-ecommerce](https://github.com/Cognition-Partner-Workshops/i-retail-mern-ecommerce)
+**Repository:** [i-retail-mern-ecommerce](https://github.com/codev-workshops/i-retail-mern-ecommerce)
 
 | | |
 |---|---|
@@ -78,7 +78,7 @@ tax calculation, inventory management, wishlists, and order placement.
 
 ```text
 Check out the buggy branch of the
-Cognition-Partner-Workshops/i-retail-mern-ecommerce
+codev-workshops/i-retail-mern-ecommerce
 repository. This MERN ecommerce app has several bugs planted
 across the React/Redux frontend and Express/MongoDB backend.
 
@@ -103,7 +103,7 @@ a summary table in the PR description listing each bug
 
 ```text
 Check out the buggy branch of the
-Cognition-Partner-Workshops/i-retail-mern-ecommerce
+codev-workshops/i-retail-mern-ecommerce
 repository. Users report that the cart total is wrong — when
 they add items, the total doesn't match the expected
 price × quantity calculation.

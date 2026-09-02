@@ -79,7 +79,7 @@ Intermediate
 
 ## <a id="uc-data-source-migration-jdbc-normalization"></a>uc-data-source-migration-jdbc-normalization
 
-**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/Cognition-Partner-Workshops/uc-data-source-migration-jdbc-normalization)
+**Repository:** [uc-data-source-migration-jdbc-normalization](https://github.com/codev-workshops/uc-data-source-migration-jdbc-normalization)
 
 Spring Boot 3.2 / Java 17 loan management application reading from legacy CDW-style tables. Includes modern target schema DDL, column mappings, and 5 workshop migration tasks.
 

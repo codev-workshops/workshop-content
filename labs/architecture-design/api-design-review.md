@@ -67,7 +67,7 @@ Intermediate
 
 ### <a id="uc-spring-boot-upgrade-microservice-extraction"></a>uc-spring-boot-upgrade-microservice-extraction
 
-**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+**Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 
 Spring Boot monolith exposing both REST controllers and a GraphQL API via the DGS framework — an ideal target for cross-style API design review.
 
@@ -95,7 +95,7 @@ Open the repo's DeepWiki page to understand both the REST controller structure a
 
 ### <a id="timesheet-app"></a>timesheet-app
 
-**Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+**Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 
 Express REST API with route handlers for timesheet management — a focused target for evaluating REST API design quality in a Node.js context.
 

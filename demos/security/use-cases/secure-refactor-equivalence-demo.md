@@ -53,7 +53,7 @@ Paste this into Devin to run the whole loop for one finding.
 
 Finding: OW-SEC-401, SQL injection in
 services/document-service/app/services/document_query_repository.py
-Repo: Cognition-Partner-Workshops/otterworks
+Repo: codev-workshops/otterworks
 
 Characterize the current behavior, reproduce the injection,
 refactor the class with parameter binding and an ORDER BY
@@ -68,7 +68,7 @@ main stays vulnerable on purpose.
 <a id="repositories"></a>
 ## Repositories
 
-- [otterworks](https://github.com/Cognition-Partner-Workshops/otterworks) —
+- [otterworks](https://github.com/codev-workshops/otterworks) —
   polyglot monorepo: 11 backend services across 8 languages, plus two TypeScript
   frontends (`docs/SDLC-COVERAGE.md`). The findings live in the Python
   `document-service`. The equivalence harness is `security/equivalence/`; the
@@ -446,7 +446,7 @@ still in place" spreadsheet:
 
 ```
 Every Monday at 07:00 UTC, run make eq-list and make eq-gate
-on Cognition-Partner-Workshops/otterworks and report which
+on codev-workshops/otterworks and report which
 findings are still open, which have evidence recorded, and
 any finding whose evidence has gone stale. Do not change any
 code.

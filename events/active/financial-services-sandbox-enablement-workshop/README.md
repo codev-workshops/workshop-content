@@ -93,7 +93,7 @@ A few tips to maximize hands-on time:
 
 **Value driver:** *Devin runs the full SDLC on an existing banking platform — turning a one-line feature request into a short spec, a technical design, a tested implementation, and a review-ready PR — showing that the differentiator is orchestrating the whole lifecycle, not typing code faster.*
 
-- **Repository:** [ts-java-spring-boot-internet-banking](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-internet-banking)
+- **Repository:** [ts-java-spring-boot-internet-banking](https://github.com/codev-workshops/ts-java-spring-boot-internet-banking)
 - **Modules:** [Gather Requirements](../../../labs/application-development/gather-requirements.md), [New Feature Development](../../../labs/application-development/new-feature-development.md), [Test-Driven Development](../../../labs/application-development/test-driven-development.md)
 
 This is a Java 21 / Spring Boot 3.2.4 internet banking platform with 6 services: `core-banking-service`, `internet-banking-fund-transfer-service`, `internet-banking-user-service`, `internet-banking-utility-payment-service`, `internet-banking-api-gateway`, and `internet-banking-service-registry`. It uses Gradle, Spring Data JPA, Lombok, Flyway migrations, Keycloak for auth, RabbitMQ for messaging, and Zipkin for tracing. The `core-banking-service` persists transactions in a `banking_core_transaction` table under the `com.javatodev.finance` package.
@@ -191,7 +191,7 @@ When Devin opens a PR:
 
 **Value driver:** *Devin triages security findings, performs root-cause analysis, applies and verifies fixes, and produces an auditable remediation PR — compressing the exposure window from "next sprint" to "next review" without loosening compliance.*
 
-- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance)
+- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance)
 - **Modules:** [Remediate Vulnerabilities](../../../labs/security/remediate-vulnerabilities.md), [Shift Left Security](../../../labs/security/shift-left-security.md), [Upgrade Dependencies](../../../labs/security/upgrade-dependencies.md)
 - **MCP integration (optional):** if a SAST tool's MCP server (SonarQube, Snyk, or similar) is connected on the workshop org, Devin can read findings directly instead of analyzing manifests — the lab works either way
 
@@ -280,11 +280,11 @@ When Devin opens a PR:
 
 ## Repos Required
 
-- [ ] [ts-java-spring-boot-internet-banking](https://github.com/Cognition-Partner-Workshops/ts-java-spring-boot-internet-banking) — Lab 1
-- [ ] [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) — Lab 2
-- [ ] *(optional, Going Further)* [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java), [uc-db-migration-sybase-to-sqlserver](https://github.com/Cognition-Partner-Workshops/uc-db-migration-sybase-to-sqlserver), or [fineract](https://github.com/Cognition-Partner-Workshops/fineract)
+- [ ] [ts-java-spring-boot-internet-banking](https://github.com/codev-workshops/ts-java-spring-boot-internet-banking) — Lab 1
+- [ ] [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) — Lab 2
+- [ ] *(optional, Going Further)* [uc-legacy-modernization-cobol-to-java](https://github.com/codev-workshops/uc-legacy-modernization-cobol-to-java), [uc-db-migration-sybase-to-sqlserver](https://github.com/Cognition-Partner-Workshops/uc-db-migration-sybase-to-sqlserver), or [fineract](https://github.com/codev-workshops/fineract)
 
-Confirm the required repos are connected in Devin's org settings, and trigger DeepWiki indexing, before the session. Facilitator setup, pacing, and positioning notes live in the [workshop-operations](https://github.com/Cognition-Partner-Workshops/workshop-operations) repo.
+Confirm the required repos are connected in Devin's org settings, and trigger DeepWiki indexing, before the session. Facilitator setup, pacing, and positioning notes live in the [workshop-operations](https://github.com/codev-workshops/workshop-operations) repo.
 
 ---
 

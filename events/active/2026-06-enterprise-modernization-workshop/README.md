@@ -77,7 +77,7 @@ Already comfortable with Devin basics? Jump straight to the labs:
 
 **Value driver:** *Devin maps a backend API contract, writes a migration test suite as a safety net, then rewrites an Angular frontend in React — using parent-child session orchestration to parallelize the work. Attendees then drive the iterative verification through PR feedback.*
 
-- **Repository:** [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular)
+- **Repository:** [petclinic-angular](https://github.com/codev-workshops/petclinic-angular)
 - **Modules:** [Framework Upgrade](../../../labs/migration-modernization/framework-upgrade.md)
 
 The PetClinic Angular frontend is a full-featured veterinary clinic management UI with owners, pets, visits, vets, and specialties modules. It uses Angular 16, Angular Material, Bootstrap, RxJS, and template-driven forms. The app consumes a REST API at `localhost:9966/petclinic/api/` with 6 service files defining the full endpoint surface. Participants will ask Devin to map that API, spin up parallel child sessions for test creation and migration (scoped to the three interconnected modules: owners, pets, and visits), then verify the results through PR feedback.
@@ -157,7 +157,7 @@ When Devin opens PRs (you may see up to 3 — API contract, tests, migration):
 
 **Value driver:** *Devin runs SAST scans, interprets CVE reports, remediates critical findings, and re-verifies — the scan-fix-rescan loop that normally takes a security engineer days.*
 
-- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance)
+- **Repository:** [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance)
 - **Modules:** [Remediate Vulnerabilities](../../../labs/security/remediate-vulnerabilities.md), [Shift Left Security](../../../labs/security/shift-left-security.md)
 
 This Spring Boot 2.6.3 application ships with known CVEs including Spring4Shell (CVSS 9.8), SnakeYAML unsafe deserialization (CVSS 9.8), and multiple Spring Security bypasses. OWASP Dependency-Check and SonarQube are pre-configured as Gradle plugins.
@@ -221,7 +221,7 @@ When Devin opens a PR:
 
 **Value driver:** *Devin analyzes a monolith's domain boundaries, documents extraction decisions, extracts a bounded context into a standalone service, and wires up cross-service communication — typically in a single session.*
 
-- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Modules:** [Containerization & Microservice Extraction](../../../labs/migration-modernization/containerization-microservice-extraction.md)
 
 This is a Spring Boot 2.6.3 / Java 11 monolith implementing the RealWorld blogging platform (Conduit) with 4 domain contexts: articles/tags, comments, favorites, and users/profiles. It has REST and GraphQL (DGS) APIs, MyBatis persistence with SQLite, Flyway migrations, 27 test files with an 80% JaCoCo coverage gate, and a Next.js frontend. Participants will ask Devin to analyze domain boundaries, document extraction decisions, and extract a bounded context into a standalone service.
@@ -294,7 +294,7 @@ When Devin opens a PR:
 
 **Value driver:** *Devin takes a feature specification and builds a full-stack feature end-to-end — backend API, database migration, frontend UI, and tests — following existing codebase conventions.*
 
-- **Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Modules:** [Gather Requirements](../../../labs/application-development/gather-requirements.md), [New Feature Development](../../../labs/application-development/new-feature-development.md), [Shift Left Security](../../../labs/security/shift-left-security.md)
 
 The timesheet app is a React 19 + Node.js/Express + SQLite application for tracking billable hours. It has existing CRUD features for clients and work entries. Participants will ask Devin to build a new feature following existing patterns.
@@ -374,7 +374,7 @@ Participants who want to keep exploring after the workshop can try these additio
 
 ### Exercise A: Test-Driven Development (TDD)
 
-- **Repository:** [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app)
+- **Repository:** [timesheet-app](https://github.com/codev-workshops/timesheet-app)
 - **Module:** [Test-Driven Development](../../../labs/application-development/test-driven-development.md)
 - **Shows:** Devin writing failing tests from a feature specification, then implementing the feature to make them pass — a two-session TDD workflow
 
@@ -407,7 +407,7 @@ the test files.
 
 ### Exercise B: Java Upgrades/Modernization
 
-- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction)
+- **Repository:** [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction)
 - **Module:** [Framework Upgrade](../../../labs/migration-modernization/framework-upgrade.md)
 - **Shows:** Devin handling a major framework upgrade — javax→jakarta namespace migration, Spring Security 6 lambda DSL changes, and dependency compatibility fixes across a monolith with 80% test coverage
 
@@ -437,7 +437,7 @@ Handle the full upgrade checklist:
 
 ### Exercise C: COBOL Copybook to PySpark/JSON Config Generation
 
-- **Repository:** [ts-cobol-carddemo](https://github.com/Cognition-Partner-Workshops/ts-cobol-carddemo)
+- **Repository:** [ts-cobol-carddemo](https://github.com/codev-workshops/ts-cobol-carddemo)
 - **Module:** [COBOL Copybook to PySpark/JSON](../../../labs/data-engineering/cobol-copybook-to-pyspark-json.md)
 - **Shows:** Devin reading legacy COBOL data definitions and generating modern data engineering artifacts — cross-language translation at the schema level
 
@@ -486,17 +486,17 @@ A few things to be aware of as you work through the labs:
 
 | Lab | Repository | Purpose |
 |-----|-----------|---------|
-| Lab 1 | [petclinic-angular](https://github.com/Cognition-Partner-Workshops/petclinic-angular) | Angular 16 frontend — migration source |
-| Lab 2 | [uc-cve-remediation-regulatory-compliance](https://github.com/Cognition-Partner-Workshops/uc-cve-remediation-regulatory-compliance) | Spring Boot 2.6.3 with known CVEs |
-| Lab 3 | [uc-spring-boot-upgrade-microservice-extraction](https://github.com/Cognition-Partner-Workshops/uc-spring-boot-upgrade-microservice-extraction) | Spring Boot 2.6.3 monolith — microservice extraction source |
-| Lab 4 | [timesheet-app](https://github.com/Cognition-Partner-Workshops/timesheet-app) | React + Node.js full-stack app |
+| Lab 1 | [petclinic-angular](https://github.com/codev-workshops/petclinic-angular) | Angular 16 frontend — migration source |
+| Lab 2 | [uc-cve-remediation-regulatory-compliance](https://github.com/codev-workshops/uc-cve-remediation-regulatory-compliance) | Spring Boot 2.6.3 with known CVEs |
+| Lab 3 | [uc-spring-boot-upgrade-microservice-extraction](https://github.com/codev-workshops/uc-spring-boot-upgrade-microservice-extraction) | Spring Boot 2.6.3 monolith — microservice extraction source |
+| Lab 4 | [timesheet-app](https://github.com/codev-workshops/timesheet-app) | React + Node.js full-stack app |
 
 **Post-session exercises (optional):**
-- [ts-cobol-carddemo](https://github.com/Cognition-Partner-Workshops/ts-cobol-carddemo) — COBOL CardDemo application (Exercise C)
+- [ts-cobol-carddemo](https://github.com/codev-workshops/ts-cobol-carddemo) — COBOL CardDemo application (Exercise C)
 
 **Reference repos:**
-- [petclinic-rest-api](https://github.com/Cognition-Partner-Workshops/petclinic-rest-api) — REST API backend for the PetClinic Angular frontend (Lab 1 reference)
-- [petclinic-backend](https://github.com/Cognition-Partner-Workshops/petclinic-backend) — Spring Boot backend for PetClinic (Lab 1 reference)
+- [petclinic-rest-api](https://github.com/codev-workshops/petclinic-rest-api) — REST API backend for the PetClinic Angular frontend (Lab 1 reference)
+- [petclinic-backend](https://github.com/codev-workshops/petclinic-backend) — Spring Boot backend for PetClinic (Lab 1 reference)
 
 ## Devin Features Checklist
 

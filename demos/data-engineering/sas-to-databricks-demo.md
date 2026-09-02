@@ -9,7 +9,7 @@ artifact end to end (before/after, IaC, CD) and reverts — safe to repeat.
 
 The prompts below invoke the `!convert-sas-to-databricks` Devin Playbook — the
 reusable conversion procedure — whose source lives in the code repo at
-[`uc-data-migration-sas-to-databricks/.workshop/playbooks/sas-to-databricks-conversion.devin.md`](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks/blob/main/.workshop/playbooks/sas-to-databricks-conversion.devin.md).
+[`uc-data-migration-sas-to-databricks/.workshop/playbooks/sas-to-databricks-conversion.devin.md`](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks/blob/main/.workshop/playbooks/sas-to-databricks-conversion.devin.md).
 The repo-specific `make demo-up` / `make reconcile` mechanics come from that
 repo's Skill (`.agents/skills/sas-to-databricks-conversion/SKILL.md`).
 
@@ -63,8 +63,8 @@ warehouse, and a PAT that can use the warehouse and create catalogs/schemas/jobs
 <a id="repositories"></a>
 ## Repositories
 
-- [ts-sas-legacy-analytics](https://github.com/Cognition-Partner-Workshops/ts-sas-legacy-analytics) — the legacy SAS estate (banking/insurance programs, macros, formats, batch orchestration). Read-only reference for the "before".
-- [uc-data-migration-sas-to-databricks](https://github.com/Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks) — the dbt + Databricks target: models, reconciliation harness, seeder, PySpark job, Asset Bundle (IaC), CI/CD, the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
+- [ts-sas-legacy-analytics](https://github.com/codev-workshops/ts-sas-legacy-analytics) — the legacy SAS estate (banking/insurance programs, macros, formats, batch orchestration). Read-only reference for the "before".
+- [uc-data-migration-sas-to-databricks](https://github.com/codev-workshops/uc-data-migration-sas-to-databricks) — the dbt + Databricks target: models, reconciliation harness, seeder, PySpark job, Asset Bundle (IaC), CI/CD, the conversion playbook source (`.workshop/playbooks/`), and the repo Skill (`.agents/skills/`).
 
 ---
 
@@ -185,8 +185,8 @@ itself out across the wave. Paste:
 Act as the orchestrator for a SAS->Databricks migration across multiple
 programs, using child Devin sessions to parallelize the work.
 
-Repos: read Cognition-Partner-Workshops/ts-sas-legacy-analytics (the SAS
-source), write Cognition-Partner-Workshops/uc-data-migration-sas-to-databricks.
+Repos: read codev-workshops/ts-sas-legacy-analytics (the SAS
+source), write codev-workshops/uc-data-migration-sas-to-databricks.
 
 Spawn one child Devin session per program below. Give each child both repos, its
 own namespace (NS=child1, child2, ...), and tell it to follow the
