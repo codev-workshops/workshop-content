@@ -93,7 +93,7 @@ This session establishes the mental model: how agents distribute work, how orche
 <a id="1a-agent-orchestration-patterns"></a>
 ### 1A: Agent Orchestration Patterns
 
-**Reference:** [Agent Orchestration](../../../../workshops/foundations/concepts/03-agent-orchestration.md) | [Orchestration Patterns in Practice](../../../../workshops/training-tracks/engineering/05-orchestration-patterns.md)
+**Reference:** [Agent Orchestration](../../../../courses/foundations/concepts/03-agent-orchestration.md) | [Orchestration Patterns in Practice](../../../../courses/tracks/engineering/05-orchestration-patterns.md)
 
 Devin operates within four orchestration patterns that map to different SDLC needs:
 
@@ -111,12 +111,12 @@ The user's original "Planner, Executor, Validator, Repair" agent taxonomy maps d
 - **Validator Agent** = Devin Review on PRs + scheduled quality audits + event-driven test runs
 - **Repair Agent** = Event-driven automations that respond to CI failures, scan findings, and test regressions
 
-**Try this:** Open [Agent Orchestration](../../../../workshops/foundations/concepts/03-agent-orchestration.md) and work through the exploration activity — categorize your team's current sprint items by which orchestration pattern fits best.
+**Try this:** Open [Agent Orchestration](../../../../courses/foundations/concepts/03-agent-orchestration.md) and work through the exploration activity — categorize your team's current sprint items by which orchestration pattern fits best.
 
 <a id="1b-event-driven-reactions--automations"></a>
 ### 1B: Event-Driven Reactions & Automations
 
-**Reference:** [Event-Driven Reactions](../../../../workshops/foundations/concepts/02-event-driven-reactions.md) | [Automations](../../../../workshops/foundations/product/cloud/08-automations.md)
+**Reference:** [Event-Driven Reactions](../../../../courses/foundations/concepts/02-event-driven-reactions.md) | [Automations](../../../../courses/foundations/product/cloud/08-automations.md)
 
 Event-driven triggers are the "hooks" that connect Devin to your SDLC toolchain. The architecture:
 
@@ -143,7 +143,7 @@ Common SDLC hooks:
 <a id="1c-the-shared-context-layer"></a>
 ### 1C: The Shared Context Layer
 
-**Reference:** [Platform Capabilities](../../../../shared/general-themes/platform-capabilities.md)
+**Reference:** [Platform Capabilities](../../../../reference/general-themes/platform-capabilities.md)
 
 The shared context layer is what makes Devin's "memory" persist across sessions:
 
@@ -726,7 +726,7 @@ Participants leave with concrete artifacts from each session:
 
 | Deliverable | Source |
 |-------------|--------|
-| **Orchestration pattern reference** | Session 1 — [Design Patterns for Devin](../../../../shared/general-themes/design-patterns-for-devin.md) |
+| **Orchestration pattern reference** | Session 1 — [Design Patterns for Devin](../../../../reference/general-themes/design-patterns-for-devin.md) |
 | **Dependency analysis report** | Lab 2A — `docs/dependency-analysis.md` produced by Devin |
 | **Self-Healing QA Playbook** | Lab 3A — Playbook created in Devin Settings |
 | **Regression healer workflow** | Lab 3B — `test-regression-healer.yml` + `REGRESSION_HEALER.md` |

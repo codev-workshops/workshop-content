@@ -8,7 +8,7 @@
 - [What Participants Will Learn](#what-participants-will-learn)
 - [Devin Features Exercised](#devin-features-exercised)
 - [timesheet-app](#timesheet-app)
-- [Online-Banking-System-using-Java](#online-banking-system-using-java)
+- [Online-Banking-System-using-Java](#Online-Banking-System-using-Java)
 - [Going Further](#going-further)
 
 ## Repositories

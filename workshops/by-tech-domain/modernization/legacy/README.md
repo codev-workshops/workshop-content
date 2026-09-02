@@ -56,7 +56,7 @@ A few tips to maximize your hands-on time:
 
 **Repository:** [uc-legacy-modernization-cobol-to-java](https://github.com/Cognition-Partner-Workshops/uc-legacy-modernization-cobol-to-java) — AWS CardDemo COBOL mainframe credit card management application
 
-**Full event guide:** [COBOL Modernization Workshop](../../../../events/cobol-modernization-workshop/README.md)
+**Full event guide:** [COBOL Modernization Workshop](../../modernization/cobol/README.md)
 
 ### Lab A1 — System Understanding & Reverse Engineering (60 min)
 
@@ -305,7 +305,7 @@ Open both repos' DeepWiki pages to understand the legacy architecture and target
 
 | Audience Legacy Platform | Recommended Track | Event Guide |
 |---|---|---|
-| COBOL / Mainframe (CICS, JCL, VSAM, DB2) | Track A: COBOL Modernization | [COBOL Modernization Workshop](../../../../events/cobol-modernization-workshop/README.md) |
+| COBOL / Mainframe (CICS, JCL, VSAM, DB2) | Track A: COBOL Modernization | [COBOL Modernization Workshop](../../modernization/cobol/README.md) |
 | Oracle Forms / PL/SQL (Forms Builder, Oracle DB) | Track B: Oracle Forms Modernization | [Oracle Forms Modernization Workshop](../../../../events/oracle-forms-modernization-workshop/README.md) |
 | Mixed audience (both platforms represented) | Run both tracks in parallel — Labs 1 & 2 can share a room, split for Labs 3 & 4 | — |
 | General modernization (not platform-specific) | Start with Track A (COBOL) — more dramatic "language barrier" story | — |

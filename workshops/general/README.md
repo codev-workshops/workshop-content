@@ -57,8 +57,7 @@ Already comfortable with Devin basics? Jump straight to the labs:
   - [Lab C3 — Perform E2E Tests & Fix Issues](#lab-c3--perform-e2e-tests--fix-issues)
 - [Additional Challenges](#additional-challenges)
 - [Suggested Formats](#suggested-formats)
-- [Repos Required](#repos-required)
-- [Context](#context)
+- [Repos Used](#repos-used)
 - [Devin Features Checklist](#devin-features-checklist)
 
 ---
