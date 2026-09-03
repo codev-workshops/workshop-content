@@ -1,8 +1,11 @@
 # Workshop Progress Checklist
 
 Tracks which files in this repo have been reviewed while working through the workshops.
-Tick a box as you finish each file. Generated from `git ls-files` at the `baseline` tag
-(commit b48e486); regenerate the list if files are added or removed.
+Checkboxes in this file are not clickable on GitHub; tick them interactively in
+[issue #4](https://github.com/codev-workshops/workshop-content/issues/4) instead (this file
+is the committed copy — edit `[ ]` to `[x]` here if you want progress in git history).
+Generated from `git ls-files` at the `baseline` tag (commit b48e486); regenerate the list
+if files are added or removed.
 
 ## Which files have changed since baseline?
 
