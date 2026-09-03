@@ -381,7 +381,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `reference/general-themes/cloud-vs-local-agents.md`
 - [ ] `reference/general-themes/collaboration-model.md`
 - [ ] `reference/general-themes/design-patterns-for-devin.md`
-- [ ] `reference/general-themes/platform-capabilities.md`
+- [x] `reference/general-themes/platform-capabilities.md`
 - [ ] `reference/general-themes/value-narratives.md`
 - [ ] `reference/general-themes/when-to-use-devin.md`
 
