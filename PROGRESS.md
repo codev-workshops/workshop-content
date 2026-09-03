@@ -377,7 +377,7 @@ Files not in that list have not been touched since the baseline was set.
 ### reference/general-themes
 
 - [ ] `reference/general-themes/README.md`
-- [ ] `reference/general-themes/architecture-strengths.md`
+- [x] `reference/general-themes/architecture-strengths.md`
 - [ ] `reference/general-themes/cloud-vs-local-agents.md`
 - [ ] `reference/general-themes/collaboration-model.md`
 - [ ] `reference/general-themes/design-patterns-for-devin.md`
