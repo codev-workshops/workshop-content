@@ -56,7 +56,7 @@ Files not in that list have not been touched since the baseline was set.
 
 - [ ] `courses/foundations/product/cloud/05-deepwiki.md`
 - [ ] `courses/foundations/product/cloud/06-devin-sessions.md`
-- [ ] `courses/foundations/product/cloud/08-automations.md`
+- [x] `courses/foundations/product/cloud/08-automations.md`
 - [x] `courses/foundations/product/cloud/09-multi-agent-workers.md`
 - [ ] `courses/foundations/product/cloud/devin-cloud.md`
 
