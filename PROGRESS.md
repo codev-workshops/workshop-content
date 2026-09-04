@@ -245,7 +245,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/application-development/fix-data-bug.md`
 - [ ] `labs/application-development/fix-runtime-bug.md`
 - [ ] `labs/application-development/fix-ui-bug.md`
-- [ ] `labs/application-development/gather-requirements.md`
+- [X] `labs/application-development/gather-requirements.md`
 - [ ] `labs/application-development/new-feature-development.md`
 - [ ] `labs/application-development/test-driven-development.md`
 
