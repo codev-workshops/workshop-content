@@ -380,7 +380,7 @@ Files not in that list have not been touched since the baseline was set.
 - [x] `reference/general-themes/architecture-strengths.md`
 - [ ] `reference/general-themes/cloud-vs-local-agents.md`
 - [ ] `reference/general-themes/collaboration-model.md`
-- [ ] `reference/general-themes/design-patterns-for-devin.md`
+- [X] `reference/general-themes/design-patterns-for-devin.md`
 - [x] `reference/general-themes/platform-capabilities.md`
 - [ ] `reference/general-themes/value-narratives.md`
 - [ ] `reference/general-themes/when-to-use-devin.md`
