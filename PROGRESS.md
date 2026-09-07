@@ -362,7 +362,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/testing-qa/contract-testing.md`
 - [ ] `labs/testing-qa/cross-service-integration-testing.md`
 - [ ] `labs/testing-qa/end-to-end-testing.md`
-- [ ] `labs/testing-qa/linting-static-analysis.md`
+- [x] `labs/testing-qa/linting-static-analysis.md`
 - [ ] `labs/testing-qa/load-testing-benchmarking.md`
 - [ ] `labs/testing-qa/mutation-testing.md`
 - [ ] `labs/testing-qa/performance-testing.md`
