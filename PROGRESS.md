@@ -349,7 +349,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/technical-documentation/api-documentation.md`
 - [ ] `labs/technical-documentation/changelog-release-notes.md`
 - [ ] `labs/technical-documentation/document-review-automation.md`
-- [ ] `labs/technical-documentation/inline-documentation.md`
+- [x] `labs/technical-documentation/inline-documentation.md`
 - [ ] `labs/technical-documentation/onboarding-guide-generation.md`
 - [ ] `labs/technical-documentation/runbook-generation.md`
 
