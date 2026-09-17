@@ -328,7 +328,7 @@ Files not in that list have not been touched since the baseline was set.
 
 - [ ] `labs/observability-sre/README.md`
 - [ ] `labs/observability-sre/incident-response-triage.md`
-- [ ] `labs/observability-sre/observability-monitoring.md`
+- [x] `labs/observability-sre/observability-monitoring.md`
 - [ ] `labs/observability-sre/pod-remediation-credential-rotation.md`
 - [ ] `labs/observability-sre/volume-anomaly-detection.md`
 
