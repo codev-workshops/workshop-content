@@ -387,7 +387,7 @@ Files not in that list have not been touched since the baseline was set.
 
 ### reference
 
-- [ ] `reference/runtime-resources.md`
+- [x] `reference/runtime-resources.md`
 
 ### workshops
 
