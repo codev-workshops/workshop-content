@@ -243,7 +243,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/application-development/bug-hunt-mern-ecommerce.md`
 - [ ] `labs/application-development/database-schema-evolution.md`
 - [ ] `labs/application-development/fix-data-bug.md`
-- [ ] `labs/application-development/fix-runtime-bug.md`
+- [x] `labs/application-development/fix-runtime-bug.md`
 - [ ] `labs/application-development/fix-ui-bug.md`
 - [X] `labs/application-development/gather-requirements.md`
 - [ ] `labs/application-development/new-feature-development.md`
