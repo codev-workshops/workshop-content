@@ -313,7 +313,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/migration-modernization/cobol-system-understanding.md`
 - [ ] `labs/migration-modernization/cobol-to-java.md`
 - [ ] `labs/migration-modernization/containerization-microservice-extraction.md`
-- [ ] `labs/migration-modernization/cross-service-bug-investigation.md`
+- [x] `labs/migration-modernization/cross-service-bug-investigation.md`
 - [ ] `labs/migration-modernization/dotnet-monolith-decomposition.md`
 - [ ] `labs/migration-modernization/framework-upgrade.md`
 - [ ] `labs/migration-modernization/legacy-modernization-combined.md`
