@@ -335,7 +335,7 @@ Files not in that list have not been touched since the baseline was set.
 ### labs/security
 
 - [ ] `labs/security/README.md`
-- [ ] `labs/security/event-driven-sast-remediation.md`
+- [x] `labs/security/event-driven-sast-remediation.md`
 - [ ] `labs/security/mass-security-backlog-remediation.md`
 - [x] `labs/security/remediate-vulnerabilities.md`
 - [ ] `labs/security/secrets-management-detection.md`
