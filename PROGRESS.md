@@ -281,7 +281,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/data-engineering/abinitio-lineage-impact-analysis.md`
 - [ ] `labs/data-engineering/abinitio-migration-analysis.md`
 - [ ] `labs/data-engineering/cobol-copybook-to-pyspark-json.md`
-- [ ] `labs/data-engineering/data-quality-validation.md`
+- [x] `labs/data-engineering/data-quality-validation.md`
 - [ ] `labs/data-engineering/data-source-migration.md`
 - [ ] `labs/data-engineering/dw-migration-teradata-to-bigquery.md`
 - [ ] `labs/data-engineering/dw-migration-teradata-to-snowflake.md`
