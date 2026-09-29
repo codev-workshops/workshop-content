@@ -286,7 +286,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/data-engineering/dw-migration-teradata-to-bigquery.md`
 - [ ] `labs/data-engineering/dw-migration-teradata-to-snowflake.md`
 - [ ] `labs/data-engineering/etl-pipeline-modernization.md`
-- [ ] `labs/data-engineering/informatica-powercenter-analysis.md`
+- [x] `labs/data-engineering/informatica-powercenter-analysis.md`
 - [ ] `labs/data-engineering/informatica-to-snowflake-migration.md`
 - [ ] `labs/data-engineering/sas-cicd-operationalization.md`
 - [ ] `labs/data-engineering/sas-migration-analysis.md`
