@@ -471,7 +471,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `workshops/otterworks/A1-etl-modernization.md`
 - [ ] `workshops/otterworks/A2-framework-upgrade.md`
 - [ ] `workshops/otterworks/A3-language-translation.md`
-- [ ] `workshops/otterworks/B1-investigate-incident.md`
+- [x] `workshops/otterworks/B1-investigate-incident.md`
 - [ ] `workshops/otterworks/B2-complete-runbooks.md`
 - [ ] `workshops/otterworks/B3-add-observability.md`
 - [ ] `workshops/otterworks/C1-security-sprint.md`
