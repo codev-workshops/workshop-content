@@ -302,7 +302,7 @@ Files not in that list have not been touched since the baseline was set.
 - [x] `labs/devops-cicd/ci-failure-resolution.md`
 - [ ] `labs/devops-cicd/cicd-pipeline.md`
 - [ ] `labs/devops-cicd/configuration-management-feature-flags.md`
-- [ ] `labs/devops-cicd/pr-review-automation.md`
+- [x] `labs/devops-cicd/pr-review-automation.md`
 - [ ] `labs/devops-cicd/release-management.md`
 
 ### labs/migration-modernization
