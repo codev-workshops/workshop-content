@@ -364,7 +364,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/testing-qa/end-to-end-testing.md`
 - [x] `labs/testing-qa/linting-static-analysis.md`
 - [ ] `labs/testing-qa/load-testing-benchmarking.md`
-- [ ] `labs/testing-qa/mutation-testing.md`
+- [x] `labs/testing-qa/mutation-testing.md`
 - [ ] `labs/testing-qa/performance-testing.md`
 - [ ] `labs/testing-qa/test-framework-migration.md`
 - [ ] `labs/testing-qa/unit-testing.md`
