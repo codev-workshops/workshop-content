@@ -264,7 +264,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/cloud-infrastructure/cost-optimization-analysis.md`
 - [ ] `labs/cloud-infrastructure/gitops-argocd-setup.md`
 - [ ] `labs/cloud-infrastructure/iac-translation.md`
-- [ ] `labs/cloud-infrastructure/kubernetes-manifest-generation.md`
+- [x] `labs/cloud-infrastructure/kubernetes-manifest-generation.md`
 - [ ] `labs/cloud-infrastructure/platform-conformant-microservice-decomposition.md`
 - [ ] `labs/cloud-infrastructure/terraform-module-extraction.md`
 
