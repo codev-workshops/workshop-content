@@ -318,7 +318,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/migration-modernization/framework-upgrade.md`
 - [ ] `labs/migration-modernization/legacy-modernization-combined.md`
 - [ ] `labs/migration-modernization/migration-test-harness.md`
-- [ ] `labs/migration-modernization/one-shot-tech-debt-remediation.md`
+- [x] `labs/migration-modernization/one-shot-tech-debt-remediation.md`
 - [ ] `labs/migration-modernization/oracle-forms-migration-planning.md`
 - [ ] `labs/migration-modernization/oracle-forms-system-understanding.md`
 - [ ] `labs/migration-modernization/oracle-forms-to-java.md`
