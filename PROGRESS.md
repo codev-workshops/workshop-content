@@ -473,7 +473,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `workshops/otterworks/A3-language-translation.md`
 - [x] `workshops/otterworks/B1-investigate-incident.md`
 - [ ] `workshops/otterworks/B2-complete-runbooks.md`
-- [ ] `workshops/otterworks/B3-add-observability.md`
+- [x] `workshops/otterworks/B3-add-observability.md`
 - [ ] `workshops/otterworks/C1-security-sprint.md`
 - [ ] `workshops/otterworks/C2-contract-audit.md`
 - [ ] `workshops/otterworks/C3-test-coverage.md`
