@@ -339,7 +339,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/security/mass-security-backlog-remediation.md`
 - [x] `labs/security/remediate-vulnerabilities.md`
 - [ ] `labs/security/secrets-management-detection.md`
-- [ ] `labs/security/security-antipatterns.md`
+- [x] `labs/security/security-antipatterns.md`
 - [ ] `labs/security/shift-left-security.md`
 - [ ] `labs/security/upgrade-dependencies.md`
 
