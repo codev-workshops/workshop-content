@@ -407,7 +407,7 @@ Files not in that list have not been touched since the baseline was set.
 
 ### workshops/by-tech-domain/modernization/cobol
 
-- [ ] `workshops/by-tech-domain/modernization/cobol/README.md`
+- [x] `workshops/by-tech-domain/modernization/cobol/README.md`
 
 ### workshops/by-tech-domain/modernization/data-source-migration
 
