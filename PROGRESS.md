@@ -310,7 +310,7 @@ Files not in that list have not been touched since the baseline was set.
 - [ ] `labs/migration-modernization/README.md`
 - [ ] `labs/migration-modernization/cloud-native-refactor.md`
 - [ ] `labs/migration-modernization/cobol-migration-planning.md`
-- [ ] `labs/migration-modernization/cobol-system-understanding.md`
+- [x] `labs/migration-modernization/cobol-system-understanding.md`
 - [x] `labs/migration-modernization/cobol-to-java.md`
 - [ ] `labs/migration-modernization/containerization-microservice-extraction.md`
 - [x] `labs/migration-modernization/cross-service-bug-investigation.md`
