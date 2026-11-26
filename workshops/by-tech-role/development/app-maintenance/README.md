@@ -37,8 +37,22 @@ A few tips to maximize your hands-on time:
 
 ---
 
+<a id="quick-start"></a>
+## Quick Start
+
+Already familiar with Devin? Paste this prompt from [Lab A1](#lab-a1--full-stack-crud-feature) into a Devin session and start the hands-on work right away:
+
+```
+Add a "Projects" management feature to timesheet-app. Users should be able to create, view, edit, and delete projects. Each project has a name, description, client assignment, start date, and status (active/completed/on-hold). Add both the backend API endpoints and the frontend UI page. Follow the existing patterns in the codebase for the data model, API structure, and React components. Write tests for the backend endpoints.
+```
+
+While it runs, kick off [Lab B1](#lab-b1--exploratory-bug-hunting) or [Lab C1](#lab-c1--dependency-upgrades--scheduled-maintenance) in parallel sessions, then come back to review the PRs.
+
+---
+
 ## Table of Contents
 
+- [Quick Start](#quick-start)
 - [Track A: Feature Development](#track-a-feature-development)
   - [Lab A1 — Full-Stack CRUD Feature](#lab-a1--full-stack-crud-feature)
   - [Lab A2 — API Feature with TDD](#lab-a2--api-feature-with-tdd)
@@ -59,10 +73,12 @@ A few tips to maximize your hands-on time:
 
 ---
 
+<a id="track-a-feature-development"></a>
 ## Track A: Feature Development
 
 Track A demonstrates Devin as a feature developer. Participants will build full-stack CRUD features, implement API endpoints with test-driven development, and turn vague requirements into working implementations.
 
+<a id="lab-a1--full-stack-crud-feature"></a>
 ### Lab A1 — Full-Stack CRUD Feature
 
 - **Module:** [New Feature Development](../../../../labs/application-development/new-feature-development.md)
@@ -127,6 +143,7 @@ See the full challenge details for [New Feature Development](../../../../labs/ap
 
 ---
 
+<a id="lab-a2--api-feature-with-tdd"></a>
 ### Lab A2 — API Feature with TDD
 
 - **Module:** [Test-Driven Development](../../../../labs/application-development/test-driven-development.md)
@@ -139,7 +156,9 @@ See the full challenge details for [New Feature Development](../../../../labs/ap
 
 **Option A — TDD with JUnit (Spring Boot RealWorld):**
 ```
-Using test-driven development, add an "article statistics" feature to uc-spring-boot-upgrade-microservice-extraction. First, write failing JUnit tests for two new endpoints: GET /api/articles/:slug/stats (returns view count, favorite count, comment count, days since published) and GET /api/stats/trending (returns top 10 most-favorited articles in the last 7 days). Then implement the endpoints to make the tests pass. Follow existing code patterns. showing the TDD progression (tests written first, then implementation).
+Using test-driven development, add an "article statistics" feature to uc-spring-boot-upgrade-microservice-extraction. First, write failing JUnit tests for two new endpoints: GET /api/articles/:slug/stats (returns view count, favorite count, comment count, days since published) and GET /api/stats/trending (returns top 10 most-favorited articles in the last 7 days). Then implement the endpoints to make the tests pass. Follow existing code patterns.
+
+Commit the failing tests before the implementation so the commit history shows the TDD progression (tests written first, then implementation).
 ```
 
 **Option B — BDD-First (Cucumber):**
@@ -188,6 +207,7 @@ Once Devin opens a PR, focus your review on **TDD discipline**:
 
 ---
 
+<a id="lab-a3--requirements-to-implementation"></a>
 ### Lab A3 — Requirements to Implementation
 
 - **Modules:** [Gather Requirements](../../../../labs/application-development/gather-requirements.md) + [New Feature Development](../../../../labs/application-development/new-feature-development.md)
@@ -253,10 +273,12 @@ Focus your review on whether the implementation matches the requirements:
 
 ---
 
+<a id="track-b-bug-fixing--root-cause-analysis"></a>
 ## Track B: Bug Fixing & Root Cause Analysis
 
 Track B demonstrates Devin as a debugger and investigator. Participants will hunt for bugs in running applications, trace issues across service boundaries, and fix data-related bugs with proper root cause analysis.
 
+<a id="lab-b1--exploratory-bug-hunting"></a>
 ### Lab B1 — Exploratory Bug Hunting
 
 - **Module:** [Fix Runtime Bug](../../../../labs/application-development/fix-runtime-bug.md)
@@ -318,6 +340,7 @@ Once Devin opens a PR, focus your review on the **root cause analysis**:
 
 ---
 
+<a id="lab-b2--cross-service-bug-investigation"></a>
 ### Lab B2 — Cross-Service Bug Investigation
 
 - **Module:** [Fix Runtime Bug](../../../../labs/application-development/fix-runtime-bug.md) + [Cross-Service Bug Investigation](../../../../labs/migration-modernization/cross-service-bug-investigation.md)
@@ -330,7 +353,7 @@ Once Devin opens a PR, focus your review on the **root cause analysis**:
 
 **Option A — .NET Microservices (notification amount bug):**
 ```
-Order confirmation notification emails are showing wrong amounts after the microservice decomposition. A $149.99 order shows as $1.50 in the email preview. Investigate and fix this bug in quickapp-microservices. To reproduce: run the notification-service locally, POST to `http://localhost:5005/api/notification/events/order-placed` with `{"orderId": "11111111-1111-1111-1111-111111111111", "customerId": "22222222-2222-2222-2222-222222222222", "totalAmount": 149.99, "placedAt": "2026-03-17T12:00:00Z"}`, then open the preview URL — the total shows $1.50 instead of $149.99. Find the root cause, fix it, take before/after screenshots, and open a PR with your fix and root cause analysis.
+Order confirmation notification emails are showing wrong amounts after the microservice decomposition. A $149.99 order shows as $1.50 in the email preview. Investigate and fix this bug in quickapp-microservices. To reproduce: run the notification-service locally, POST to `http://localhost:5005/api/notification/events/order-placed` with `{"orderId": "11111111-1111-1111-1111-111111111111", "customerId": "22222222-2222-2222-2222-222222222222", "totalAmount": 149.99, "placedAt": "2026-03-17T12:00:00Z"}`, then open the preview URL — the total shows $1.50 instead of $149.99. Find the root cause, fix it, and take before/after screenshots. Document the data flow and root cause in a `ROOT_CAUSE_ANALYSIS.md`.
 ```
 
 **Option B — EventFlow (currency precision bug):**
@@ -379,6 +402,7 @@ Focus your review on whether the fix is complete:
 
 ---
 
+<a id="lab-b3--data-bug--schema-fix"></a>
 ### Lab B3 — Data Bug & Schema Fix
 
 - **Modules:** [Fix Data Bug](../../../../labs/application-development/fix-data-bug.md) + [Database Schema Evolution](../../../../labs/application-development/database-schema-evolution.md)
@@ -440,10 +464,12 @@ Focus your review on **data correctness**:
 
 ---
 
+<a id="track-c-maintenance--evolution"></a>
 ## Track C: Maintenance & Evolution
 
 Track C demonstrates Devin as a maintenance engineer. Participants will set up automated dependency upgrades, evolve database schemas safely, and refactor tech debt — the ongoing work that keeps applications healthy over time.
 
+<a id="lab-c1--dependency-upgrades--scheduled-maintenance"></a>
 ### Lab C1 — Dependency Upgrades & Scheduled Maintenance
 
 - **Modules:** [Upgrade Dependencies](../../../../labs/security/upgrade-dependencies.md)
@@ -455,7 +481,9 @@ Track C demonstrates Devin as a maintenance engineer. Participants will set up a
 #### Step 1: Paste into Devin (copy-paste this prompt into Devin)
 
 ```
-Check all dependencies in uc-cve-remediation-regulatory-compliance for available minor and patch version updates. Upgrade each dependency to the latest minor version (do not jump major versions). Run `./gradlew build` and `./gradlew test` to verify the build still passes after each upgrade. If any upgrade breaks the build, revert that specific upgrade and document it.md` listing what was upgraded, from which version to which version, and any upgrades that were skipped (with reasons). Title the PR "chore: weekly dependency version bump".
+Check all dependencies in uc-cve-remediation-regulatory-compliance for available minor and patch version updates. Upgrade each dependency to the latest minor version (do not jump major versions). Run `./gradlew build` and `./gradlew test` to verify the build still passes after each upgrade. If any upgrade breaks the build, revert that specific upgrade and document it.
+
+Create a `DEPENDENCY_UPDATES.md` listing what was upgraded, from which version to which version, and any upgrades that were skipped (with reasons). Title the PR "chore: weekly dependency version bump".
 ```
 
 #### Step 2: Research with Ask Devin
@@ -492,7 +520,11 @@ Consider pairing this with **Security Swarm Auto Scan** on a recurring schedule.
 Try running the same pattern for **timesheet-app** with an npm-flavored prompt:
 
 ```
-Check all npm dependencies in timesheet-app for available minor and patch version updates. Run `npm update` to upgrade to latest minor versions. Run `npm test` and `npm run build` to verify everything still works.md`.
+Check all npm dependencies in timesheet-app (`backend/package.json` and `frontend/package.json`) for available minor and patch version updates. Run `npm update` in each directory to upgrade to the latest minor versions.
+
+Run `npm test` in `backend/` and `npm run build` in `frontend/` to verify everything still works. If an upgrade breaks either, revert that specific upgrade.
+
+Create a `DEPENDENCY_UPDATES.md` listing what was upgraded, from which version to which version, and any upgrades that were skipped (with reasons).
 ```
 
 - **Key Takeaways:**
@@ -510,6 +542,7 @@ Check all npm dependencies in timesheet-app for available minor and patch versio
 
 ---
 
+<a id="lab-c2--database-schema-evolution"></a>
 ### Lab C2 — Database Schema Evolution
 
 - **Module:** [Database Schema Evolution](../../../../labs/application-development/database-schema-evolution.md)
@@ -522,7 +555,11 @@ Check all npm dependencies in timesheet-app for available minor and patch versio
 
 **Option A — Flyway Migrations (Spring Boot):**
 ```
-Evolve the database schema of uc-spring-boot-upgrade-microservice-extraction to support article tags as a first-class entity. Currently tags are stored as strings in the articles table. Create Flyway migration scripts that: (1) Create a new `tags` table with id and name columns, (2) Create a junction table `article_tags` for the many-to-many relationship, (3) Migrate existing tag data from the articles table to the new structure, (4) Update the MyBatis mappers and Java domain model to use the new schema. Ensure existing tests still pass and write new tests for the tag CRUD operations.
+Harden the tag schema of uc-spring-boot-upgrade-microservice-extraction. Tags live in the `tags` and `article_tags` tables created by `src/main/resources/db/migration/V1__create_tables.sql`, but `tags.name` is not unique and `article_tags` has no primary key, foreign keys, or indexes, so duplicate tags and orphaned or duplicate tag links can build up. The app uses SQLite (`src/main/resources/application.properties`), which cannot add constraints with ALTER TABLE.
+
+Add a new Flyway migration `src/main/resources/db/migration/V3__harden_tag_schema.sql` that: (1) merges tags with duplicate names into one row and re-points their `article_tags` rows, (2) removes duplicate and orphaned `article_tags` rows, (3) rebuilds `tags` with a UNIQUE constraint on `name` and `article_tags` with a composite primary key on (article_id, tag_id) and foreign keys to `articles` and `tags`, using SQLite's create-copy-rename pattern, and (4) adds an index on `article_tags(tag_id)`. Do not edit V1 or V2.
+
+Update `src/main/resources/mapper/ArticleMapper.xml` if any insert needs to handle the new constraints. Ensure existing tests still pass and add tests covering duplicate tag names, articles with no tags, and tag queries after the migration. Document the before/after schema in a `SCHEMA_CHANGES.md`.
 ```
 
 **Option B — Liquibase Changesets (JHipster):**
@@ -554,11 +591,11 @@ Focus on **migration safety**:
 **Leave a feedback comment:**
 - *"What happens if the migration fails halfway through? Add transaction boundaries."*
 - *"The data migration should handle articles with no tags — verify with a test"*
-- *"Add an index on the junction table for query performance"*
+- *"Add a rollback script that restores the original tables"*
 
 - **Key Takeaways:**
   - **"Schema changes require migrations, not DDL"** — Devin creates proper versioned migration scripts, not ad-hoc SQL
-  - **"Data migration is part of schema evolution"** — restructuring a column means migrating existing data, not just changing the DDL
+  - **"Data migration is part of schema evolution"** — adding a constraint means cleaning up the existing data that would violate it, not just changing the DDL
   - **"Tests verify the full path"** — both the migration script and the application code must work together
   - **"Backward compatibility matters"** — in production, zero-downtime deployments require migrations that work with both old and new application versions
 
@@ -571,6 +608,7 @@ Focus on **migration safety**:
 
 ---
 
+<a id="lab-c3--code-refactoring--tech-debt"></a>
 ### Lab C3 — Code Refactoring & Tech Debt
 
 - **Module:** [Code Refactoring & Tech Debt](../../../../labs/architecture-design/code-refactoring-tech-debt.md)
@@ -632,6 +670,7 @@ Focus on **behavior preservation**:
 
 ---
 
+<a id="additional-challenges"></a>
 ## Additional Challenges
 
 Participants who finish early or want to explore further can attempt any challenge from the full [module catalog](../../../../labs/). Recommended extras:
@@ -644,6 +683,7 @@ Participants who finish early or want to explore further can attempt any challen
 | PR Review Automation | [PR Review](../../../../labs/devops-cicd/pr-review-automation.md) | Any | A | Beginner |
 | API Documentation | [API Documentation](../../../../labs/technical-documentation/api-documentation.md) | Any | C | Beginner |
 
+<a id="suggested-formats"></a>
 ## Suggested Formats
 
 | Format | Recommended Approach |
@@ -654,6 +694,7 @@ Participants who finish early or want to explore further can attempt any challen
 | Sampler | Pick 1 lab from each track (e.g., A1 + B1 + C1) for breadth |
 | Single lab | A1 (feature dev) or B1 (bug hunting) recommended for immediate impact |
 
+<a id="repos-required"></a>
 ## Repos Required
 
 ### Track A (Feature Development)
@@ -675,6 +716,7 @@ Participants who finish early or want to explore further can attempt any challen
 - [ ] uc-spring-boot-upgrade-microservice-extraction (for Labs C2, C3)
 - [ ] ts-java-angular-jhipster (optional, for Lab C2 Option B)
 
+<a id="context"></a>
 ## Context
 
 - **Audience:** Development teams responsible for shipping features and maintaining production applications
@@ -690,6 +732,7 @@ Participants who finish early or want to explore further can attempt any challen
   - Screen recordings as test evidence and debugging artifacts
   - Long-running task handling — Devin works while you're in meetings
 
+<a id="devin-features-checklist"></a>
 ## Devin Features Checklist
 
 Encourage participants to track their progress on the [Devin Features Appendix](../../../../labs/devin-features/README.md) throughout the session.
